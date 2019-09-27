@@ -11,11 +11,20 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.mainpakage.sprites.TetrixPieces.CubePiece;
+import com.mainpakage.sprites.TetrixPieces.LinePiece;
+import com.mainpakage.sprites.TetrixPieces.SPiece;
+import com.mainpakage.sprites.TetrixPieces.TPiece;
+import com.mainpakage.sprites.TetrixPieces.ZPiece;
 
 public class MainActivity extends AppCompatActivity {
 
     Bitmap bmp;
     CubePiece cp;
+    LinePiece lp;
+    SPiece sp;
+    TPiece tp;
+    ZPiece zp;
+
 
 
     @Override
@@ -29,11 +38,21 @@ public class MainActivity extends AppCompatActivity {
             super(context);
             bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
             cp = new CubePiece(bmp,this);
+            lp = new LinePiece(bmp, this);
+            sp = new SPiece(bmp,this);
+            tp = new TPiece(bmp,this);
+            zp= new ZPiece(bmp,this);
         }
 
         @Override
         protected void onDraw(Canvas canvas){
-            cp.onDraw(canvas);
+            lp.onDraw(canvas);
+            lp.changeYSpeed(300);
+            lp.rotate90Right();
+            lp.onDraw(canvas);
+            lp.changeYSpeed(300);
+            lp.rotate90Right();
+            lp.onDraw(canvas);
 
         }
 

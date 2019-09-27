@@ -3,7 +3,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.view.View;
 
-class CubeSprite {
+public class CubeSprite {
     private int x;
     private int y;
     private int xSpeed;
@@ -12,7 +12,7 @@ class CubeSprite {
     private View view;
 
 
-    CubeSprite(Bitmap bmp, View view) {
+    public CubeSprite(Bitmap bmp, View view) {
         this.x = 0;
         this.y = 0;
         this.xSpeed = 0;

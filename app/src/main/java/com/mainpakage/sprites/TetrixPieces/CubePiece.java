@@ -7,26 +7,31 @@ import android.view.View;
 public class CubePiece implements TetrixPiece{
 
     private CubeSprite[] cubes;
-    private int x;
-    private int y;
+    private final int xIni;
+    private final int yIni;
+    private final int spriteLength;
+    private final int interpieceSpace;
 
     public CubePiece(Bitmap bmp,View view){
-        x=(int)(Math.random()*1000);
-        y=72;
+        xIni=50;
+        yIni=40;
+        spriteLength=bmp.getWidth();
+        interpieceSpace=5;
         cubes = new CubeSprite[4];
 
         for(int i=0;i<4;i++){
            cubes[i]= new CubeSprite(bmp,view);
         }
 
-        cubes[0].setX(x);
-        cubes[0].setY(y);
-        cubes[1].setX(x+72);
-        cubes[1].setY(y);
-        cubes[2].setX(x);
-        cubes[2].setY(y+72);
-        cubes[3].setX(x+72);
-        cubes[3].setY(y+72);
+        cubes[0].setX(xIni);
+        cubes[0].setY(yIni);
+        cubes[1].setX(xIni+spriteLength+interpieceSpace);
+        cubes[1].setY(yIni);
+        cubes[2].setX(xIni);
+        cubes[2].setY(yIni+spriteLength+interpieceSpace);
+        cubes[3].setX(xIni+spriteLength+interpieceSpace);
+        cubes[3].setY(yIni+spriteLength+interpieceSpace);
+
 
     }
 
@@ -35,12 +40,9 @@ public class CubePiece implements TetrixPiece{
     }
 
     @Override
-    public void rotate90Left() {
-    }
-
-    @Override
     public void changeXSpeed(int speed) {
         for(int i=0;i<4;i++){
+            if(cubes[i]!=null)
             cubes[i].setxSpeed(speed);
         }
     }
@@ -48,18 +50,23 @@ public class CubePiece implements TetrixPiece{
     @Override
     public void changeYSpeed(int speed) {
         for(int i=0;i<4;i++){
-            cubes[i].setxSpeed(speed);
+            if(cubes[i]!=null)
+            cubes[i].setySpeed(speed);
         }
     }
 
     @Override
-    public void removeCube() {
-
+    public void removeCube(CubeSprite cubeSprite) {
+        for(int i=0;i<4;i++){
+            if(cubes[i]==cubeSprite)
+                cubes[i]=null;
+        }
     }
 
     @Override
     public void onDraw(Canvas canvas) {
         for(int i=0;i<4;i++){
+            if(cubes[i]!=null)
             cubes[i].onDraw(canvas);
         }
     }
