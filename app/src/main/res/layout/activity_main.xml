@@ -8,8 +8,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <View
-        android:id="@+id/view"
+    <com.mainpakage.sprites.CustomView
+        android:id="@+id/CustomView"
         android:layout_width="278dp"
         android:layout_height="512dp"
         android:layout_marginStart="16dp"
@@ -27,7 +27,9 @@
         android:id="@+id/puntuacion"
         android:layout_width="83dp"
         android:layout_height="30dp"
-        android:text="@string/puntuacion"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/SCORE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +49,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/flechaizq"
+        android:text="@string/izquierda"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toStartOf="@+id/flechader"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +66,7 @@
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/flechader"
+        android:text="@string/derecha"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/flechaizq"
@@ -80,7 +82,7 @@
         android:layout_marginEnd="77dp"
         android:layout_marginRight="77dp"
         android:layout_marginBottom="28dp"
-        android:text="@string/flechabajo"
+        android:text="@string/abajo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/girar"
         app:layout_constraintStart_toStartOf="parent" />
@@ -107,7 +109,9 @@
         android:id="@+id/valorPuntuacion"
         android:layout_width="62dp"
         android:layout_height="48dp"
-        android:text="@string/valorPuntuacion"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="0"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/puntuacion" />
@@ -121,7 +125,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:text="@string/sig"
+        android:text="@string/NEXT"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

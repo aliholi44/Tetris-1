@@ -1,10 +1,4 @@
 <resources>
     <string name="app_name">Sprites</string>
-    <string name="puntuacion">SCORE</string>
-    <string name="flechaizq">◄</string>
-    <string name="flechader">►</string>
-    <string name="flechabajo">▼</string>
-    <string name="girar">↻</string>
-    <string name="valorPuntuacion"></string>
-    <string name="sig">NEXT</string>
+    <string name="izquierda">izquierda</string>
 </resources>
