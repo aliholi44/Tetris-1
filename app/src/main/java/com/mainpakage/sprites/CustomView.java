@@ -7,77 +7,100 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
+import com.mainpakage.sprites.TetrixPieces.*;
 
-import com.mainpakage.sprites.TetrixPieces.CubePiece;
-import com.mainpakage.sprites.TetrixPieces.JPiece;
-import com.mainpakage.sprites.TetrixPieces.LPiece;
-import com.mainpakage.sprites.TetrixPieces.SPiece;
-import com.mainpakage.sprites.TetrixPieces.TPiece;
-import com.mainpakage.sprites.TetrixPieces.TetrixPiece;
-import com.mainpakage.sprites.TetrixPieces.ZPiece;
-
+//Esta lista no tiene uso por el momento
+import java.util.LinkedList;
 import java.util.List;
 
 public class CustomView extends View {
 
     Bitmap bmp;
-    TetrixPiece tp;
+    TetrixPiece piece;
     int score;
-    private final int lineScore=30;
-    List<TetrixPiece> piezas;
-    private TetrixPiece nextPiece;
+    private final int LINE_SCORE = 30;
+    List<TetrixPiece> piezas = new LinkedList<>(); //Esta lista no tiene uso por el momento
     private TetrixPiece activePiece;
+    private GameThread gameThread;
 
 
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
-        tp = new TPiece(bmp,this);
-        score=0;
+        piece = randomPiece(bmp);
+        score = 0;
         updateScore();
     }
 
 
     public void updateScore(){
-        score+=lineScore;
+        score += LINE_SCORE;
     }
 
-    public void randomPiece(Bitmap bmp){
-        activePiece=nextPiece;
-        int piece = (int)(Math.random()*7);//Cuando se resuelva lo de lp2 poner 7 y quitar comentario de abajo
-        ImageView iv = (ImageView) findViewById(R.id.vistaImagen);
-        switch(piece){
-            case 0:
-                nextPiece= new CubePiece(bmp,this);
-                piezas.add(nextPiece);
+    public TetrixPiece randomPiece(Bitmap bmp){
+        //activePiece = nextPiece;
+        TetrixPiece nextPiece;
+        int numPiece = (int) (Math.random() * 7) + 1;
+        //ImageView iv = (ImageView) findViewById(R.id.vistaImagen);
+
+        switch(numPiece){
             case 1:
                 nextPiece= new CubePiece(bmp,this);
-                piezas.add(nextPiece);
+                //piezas.add(nextPiece);
+                break;
             case 2:
-                nextPiece = new SPiece(bmp,this);
-                piezas.add(nextPiece);
+                nextPiece= new JPiece(bmp,this);
+                //piezas.add(nextPiece);
+                break;
             case 3:
-                nextPiece = new TPiece(bmp,this);
-                piezas.add(nextPiece);
+                nextPiece = new LinePiece(bmp,this);
+                //piezas.add(nextPiece);
+                break;
             case 4:
-                nextPiece = new ZPiece(bmp,this);
-                piezas.add(nextPiece);
-            case 5:
-                nextPiece = new JPiece(bmp,this);
-                piezas.add(nextPiece);
-            case 6:
                 nextPiece = new LPiece(bmp,this);
-                piezas.add(nextPiece);
+                //piezas.add(nextPiece);
+                break;
+            case 5:
+                nextPiece = new SPiece(bmp,this);
+                //piezas.add(nextPiece);
+                break;
+            case 6:
+                nextPiece = new TPiece(bmp,this);
+                //piezas.add(nextPiece);
+                break;
+            case 7:
+                nextPiece = new ZPiece(bmp,this);
+                //piezas.add(nextPiece);
+                break;
+            default:
+                nextPiece = randomPiece(bmp);
+                break;
         }
-        if(activePiece==null){
-            randomPiece(bmp);
-        }
+
+        return nextPiece;
     }
 
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
-        tp.onDraw(canvas);
+        gameThread = new GameThread(CustomView.this);
+        activePiece = randomPiece(bmp);
+        activePiece.onDraw(canvas);
+        activePiece.changeYSpeed(200);
+        activePiece.onDraw(canvas);
+        activePiece.changeYSpeed(500);
+        activePiece.onDraw(canvas);
+        activePiece.changeYSpeed(800);
+        activePiece.onDraw(canvas);
+
+        //Falta ajustar el hilo para que su temporizador afecte a una pieza y no cambie la pieza
+        //y simplemente vaya bajandola también se puede probar con un for
+        //pero el thread nos da un control mucho mayor
+
+        gameThread.setRunning(true);
+        gameThread.start();
+
+
     }
 
 

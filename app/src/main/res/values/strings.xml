@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Sprites</string>
-    <string name="izquierda">izquierda</string>
+    <string name="flechaizq">izquierda</string>
+    <string name="flechader">derecha</string>
+    <string name="flechabajo">abajo</string>
+    <string name="sig">NEXT</string>
+    <string name="valorPuntuacion">0</string>
+    <string name="puntuacion">SCORE</string>
 </resources>

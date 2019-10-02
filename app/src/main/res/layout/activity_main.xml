@@ -29,7 +29,7 @@
         android:layout_height="30dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/SCORE"
+        android:text="SCORE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/izquierda"
+        android:text="izquierda"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toStartOf="@+id/flechader"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/derecha"
+        android:text="derecha"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/flechaizq"
@@ -82,7 +82,7 @@
         android:layout_marginEnd="77dp"
         android:layout_marginRight="77dp"
         android:layout_marginBottom="28dp"
-        android:text="@string/abajo"
+        android:text="@string/flechabajo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/girar"
         app:layout_constraintStart_toStartOf="parent" />
@@ -103,7 +103,8 @@
         app:layout_constraintStart_toEndOf="@+id/flechader"
         app:layout_constraintTop_toBottomOf="@+id/vistaImagen"
         app:layout_constraintVertical_bias="0.96"
-        app:srcCompat="@android:drawable/ic_menu_rotate" />
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/valorPuntuacion"
@@ -125,7 +126,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:text="@string/NEXT"
+        android:text="NEXT"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -145,6 +146,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sig"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        android:contentDescription="TODO" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

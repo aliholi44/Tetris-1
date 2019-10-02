@@ -54,8 +54,8 @@ public class CubeSprite {
     }
 
     public void update(){
-        x=x+xSpeed;
-        y=y+ySpeed;
+        x += xSpeed;
+        y += ySpeed;
 
     }
 

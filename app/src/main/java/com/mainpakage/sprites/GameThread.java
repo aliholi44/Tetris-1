@@ -1,16 +1,20 @@
 package com.mainpakage.sprites;
 
 public class GameThread extends Thread {
-    static final long FPS = 30;
-    private GameView view;
+    static final long FPS = 1;
+    private CustomView view;
     private boolean running = false;
 
-    public GameThread (GameView view) {
+    public GameThread (CustomView view) {
         this.view = view;
     }
 
     public void setRunning (boolean run) {
         running = run;
+    }
+
+    public boolean isRunning () {
+        return this.running == true;
     }
 
     @Override
