@@ -2,7 +2,13 @@ package com.mainpakage.sprites.TetrixPieces;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
 import android.view.View;
+
+import com.mainpakage.sprites.CustomView;
 
 public class LPiece implements TetrixPiece{
 
@@ -14,8 +20,8 @@ public class LPiece implements TetrixPiece{
     private final int interpieceSpace;
 
     public LPiece(Bitmap bmp,View view){
-        xIni=50;
-        yIni=40;
+        xIni=100;
+        yIni=10;
         spriteLength=bmp.getWidth();
         interpieceSpace=5;
         cubes = new CubeSprite[4];
@@ -112,6 +118,14 @@ public class LPiece implements TetrixPiece{
         for(int i=0;i<4;i++){
             if(cubes[i]!=null)
                 cubes[i].onDraw(canvas);
+        }
+    }
+
+    @Override
+    public void moveDown(CustomView view, Canvas canvas) {
+        for (int i=0; i < view.getWidth(); i++) {
+            this.changeYSpeed(i);
+            this.onDraw(canvas);
         }
     }
 }

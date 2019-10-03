@@ -83,23 +83,10 @@ public class CustomView extends View {
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
-        gameThread = new GameThread(CustomView.this);
+
         activePiece = randomPiece(bmp);
         activePiece.onDraw(canvas);
-        activePiece.changeYSpeed(200);
-        activePiece.onDraw(canvas);
-        activePiece.changeYSpeed(500);
-        activePiece.onDraw(canvas);
-        activePiece.changeYSpeed(800);
-        activePiece.onDraw(canvas);
-
-        //Falta ajustar el hilo para que su temporizador afecte a una pieza y no cambie la pieza
-        //y simplemente vaya bajandola también se puede probar con un for
-        //pero el thread nos da un control mucho mayor
-
-        gameThread.setRunning(true);
-        gameThread.start();
-
+        activePiece.moveDown(this, canvas);
 
     }
 

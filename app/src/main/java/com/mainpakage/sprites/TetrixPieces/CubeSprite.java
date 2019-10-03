@@ -1,6 +1,7 @@
 package com.mainpakage.sprites.TetrixPieces;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.PorterDuff;
 import android.view.View;
 
 public class CubeSprite {

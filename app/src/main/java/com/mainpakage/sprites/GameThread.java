@@ -1,7 +1,7 @@
 package com.mainpakage.sprites;
 
 public class GameThread extends Thread {
-    static final long FPS = 1;
+    static final long FPS = 1000;
     private CustomView view;
     private boolean running = false;
 
