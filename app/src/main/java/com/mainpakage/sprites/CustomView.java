@@ -32,7 +32,6 @@ public class CustomView extends View {
         super(context,attrs);
         piezas = new ArrayList<>();
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
-        randomPiece(bmp);
         score=0;
         LinesInfo=new int[50];  //20 is the number of available lines (matrix height)
         st= new SecondThreat(this);
@@ -58,7 +57,7 @@ public class CustomView extends View {
     public void randomPiece(Bitmap bmp){
         randomPiece(bmp,nextPiece);
         nextPiece = (int)(Math.random()*7);
-        //printNextPiece(piece);
+        ma.printNextPiece(nextPiece);
 
     }
 
@@ -90,12 +89,18 @@ public class CustomView extends View {
         activePiece.changeYSpeed(bmp.getWidth());
     }
 
+    @Override
+    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        this.cwidth = w;
+        this.cheight = h;
+        super.onSizeChanged(w, h, oldw, oldh);
+    }
 
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
-        this.cwidth = canvas.getWidth();
-        this.cheight = canvas.getHeight();
+        /*this.cwidth = canvas.getWidth();
+        this.cheight = canvas.getHeight();*/
         for(TetrixPiece tp:piezas){
             tp.onDraw(canvas);
         }
@@ -201,7 +206,7 @@ public class CustomView extends View {
         }
         CubeSprite[] cube = activePiece.getSprites();
         int aux=(cheight/cube[0].getLength());
-        int aux2=(cwidth/cube[0].getLength());
+        int aux2=(cwidth/cube[0].getLength())-1;
         for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
             if(LinesInfo[j]==aux2){
                deleteLine(j,cubos[0].getLength(),piece.getInterSpace());  //Peta aqui y mucho muchisimo
@@ -222,10 +227,10 @@ public class CustomView extends View {
 
         drop(y,spriteSpace);
 
-        for(int i=0;i<linea;i++){        //checkear por bugs mañana
-            LinesInfo[i+1]=LinesInfo[i];
-            LinesInfo[i]=0;
+        for(int i=linea;i>0;i--){        //checkear por bugs mañana
+            LinesInfo[i]=LinesInfo[i-1];
         }
+        LinesInfo[0]=0;
 
         updateScore();
     }
@@ -241,5 +246,18 @@ public class CustomView extends View {
             }
     }
 
+    public void gameOver(){
+        for (TetrixPiece p : piezas) {
+            CubeSprite []cubos=p.getSprites();
+            if(p!=activePiece) {
+                for (int i = 0; i < 4; i++) {
+                    if (cubos[i] != null && cubos[i].getY() <= cubos[i].getLength() * 2) {
+                        st.running = false;
+                        ma.changeGameOver();
+                    }
+                }
+            }
+        }
+    }
 
 }

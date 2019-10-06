@@ -4,7 +4,7 @@ import com.mainpakage.sprites.TetrixPieces.CubeSprite;
 
 public class SecondThreat extends Thread {
     private CustomView cv;
-    private boolean running;
+    public boolean running;
     private int cont;
     private int bottom;
 
@@ -21,15 +21,15 @@ public class SecondThreat extends Thread {
             boolean stop=false;
             while(!stop){
                 cv.invalidate();
-                /*CubeSprite[] cubeaux=cv.getActivePiece().getSprites();
-                bottom=cv.cheight-cubeaux[0].getLength();*/
                 try {
-                    sleep(500);
+                    sleep(250);
                     cont++;
                 }catch(Exception e){}
                 if(cont==1){
                     cv.getActivePiece().update();
                     cont=0;
+                    CubeSprite[] caux=cv.getActivePiece().getSprites();
+                    bottom=(cv.cheight-caux[0].getLength());
                 }
                 int i=0;
                 CubeSprite[] aux=cv.getActivePiece().getSprites();
@@ -41,6 +41,7 @@ public class SecondThreat extends Thread {
             }
             cv.getActivePiece().changeYSpeed(0);
             cv.linesUpdate(cv.getActivePiece());
+            cv.gameOver();
         }
     }
 }
