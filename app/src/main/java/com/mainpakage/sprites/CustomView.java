@@ -4,82 +4,242 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.ImageView;
 
-import com.mainpakage.sprites.TetrixPieces.CubePiece;
-import com.mainpakage.sprites.TetrixPieces.JPiece;
-import com.mainpakage.sprites.TetrixPieces.LPiece;
-import com.mainpakage.sprites.TetrixPieces.SPiece;
-import com.mainpakage.sprites.TetrixPieces.TPiece;
-import com.mainpakage.sprites.TetrixPieces.TetrixPiece;
-import com.mainpakage.sprites.TetrixPieces.ZPiece;
 
+import com.mainpakage.sprites.TetrixPieces.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class CustomView extends View {
 
     Bitmap bmp;
-    TetrixPiece tp;
     int score;
+    public SecondThreat st;
     private final int lineScore=30;
     List<TetrixPiece> piezas;
-    private TetrixPiece nextPiece;
+    private int nextPiece;
     private TetrixPiece activePiece;
-
+    private int [] LinesInfo;
+    MainActivity ma;
+    int cwidth;
+    int cheight;
 
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
+        piezas = new ArrayList<>();
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
-        tp = new TPiece(bmp,this);
+        randomPiece(bmp);
         score=0;
-        updateScore();
+        LinesInfo=new int[50];  //20 is the number of available lines (matrix height)
+        st= new SecondThreat(this);
+        nextPiece=0;
+        cwidth=0;
+        cheight=0;
     }
 
+    public TetrixPiece getActivePiece() {
+        return activePiece;
+    }
+
+
+    public void setMa(MainActivity mainActivity){
+        ma=mainActivity;
+    }
 
     public void updateScore(){
         score+=lineScore;
+        ma.updateScore(""+score);
     }
 
     public void randomPiece(Bitmap bmp){
-        activePiece=nextPiece;
-        int piece = (int)(Math.random()*7);//Cuando se resuelva lo de lp2 poner 7 y quitar comentario de abajo
-        ImageView iv = (ImageView) findViewById(R.id.vistaImagen);
+        randomPiece(bmp,nextPiece);
+        nextPiece = (int)(Math.random()*7);
+        //printNextPiece(piece);
+
+    }
+
+    public void randomPiece(Bitmap bmp,int piece){
         switch(piece){
             case 0:
-                nextPiece= new CubePiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece= new CubePiece(bmp,this);
+                break;
             case 1:
-                nextPiece= new CubePiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece= new LinePiece(bmp,this);
+                break;
             case 2:
-                nextPiece = new SPiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece = new SPiece(bmp,this);
+                break;
             case 3:
-                nextPiece = new TPiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece = new TPiece(bmp,this);
+                break;
             case 4:
-                nextPiece = new ZPiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece = new ZPiece(bmp,this);
+                break;
             case 5:
-                nextPiece = new JPiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece = new JPiece(bmp,this);
+                break;
             case 6:
-                nextPiece = new LPiece(bmp,this);
-                piezas.add(nextPiece);
+                activePiece = new LPiece(bmp,this);
+                break;
         }
-        if(activePiece==null){
-            randomPiece(bmp);
-        }
+        piezas.add(activePiece);
+        activePiece.changeYSpeed(bmp.getWidth());
     }
+
 
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
-        tp.onDraw(canvas);
+        this.cwidth = canvas.getWidth();
+        this.cheight = canvas.getHeight();
+        for(TetrixPiece tp:piezas){
+            tp.onDraw(canvas);
+        }
     }
 
+
+    public boolean isCollisionPiece (TetrixPiece a, TetrixPiece b) {
+        CubeSprite[] cubosa =a.getSprites();
+        CubeSprite[] cubosb = b.getSprites();
+        boolean aux = false;
+        int i = 0;
+        while (i<=3 && !aux) {
+            int j=0;
+            while (j<=3 && !aux) {
+                if(cubosb[j]!=null){
+                    aux = isCollisionCube(cubosa[i], cubosb[j]);
+                }
+                j++;
+            }
+            i++;
+        }
+        return aux;
+    }
+
+
+// hay que comprobar si está activo el sprite
+
+    private boolean isCollisionCube(CubeSprite cubeSprite1, CubeSprite cubeSprite2) {
+        return (cubeSprite1.getX() == cubeSprite2.getX() && cubeSprite1.getY() == cubeSprite2.getY());
+    }
+
+
+
+    public void moverDerechaActiva (TetrixPiece pieza) {
+        TetrixPiece nueva = pieza.copyRight(bmp,this);
+        boolean nochocan = true;
+        for (TetrixPiece ptablero : piezas) {
+            if(ptablero!=pieza)
+            nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
+        }
+        boolean nofuera = true;
+        CubeSprite[] cube = activePiece.getSprites();
+        for (CubeSprite c: nueva.getSprites()) {
+            nofuera = nofuera && ((c.getX()>=0) && (c.getX()<=cwidth-cube[0].getLength()));
+        }
+        if (nochocan && nofuera) {
+            activePiece.moveRight();
+        }
+    }
+
+    public void moverIzquierdaActiva (TetrixPiece pieza) {
+        TetrixPiece nueva = pieza.copyLeft(bmp,this);
+        boolean nochocan = true;
+        for (TetrixPiece ptablero : piezas) {
+            if(ptablero!=pieza)
+                nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
+        }
+        boolean nofuera = true;
+        CubeSprite[] cube = activePiece.getSprites();
+        for (CubeSprite c: nueva.getSprites()) {
+            nofuera = nofuera && ((c.getX()>=0) && (c.getX()<=cwidth-cube[0].getLength()));
+        }
+        if (nochocan && nofuera) {
+            activePiece.moveLeft();
+        }
+    }
+
+    public void girar (TetrixPiece pieza) {
+        TetrixPiece nueva = pieza.copyRotate(bmp,this);
+        boolean nochocan = true;
+        for (TetrixPiece ptablero : piezas) {
+            if(ptablero!=pieza)
+                nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
+        }
+        boolean nofuera = true;
+        CubeSprite[] cube = activePiece.getSprites();
+        for (CubeSprite c: nueva.getSprites()) {
+            nofuera = nofuera && ((c.getX()>=0) && (c.getX()<=cwidth-cube[0].getLength()));
+        }
+        if (nochocan && nofuera) {
+            activePiece.rotate90Right();
+        }
+    }
+
+    public boolean moverAbajoActiva (TetrixPiece pieza) {
+        TetrixPiece nueva = pieza.copyDown(bmp,this);
+        boolean nochocan = true;
+        for (TetrixPiece ptablero : piezas) {
+            if(ptablero!=pieza)
+                nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
+        }
+
+            return nochocan;
+    }
+
+
+    public void linesUpdate(TetrixPiece piece) {     //coordinates of the last piece set
+        CubeSprite []cubos=piece.getSprites();
+
+        for(int i=0;i<4;i++) {   //Recorre los sprites de la figura última posicionada
+            int cy = cubos[i].getY()/cubos[i].getLength();
+            LinesInfo[cy]++;    //Esta línea tiene un nuevo sprite.
+        }
+        CubeSprite[] cube = activePiece.getSprites();
+        int aux=(cheight/cube[0].getLength());
+        int aux2=(cwidth/cube[0].getLength());
+        for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
+            if(LinesInfo[j]==aux2){
+               deleteLine(j,cubos[0].getLength(),piece.getInterSpace());  //Peta aqui y mucho muchisimo
+                j--;
+            }
+        }
+
+
+    }
+    private void deleteLine(int linea, int spriteLength, int interSpace){   //eliminar la línea completa y bajar las piezas
+        LinesInfo[linea]=0;             //refinar si es necesario
+        int spriteSpace=(spriteLength+interSpace);  //te situas en la altura deseada para borrar horizontalmente
+        int y=spriteSpace*linea;
+
+        for(TetrixPiece p:piezas){
+            p.removeCube(y);
+        }
+
+        drop(y,spriteSpace);
+
+        for(int i=0;i<linea;i++){        //checkear por bugs mañana
+            LinesInfo[i+1]=LinesInfo[i];
+            LinesInfo[i]=0;
+        }
+
+        updateScore();
+    }
+
+    private void drop (int y, int spriteSpace){
+            for (TetrixPiece p : piezas) {
+                CubeSprite []cubos=p.getSprites();
+                for(int i=0;i<4;i++) {
+                    if(cubos[i]!=null&&cubos[i].getY()<y){
+                        cubos[i].setY(cubos[i].getY()+spriteSpace);
+                    }
+                }
+            }
+    }
 
 
 }

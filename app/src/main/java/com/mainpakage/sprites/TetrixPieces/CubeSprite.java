@@ -45,6 +45,10 @@ public class CubeSprite {
         return y;
     }
 
+    public int getLength(){ return bmp.getWidth();}
+
+
+
     public int getxSpeed() {
         return xSpeed;
     }
@@ -60,7 +64,7 @@ public class CubeSprite {
     }
 
     public void onDraw(Canvas canvas){
-        update();
         canvas.drawBitmap(bmp,x,y,null);
     }
+
 }
