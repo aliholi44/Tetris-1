@@ -1,4 +1,4 @@
-#Sun Oct 06 19:56:31 CEST 2019
-base.0=C\:\\Users\\NOELIA\\Desktop\\Tetrix\\Tetris-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Oct 23 19:47:42 CEST 2019
+base.0=C\:\\Users\\diego\\AndroidStudioProjects\\Tetris\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -35,6 +35,27 @@ public class CubePiece implements TetrixPiece{
 
     }
 
+    public CubePiece(Bitmap bmp,View view,int yini){
+        xIni=200;
+        yIni=yini;
+        spriteLength=bmp.getWidth();
+        interpieceSpace=0;
+        cubes = new CubeSprite[4];
+
+        for(int i=0;i<4;i++){
+            cubes[i]= new CubeSprite(bmp,view);
+        }
+
+        cubes[0].setX(xIni);
+        cubes[0].setY(yIni);
+        cubes[1].setX(xIni+spriteLength+interpieceSpace);
+        cubes[1].setY(yIni);
+        cubes[2].setX(xIni);
+        cubes[2].setY(yIni+spriteLength+interpieceSpace);
+        cubes[3].setX(xIni+spriteLength+interpieceSpace);
+        cubes[3].setY(yIni+spriteLength+interpieceSpace);
+    }
+
     @Override
     public void rotate90Right() {
     }

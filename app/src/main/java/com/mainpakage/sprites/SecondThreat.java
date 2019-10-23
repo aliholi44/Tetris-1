@@ -6,12 +6,16 @@ public class SecondThreat extends Thread {
     private CustomView cv;
     public boolean running;
     private int cont;
+    private int contDownLine;
     private int bottom;
+    private final int gameSpeed=10;
+    private final int downLineSpeed=500;
 
     public SecondThreat(CustomView customView){
         cv=customView;
         running=true;
         cont=0;
+        contDownLine=0;
         bottom=1600;    }
 
     @Override
@@ -22,10 +26,19 @@ public class SecondThreat extends Thread {
             while(!stop){
                 cv.invalidate();
                 try {
-                    sleep(250);
+                    sleep(100);
                     cont++;
+                    contDownLine++;
                 }catch(Exception e){}
-                if(cont==1){
+                if(contDownLine==downLineSpeed){
+                    cv.downTop();
+                    cv.gameOver();
+                    contDownLine=0;
+                }
+                if(!running){
+                    break;
+                }
+                if(cont==gameSpeed){
                     cv.getActivePiece().update();
                     cont=0;
                     CubeSprite[] caux=cv.getActivePiece().getSprites();
