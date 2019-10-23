@@ -4,10 +4,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Button;
 
 
 import com.mainpakage.sprites.TetrixPieces.*;
@@ -15,12 +15,10 @@ import com.mainpakage.sprites.TetrixPieces.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.Thread.sleep;
-
 public class CustomView extends View {
 
     Bitmap bmp;
-    int score;
+    private static int score;
     public SecondThreat st;
     private final int lineScore=30;
     List<TetrixPiece> piezas;
@@ -30,9 +28,6 @@ public class CustomView extends View {
     MainActivity ma;
     int cwidth;
     int cheight;
-    int top; //Línea superior
-    Paint paint1;
-    private final int cubelength;
 
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
@@ -44,18 +39,15 @@ public class CustomView extends View {
         nextPiece=0;
         cwidth=0;
         cheight=0;
-        CubeSprite caux = new CubeSprite(bmp,this);
-        cubelength=caux.getLength();
-        top=cubelength;
-        paint1 = new Paint();
-        paint1.setARGB(255, 255, 0, 0);
-        paint1.setStrokeWidth(4);
     }
 
     public TetrixPiece getActivePiece() {
         return activePiece;
     }
 
+    public static int getScore () {
+        return score;
+    }
 
     public void setMa(MainActivity mainActivity){
         ma=mainActivity;
@@ -76,27 +68,28 @@ public class CustomView extends View {
     public void randomPiece(Bitmap bmp,int piece){
         switch(piece){
             case 0:
-                activePiece= new CubePiece(bmp,this,top-cubelength);
+                activePiece= new CubePiece(bmp,this);
                 break;
             case 1:
-                activePiece= new LinePiece(bmp,this,top-cubelength);
+                activePiece= new LinePiece(bmp,this);
                 break;
             case 2:
-                activePiece = new SPiece(bmp,this,top-cubelength);
+                activePiece = new SPiece(bmp,this);
                 break;
             case 3:
-                activePiece = new TPiece(bmp,this,top-cubelength);
+                activePiece = new TPiece(bmp,this);
                 break;
             case 4:
-                activePiece = new ZPiece(bmp,this,top-cubelength);
+                activePiece = new ZPiece(bmp,this);
                 break;
             case 5:
-                activePiece = new JPiece(bmp,this,top-cubelength);
+                activePiece = new JPiece(bmp,this);
                 break;
             case 6:
-                activePiece = new LPiece(bmp,this,top-cubelength);
+                activePiece = new LPiece(bmp,this);
                 break;
         }
+        piezas.add(activePiece);
         activePiece.changeYSpeed(bmp.getWidth());
     }
 
@@ -110,16 +103,16 @@ public class CustomView extends View {
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
-        canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
+        /*this.cwidth = canvas.getWidth();
+        this.cheight = canvas.getHeight();*/
         for(TetrixPiece tp:piezas){
             tp.onDraw(canvas);
         }
-        activePiece.onDraw(canvas);
     }
 
 
     public boolean isCollisionPiece (TetrixPiece a, TetrixPiece b) {
-        CubeSprite[] cubosa = a.getSprites();
+        CubeSprite[] cubosa =a.getSprites();
         CubeSprite[] cubosb = b.getSprites();
         boolean aux = false;
         int i = 0;
@@ -136,6 +129,8 @@ public class CustomView extends View {
         return aux;
     }
 
+
+// hay que comprobar si está activo el sprite
 
     private boolean isCollisionCube(CubeSprite cubeSprite1, CubeSprite cubeSprite2) {
         return (cubeSprite1.getX() == cubeSprite2.getX() && cubeSprite1.getY() == cubeSprite2.getY());
@@ -206,8 +201,7 @@ public class CustomView extends View {
     }
 
 
-    public void linesUpdate(TetrixPiece piece) {//coordinates of the last piece set
-        piezas.add(activePiece);
+    public void linesUpdate(TetrixPiece piece) {     //coordinates of the last piece set
         CubeSprite []cubos=piece.getSprites();
 
         for(int i=0;i<4;i++) {   //Recorre los sprites de la figura última posicionada
@@ -219,7 +213,7 @@ public class CustomView extends View {
         int aux2=(cwidth/cube[0].getLength())-1;
         for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
             if(LinesInfo[j]==aux2){
-               deleteLine(j,cubos[0].getLength(),piece.getInterSpace());
+               deleteLine(j,cubos[0].getLength(),piece.getInterSpace());  //Peta aqui y mucho muchisimo
                 j--;
             }
         }
@@ -256,25 +250,24 @@ public class CustomView extends View {
             }
     }
 
-    public void downTop() {
-        top=top+cubelength*2;
-    }
     public void gameOver(){
         for (TetrixPiece p : piezas) {
             CubeSprite []cubos=p.getSprites();
             if(p!=activePiece) {
                 for (int i = 0; i < 4; i++) {
-                    if (cubos[i] != null && cubos[i].getY() <= top) {
+                    if (cubos[i] != null && cubos[i].getY() <= cubos[i].getLength() * 2) {
                         st.running = false;
-                        this.invalidate();
-                        try {
-                            sleep(1000);
-                        }catch(Exception e){}
                         ma.changeGameOver();
-                        break;
                     }
                 }
             }
+        }
+    }
+
+    public void goRanking(){
+        Button ok = (Button) findViewById(R.id.setName);
+        if (ok.callOnClick()) {
+            ma.changeRanking();
         }
     }
 

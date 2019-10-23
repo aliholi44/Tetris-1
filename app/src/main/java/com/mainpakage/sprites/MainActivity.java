@@ -19,6 +19,7 @@ import static java.lang.Thread.sleep;
 public class MainActivity extends AppCompatActivity {
 
     TextView sc;
+    TextView result;
     CustomView customView;
     ImageView iv;
     Bitmap  bmpPiece;
@@ -43,55 +44,61 @@ public class MainActivity extends AppCompatActivity {
         customView=(CustomView) findViewById(R.id.CustomView);
         customView.setMa(this);
         sc = (TextView) findViewById(R.id.valorPuntuacion);
-        iv= (ImageView) findViewById(R.id.vistaImagen);
+        iv = (ImageView) findViewById(R.id.vistaImagen);
+        result = (TextView) findViewById(R.id.result);
         customView.st.start();
+
     }
-
-
 
     public void updateScore(String s){
         sc.setText(s);
     }
 
-        public void onClickDer(View v) {
-            customView.moverDerechaActiva(customView.getActivePiece());
-        }
-        public void onClickIzq(View v) {
-            customView.moverIzquierdaActiva(customView.getActivePiece());
-        }
-        public void onClickGirar(View v) {
-            customView.girar(customView.getActivePiece());
+    public void onClickDer(View v) {
+        customView.moverDerechaActiva(customView.getActivePiece());
+    }
+    public void onClickIzq(View v) {
+        customView.moverIzquierdaActiva(customView.getActivePiece());
+    }
+    public void onClickGirar(View v) {
+        customView.girar(customView.getActivePiece());
+    }
+
+    public void changeGameOver(){
+        Intent intent = new Intent (customView.getContext(), GameOver.class);
+        intent.putExtra("Score", sc.getText().toString());
+        startActivityForResult(intent, 0);
+    }
+
+    public void changeRanking(){
+        Intent intent = new Intent (customView.getContext(), Ranking.class);
+        intent.putExtra("RANKING", result.getText().toString());
+        startActivityForResult(intent, 0);
+    }
+
+    public void printNextPiece(int p){
+        switch(p) {
+            case 0:
+                iv.setImageBitmap(bmpPiece);
+                break;
+            case 1:
+                iv.setImageBitmap(bmpPiece1);
+                break;
+            case 2:
+                iv.setImageBitmap(bmpPiece2);
+                break;
+            case 3:
+                iv.setImageBitmap(bmpPiece3);
+                break;
+            case 4:
+                iv.setImageBitmap(bmpPiece4);
+                break;
+            case 5:
+                iv.setImageBitmap(bmpPiece5);
+                break;
+            default:
+                iv.setImageBitmap(bmpPiece6);
         }
 
-        public void changeGameOver(){
-            Intent intent = new Intent (customView.getContext(), GameOver.class);
-            intent.putExtra("Score", sc.getText().toString());
-            startActivityForResult(intent, 0);
-        }
-
-        public void printNextPiece(int p){
-            switch(p) {
-                case 0:
-                    iv.setImageBitmap(bmpPiece);
-                    break;
-                case 1:
-                    iv.setImageBitmap(bmpPiece1);
-                    break;
-                case 2:
-                    iv.setImageBitmap(bmpPiece2);
-                    break;
-                case 3:
-                    iv.setImageBitmap(bmpPiece3);
-                    break;
-                case 4:
-                    iv.setImageBitmap(bmpPiece4);
-                    break;
-                case 5:
-                    iv.setImageBitmap(bmpPiece5);
-                    break;
-                default:
-                    iv.setImageBitmap(bmpPiece6);
-            }
-
-        }
+    }
 }

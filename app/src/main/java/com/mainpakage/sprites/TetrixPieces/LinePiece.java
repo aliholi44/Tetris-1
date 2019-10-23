@@ -29,21 +29,6 @@ public class LinePiece implements TetrixPiece{
 
     }
 
-    public LinePiece(Bitmap bmp, View view,int yini){
-        xIni=200;
-        yIni=yini;
-        spriteLength=bmp.getWidth();
-        interpieceSpace=0;
-        cubes = new CubeSprite[4];
-
-        for(int i=0;i<4;i++) {
-            cubes[i] = new CubeSprite(bmp, view);
-            cubes[i].setX(xIni + (spriteLength + interpieceSpace) * i);
-            cubes[i].setY(yIni);
-        }
-
-    }
-
     private void changeStatus(){
         if (this.status == 0){
             this.status++;
