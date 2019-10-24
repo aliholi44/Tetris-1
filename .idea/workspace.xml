@@ -6,7 +6,28 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b84698-5468-4f3d-80e3-9072c7a27ca4" name="Default Changelist" comment="" />
+    <list default="true" id="11b84698-5468-4f3d-80e3-9072c7a27ca4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubeSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubeSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/JPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/JPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LinePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LinePiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/SPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/SPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/TPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/TPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/ZPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/ZPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +37,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -26,11 +47,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="748">
+              <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+              <folding>
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#2188#2189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,64 +63,133 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="215">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding>
+                <element signature="e#10802#10803#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/GameOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding>
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubeSprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2499">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LinePiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LPiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/SPiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/TPiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/ZPiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getA</find>
+      <find>movera</find>
+      <find>reset</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/GameOver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/JPiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LinePiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LPiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/SPiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/TPiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/ZPiece.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubeSprite.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="295" />
-    <option name="y" value="78" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="732" />
+    <option name="y" value="166" />
     <option name="width" value="1153" />
     <option name="height" value="788" />
   </component>
@@ -104,19 +198,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="Sprites" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Sprites" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="Sprites" type="1abcf292:AndroidViewProjectNode" />
@@ -153,11 +240,17 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+            <path>
+              <item name="Sprites" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,11 +362,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="732" y="166" width="1153" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" sideWeight="0.25619835" side_tool="true" visible="true" weight="0.2185501" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.74380165" visible="true" weight="0.2185501" />
+      <window_info id="Captures" order="0" sideWeight="0.26256984" side_tool="true" visible="true" weight="0.21774931" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.73743016" visible="true" weight="0.21774931" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -281,52 +374,25 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.4989339" visible="true" weight="0.32852387" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.4989339" weight="0.32852387" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4936034" weight="0.22974473" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" weight="0.22968581" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32852387" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50777674" side_tool="true" visible="true" weight="0.45343512" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49520257" weight="0.32297447" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49222323" visible="true" weight="0.45343512" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java</url>
-          <line>229</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Android/sources/android-19/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10889" selection-start-line="10889" selection-end-line="10889" />
-          <folding>
-            <element signature="e#425566#425567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Android/sources/android-19/android/view/View.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -357,27 +423,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/lpn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
@@ -389,20 +434,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="227">
+          <caret line="2347" column="16" selection-start-line="2347" selection-start-column="16" selection-end-line="2347" selection-end-column="16" />
+          <folding>
+            <element signature="e#67523#67524#0" expanded="true" />
+            <element signature="e#67574#67575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubePiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/JPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LinePiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/LPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/SPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/TPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/ZPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/TetrixPieces/CubeSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <folding>
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="e#10802#10803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/SecondThreat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

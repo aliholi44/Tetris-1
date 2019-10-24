@@ -29,8 +29,8 @@ public class LinePiece implements TetrixPiece{
 
     }
 
-    public LinePiece(Bitmap bmp, View view,int yini){
-        xIni=200;
+    public LinePiece(Bitmap bmp, View view,int xini,int yini){
+        xIni=xini;
         yIni=yini;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

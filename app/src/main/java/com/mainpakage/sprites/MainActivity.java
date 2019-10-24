@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
             customView.girar(customView.getActivePiece());
         }
 
+        public void onClickSwitch(View v){
+            customView.switchPiece();
+        }
+
         public void changeGameOver(){
             Intent intent = new Intent (customView.getContext(), GameOver.class);
             intent.putExtra("Score", sc.getText().toString());

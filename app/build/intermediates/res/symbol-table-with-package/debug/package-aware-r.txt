@@ -662,6 +662,7 @@ id META
 id SHIFT
 id SYM
 id ScoreAqui
+id Switch
 id action_bar
 id action_bar_activity_content
 id action_bar_container

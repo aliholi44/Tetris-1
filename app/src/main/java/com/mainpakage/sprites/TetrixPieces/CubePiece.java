@@ -35,8 +35,8 @@ public class CubePiece implements TetrixPiece{
 
     }
 
-    public CubePiece(Bitmap bmp,View view,int yini){
-        xIni=200;
+    public CubePiece(Bitmap bmp,View view,int xini,int yini){
+        xIni=xini;
         yIni=yini;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

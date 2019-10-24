@@ -36,8 +36,8 @@ public class LPiece implements TetrixPiece{
         this.rotate90Right();
     }
 
-    public LPiece(Bitmap bmp,View view,int yini){
-        xIni=200;
+    public LPiece(Bitmap bmp,View view,int xini,int yini){
+        xIni=xini;
         yIni=yini;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

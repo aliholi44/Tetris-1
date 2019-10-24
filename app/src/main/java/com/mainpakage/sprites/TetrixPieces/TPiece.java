@@ -37,8 +37,8 @@ public class TPiece implements TetrixPiece {
         cubes[3].setY(yIni + (spriteLength + interpieceSpace));
     }
 
-    public TPiece(Bitmap bmp, View view,int yini){
-        xIni=200;
+    public TPiece(Bitmap bmp, View view,int xini,int yini){
+        xIni=xini;
         yIni=yini;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

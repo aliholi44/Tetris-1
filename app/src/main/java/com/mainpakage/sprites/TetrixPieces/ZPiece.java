@@ -34,8 +34,8 @@ public class ZPiece implements TetrixPiece {
             cubes[3].setY(yIni);
         }
 
-        public ZPiece(Bitmap bmp, View view,int yini){
-            xIni=200;
+        public ZPiece(Bitmap bmp, View view,int xini,int yini){
+            xIni=xini;
             yIni=yini;
             spriteLength=bmp.getWidth();
             interpieceSpace=0;

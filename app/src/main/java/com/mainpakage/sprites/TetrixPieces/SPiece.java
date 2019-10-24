@@ -36,8 +36,8 @@ public class SPiece implements TetrixPiece {
         cubes[3].setY(yIni);
     }
 
-    public SPiece(Bitmap bmp, View view,int yini){
-        xIni=200;
+    public SPiece(Bitmap bmp, View view,int xini,int yini){
+        xIni=xini;
         yIni=yini;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

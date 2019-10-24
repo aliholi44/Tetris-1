@@ -26,6 +26,7 @@ public class CustomView extends View {
     List<TetrixPiece> piezas;
     private int nextPiece;
     private TetrixPiece activePiece;
+    private TetrixPiece secondPiece;
     private int [] LinesInfo;
     MainActivity ma;
     int cwidth;
@@ -50,10 +51,20 @@ public class CustomView extends View {
         paint1 = new Paint();
         paint1.setARGB(255, 255, 0, 0);
         paint1.setStrokeWidth(4);
+        secondPiece=null;
     }
 
     public TetrixPiece getActivePiece() {
         return activePiece;
+    }
+
+    public TetrixPiece getSecondPiece() { return secondPiece; }
+
+    public void resetSecondPiece(){
+        secondPiece=null;
+        if(st.getGameSpeed()!=st.getTrueGameSpeed()){
+            switchSpeed();
+        }
     }
 
 
@@ -69,35 +80,65 @@ public class CustomView extends View {
     public void randomPiece(Bitmap bmp){
         randomPiece(bmp,nextPiece);
         nextPiece = (int)(Math.random()*7);
-        ma.printNextPiece(nextPiece);
-
     }
 
     public void randomPiece(Bitmap bmp,int piece){
         switch(piece){
             case 0:
-                activePiece= new CubePiece(bmp,this,top-cubelength);
+                activePiece= new CubePiece(bmp,this,200,top-cubelength);
                 break;
             case 1:
-                activePiece= new LinePiece(bmp,this,top-cubelength);
+                activePiece= new LinePiece(bmp,this,200,top-cubelength);
                 break;
             case 2:
-                activePiece = new SPiece(bmp,this,top-cubelength);
+                activePiece = new SPiece(bmp,this,200, top-cubelength);
                 break;
             case 3:
-                activePiece = new TPiece(bmp,this,top-cubelength);
+                activePiece = new TPiece(bmp,this,200,top-cubelength);
                 break;
             case 4:
-                activePiece = new ZPiece(bmp,this,top-cubelength);
+                activePiece = new ZPiece(bmp,this,200,top-cubelength);
                 break;
             case 5:
-                activePiece = new JPiece(bmp,this,top-cubelength);
+                activePiece = new JPiece(bmp,this,200,top-cubelength);
                 break;
             case 6:
-                activePiece = new LPiece(bmp,this,top-cubelength);
+                activePiece = new LPiece(bmp,this,200,top-cubelength);
                 break;
         }
         activePiece.changeYSpeed(bmp.getWidth());
+    }
+
+    public void randomSecondPiece(Bitmap bmp){
+        int aux = (int)(Math.random()*7);
+        randomSecondPiece(bmp,aux);
+    }
+
+    public void randomSecondPiece(Bitmap bmp,int piece){
+        switch(piece){
+            case 0:
+                secondPiece= new CubePiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 1:
+                secondPiece= new LinePiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 2:
+                secondPiece = new SPiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 3:
+                secondPiece = new TPiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 4:
+                secondPiece = new ZPiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 5:
+                secondPiece = new JPiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+            case 6:
+                secondPiece = new LPiece(bmp,this,200+3*cubelength,top-cubelength);
+                break;
+        }
+        secondPiece.changeYSpeed(bmp.getWidth());
     }
 
     @Override
@@ -110,11 +151,15 @@ public class CustomView extends View {
     @Override
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
+        ma.printNextPiece(nextPiece);
         canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
         for(TetrixPiece tp:piezas){
             tp.onDraw(canvas);
         }
         activePiece.onDraw(canvas);
+        if(secondPiece!=null){
+            secondPiece.onDraw(canvas);
+        }
     }
 
 
@@ -150,6 +195,8 @@ public class CustomView extends View {
             if(ptablero!=pieza)
             nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
         }
+        if(secondPiece!=null)
+            nochocan = nochocan && (!isCollisionPiece(nueva, secondPiece));
         boolean nofuera = true;
         CubeSprite[] cube = activePiece.getSprites();
         for (CubeSprite c: nueva.getSprites()) {
@@ -167,6 +214,8 @@ public class CustomView extends View {
             if(ptablero!=pieza)
                 nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
         }
+        if(secondPiece!=null)
+            nochocan = nochocan && (!isCollisionPiece(nueva, secondPiece));
         boolean nofuera = true;
         CubeSprite[] cube = activePiece.getSprites();
         for (CubeSprite c: nueva.getSprites()) {
@@ -184,6 +233,8 @@ public class CustomView extends View {
             if(ptablero!=pieza)
                 nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
         }
+        if(secondPiece!=null)
+            nochocan = nochocan && (!isCollisionPiece(nueva, secondPiece));
         boolean nofuera = true;
         CubeSprite[] cube = activePiece.getSprites();
         for (CubeSprite c: nueva.getSprites()) {
@@ -201,13 +252,41 @@ public class CustomView extends View {
             if(ptablero!=pieza)
                 nochocan = nochocan && (!isCollisionPiece(nueva, ptablero));
         }
-
-            return nochocan;
+        return nochocan;
     }
 
+    public boolean colisionSecond () {
+        TetrixPiece nueva = activePiece.copyDown(bmp,this);
+        boolean nochocan = true;
+            if(secondPiece!=null)
+                nochocan = (!isCollisionPiece(nueva, secondPiece));
+        return nochocan;
+    }
 
+    public boolean colisionActive () {
+        TetrixPiece nueva = secondPiece.copyDown(bmp,this);
+        boolean nochocan = true;
+        if(activePiece!=null)
+            nochocan = (!isCollisionPiece(nueva, activePiece));
+        return nochocan;
+    }
+
+    public void switchPiece(){
+        if(secondPiece!=null){
+        TetrixPiece aux = activePiece;
+        activePiece = secondPiece;
+        secondPiece = aux;
+        switchSpeed();
+        }
+    }
+
+    public void switchSpeed(){
+        int aux2 = st.getGameSpeed();
+        st.setGameSpeed(st.getSecondPieceSpeed());
+        st.setSecondPieceSpeed(aux2);
+    }
     public void linesUpdate(TetrixPiece piece) {//coordinates of the last piece set
-        piezas.add(activePiece);
+        piezas.add(piece);
         CubeSprite []cubos=piece.getSprites();
 
         for(int i=0;i<4;i++) {   //Recorre los sprites de la figura última posicionada
@@ -223,9 +302,8 @@ public class CustomView extends View {
                 j--;
             }
         }
-
-
     }
+
     private void deleteLine(int linea, int spriteLength, int interSpace){   //eliminar la línea completa y bajar las piezas
         LinesInfo[linea]=0;             //refinar si es necesario
         int spriteSpace=(spriteLength+interSpace);  //te situas en la altura deseada para borrar horizontalmente
