@@ -102,12 +102,21 @@ public class SecondThreat extends Thread {
                     CubeSprite[] caux=cv.getActivePiece().getSprites();
                     bottom=(cv.cheight-caux[0].getLength());
                 }
+
                 int i=0;
                 CubeSprite[] aux=cv.getActivePiece().getSprites();
                 stop = !cv.moverAbajoActiva(cv.getActivePiece());
                 while(!stop&&i<4){
                     stop = bottom <= (aux[i].getY()+aux[i].getLength());
                     i++;
+                }
+                if(stop&&(gameSpeed!=trueGameSpeed)){
+                    stop=false;
+                    cv.getActivePiece().changeYSpeed(0);
+                    cv.linesUpdate(cv.getActivePiece());
+                    cv.gameOver();
+                    cv.switchPiece();
+                    cv.resetSecondPiece();
                 }
             }
             cv.getActivePiece().changeYSpeed(0);
