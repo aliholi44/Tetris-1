@@ -18,14 +18,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.mainpakage.sprites.GameOver" />
-        <activity android:name="com.mainpakage.sprites.MainActivity" >
+        <activity android:name="com.mainpakage.sprites.StartMenu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.mainpakage.sprites.MainActivity" />
+        <activity android:name="com.mainpakage.sprites.GameOver" />
     </application>
 
 </manifest>
