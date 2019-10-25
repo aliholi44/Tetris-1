@@ -1,6 +1,7 @@
 package com.mainpakage.sprites;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import static java.lang.Thread.sleep;
@@ -29,10 +31,45 @@ public class MainActivity extends AppCompatActivity {
     Bitmap  bmpPiece5;
     Bitmap  bmpPiece6;
 
+    int thm=1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        //ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);       //For changing background
+
+
+
+        int palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
+        if(thm==0){ //Classic Theme
+
+            /*
+
+                CHANGE CANVAS
+
+            */
+
+            /* CHANGE BACKGROUND */
+            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
+            back.setBackgroundResource(R.drawable.kaka);
+            /*                  */
+
+            switch (palette){   //change palette
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+            }
+        }
+        else if(thm==1){    //Spooky theme
+            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
+            back.setBackgroundResource(R.drawable.ks);
+        }
         bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cpn);
         bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.linepn);
         bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.zpi);

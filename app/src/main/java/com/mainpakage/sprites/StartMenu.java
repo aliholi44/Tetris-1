@@ -18,6 +18,7 @@ public class StartMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
+                tema=1;
                 intent.putExtra("theme", tema);
                 startActivityForResult(intent, 0);
             }

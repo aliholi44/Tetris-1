@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout"
@@ -45,8 +44,8 @@
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/izquierda"
         android:onClick="onClickIzq"
+        android:text="@string/izquierda"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toStartOf="@+id/flechader"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,8 +62,8 @@
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:layout_marginBottom="15dp"
-        android:text="derecha"
         android:onClick="onClickDer"
+        android:text="derecha"
         app:layout_constraintBottom_toTopOf="@+id/flechabajo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/flechaizq"
@@ -153,8 +152,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="36dp"
-        android:text="Switch"
         android:onClick="onClickSwitch"
+        android:text="Switch"
         app:layout_constraintBottom_toTopOf="@+id/girar"
         app:layout_constraintEnd_toEndOf="parent" />
 
