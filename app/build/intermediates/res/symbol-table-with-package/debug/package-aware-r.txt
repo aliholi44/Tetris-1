@@ -649,8 +649,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pressed
+drawable right
 drawable s
+drawable samplebutton
+drawable sel
 drawable spritetest2
+drawable star
 drawable t
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1100,6 +1105,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style Spooky
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2

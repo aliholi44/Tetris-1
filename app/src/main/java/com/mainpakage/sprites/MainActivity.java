@@ -8,9 +8,12 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -36,21 +39,57 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        //ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);       //For changing background
-
-
         Bundle bAux = getIntent().getExtras();
+
         int palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
         int thm=bAux.getInt("theme");
         if(thm==0){ //Classic Theme
 
 
-            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
+            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
             back.setBackgroundResource(R.drawable.kaka);
+
+            final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
+            turn.setBackgroundResource(R.drawable.star);    //change on XML
+            turn.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        turn.setBackgroundResource(R.drawable.pressed);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+
+                        turn.setBackgroundResource(R.drawable.star);
+                        return true;
+                    }
+                    return false;
+                }
+            });
+            final Button der=(Button)findViewById(R.id.flechader);          //Set button right
+            der.setBackgroundResource(R.drawable.right);
+            der.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        der.setBackgroundResource(R.drawable.sel);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+
+                        der.setBackgroundResource(R.drawable.right);
+                        return true;
+                    }
+                    return false;
+                }
+            });
 
             switch (palette){   //change palette
                 case 0:
+                    //set cubesprite
+                    //set nextPiece
                     break;
                 case 1:
                     break;
