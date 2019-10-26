@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class StartMenu extends AppCompatActivity {
-    Integer tema;
+    Integer thm;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_menu);
@@ -18,8 +18,8 @@ public class StartMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
-                tema=1;
-                intent.putExtra("theme", tema);
+                thm=0;
+                intent.putExtra("theme", thm);
                 startActivityForResult(intent, 0);
             }
         });
@@ -27,7 +27,8 @@ public class StartMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
-                intent.putExtra("theme", tema);
+                thm=1;
+                intent.putExtra("theme", thm);
                 startActivityForResult(intent, 0);
             }
         });

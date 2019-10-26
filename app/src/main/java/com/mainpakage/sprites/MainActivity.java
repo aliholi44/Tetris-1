@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
     Bitmap  bmpPiece5;
     Bitmap  bmpPiece6;
 
-    int thm=1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,20 +40,14 @@ public class MainActivity extends AppCompatActivity {
         //ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);       //For changing background
 
 
-
+        Bundle bAux = getIntent().getExtras();
         int palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
+        int thm=bAux.getInt("theme");
         if(thm==0){ //Classic Theme
 
-            /*
 
-                CHANGE CANVAS
-
-            */
-
-            /* CHANGE BACKGROUND */
             ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
             back.setBackgroundResource(R.drawable.kaka);
-            /*                  */
 
             switch (palette){   //change palette
                 case 0:
@@ -70,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
             ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
             back.setBackgroundResource(R.drawable.ks);
         }
-        bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cpn);
-        bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.linepn);
-        bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.zpi);
-        bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tpi);
-        bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zpn);
-        bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.lpinv);
-        bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lpn);
+        bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cube);
+        bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.line);
+        bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.s);
+        bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.t);
+        bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.z);
+        bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.j);
+        bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.l);
         customView=(CustomView) findViewById(R.id.CustomView);
         customView.setMa(this);
         sc = (TextView) findViewById(R.id.valorPuntuacion);

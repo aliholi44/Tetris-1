@@ -3380,15 +3380,15 @@ public final class R {
     public static final int abc_textfield_search_default_mtrl_alpha=0x7f060052;
     public static final int abc_textfield_search_material=0x7f060053;
     public static final int abc_vector_test=0x7f060054;
-    public static final int cpn=0x7f060055;
+    public static final int cube=0x7f060055;
     public static final int ic_launcher_background=0x7f060056;
     public static final int ic_launcher_foreground=0x7f060057;
     public static final int icon=0x7f060058;
-    public static final int kaka=0x7f060059;
-    public static final int ks=0x7f06005a;
-    public static final int linepn=0x7f06005b;
-    public static final int lpinv=0x7f06005c;
-    public static final int lpn=0x7f06005d;
+    public static final int j=0x7f060059;
+    public static final int kaka=0x7f06005a;
+    public static final int ks=0x7f06005b;
+    public static final int l=0x7f06005c;
+    public static final int line=0x7f06005d;
     public static final int notification_action_background=0x7f06005e;
     public static final int notification_bg=0x7f06005f;
     public static final int notification_bg_low=0x7f060060;
@@ -3401,12 +3401,12 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f060067;
     public static final int notification_tile_bg=0x7f060068;
     public static final int notify_panel_notification_icon_bg=0x7f060069;
-    public static final int spritetest2=0x7f06006a;
-    public static final int tooltip_frame_dark=0x7f06006b;
-    public static final int tooltip_frame_light=0x7f06006c;
-    public static final int tpi=0x7f06006d;
-    public static final int zpi=0x7f06006e;
-    public static final int zpn=0x7f06006f;
+    public static final int s=0x7f06006a;
+    public static final int spritetest2=0x7f06006b;
+    public static final int t=0x7f06006c;
+    public static final int tooltip_frame_dark=0x7f06006d;
+    public static final int tooltip_frame_light=0x7f06006e;
+    public static final int z=0x7f06006f;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3627,7 +3627,8 @@ public final class R {
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;
-    public static final int ic_launcher_round=0x7f0a0001;
+    public static final int ic_launcher_foreground=0x7f0a0001;
+    public static final int ic_launcher_round=0x7f0a0002;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0b0000;

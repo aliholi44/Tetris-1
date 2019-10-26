@@ -14,7 +14,8 @@ public class ZPiece implements TetrixPiece {
         private int status=0;
 
         public ZPiece(Bitmap bmp, View view){
-            xIni=200;
+            CubeSprite aux = new CubeSprite(bmp, view);
+            xIni=aux.getLength()*3;
             yIni=0;
             spriteLength=bmp.getWidth();
             interpieceSpace=0;
