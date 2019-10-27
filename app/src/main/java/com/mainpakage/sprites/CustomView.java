@@ -8,6 +8,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -38,10 +39,13 @@ public class CustomView extends View {
     Paint paint2;
     private final int cubelength;
 
+
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
         piezas = new ArrayList<>();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
+
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
+
         score=0;
         LinesInfo=new int[50];  //20 is the number of available lines (matrix height)
         st= new SecondThreat(this);
@@ -76,6 +80,8 @@ public class CustomView extends View {
 
     public void setMa(MainActivity mainActivity){
         ma=mainActivity;
+        int palette=ma.palette;
+        setCubeSprite(palette);
     }
 
     public void updateScore(){
@@ -126,7 +132,7 @@ public class CustomView extends View {
                 secondPiece= new CubePiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 1:
-                secondPiece= new LinePiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
+                secondPiece= new LinePiece(bmp,this,cubelength*3+4*cubelength,top-cubelength);
                 break;
             case 2:
                 secondPiece = new SPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
@@ -376,6 +382,24 @@ public class CustomView extends View {
                         break;
                     }
                 }
+            }
+        }
+    }
+
+    private void setCubeSprite(int palette){
+        ma.selectPalette(palette);
+        switch(palette){
+            case 0:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
+                break;
+            }
+            case 1:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteb);
+                break;
+            }
+            case 2:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritep);
+                break;
             }
         }
     }

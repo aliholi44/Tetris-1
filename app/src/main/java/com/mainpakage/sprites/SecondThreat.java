@@ -124,6 +124,7 @@ public class SecondThreat extends Thread {
                 }
             }
             if(running) {
+                cv.invalidate();
                 cv.getActivePiece().changeYSpeed(0);
                 cv.linesUpdate(cv.getActivePiece());
                 cv.gameOver();
