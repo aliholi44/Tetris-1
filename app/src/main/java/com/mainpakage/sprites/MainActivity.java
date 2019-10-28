@@ -109,11 +109,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        //IMPLEMENTS
+                        customView.fastFall();
                         down.setBackgroundResource(R.drawable.sel);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.resetFall();
                         down.setBackgroundResource(R.drawable.right);
                         return true;
                     }
@@ -165,67 +166,67 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-        public void changeGameOver(){
-            Intent intent = new Intent (customView.getContext(), GameOver.class);
-            intent.putExtra("Score", sc.getText().toString());
-            startActivityForResult(intent, 0);
+    public void changeGameOver(){
+        Intent intent = new Intent (customView.getContext(), GameOver.class);
+        intent.putExtra("Score", sc.getText().toString());
+        startActivityForResult(intent, 0);
+    }
+
+    public void printNextPiece(int p){
+        switch(p) {
+            case 0:
+                iv.setImageBitmap(bmpPiece);
+                break;
+            case 1:
+                iv.setImageBitmap(bmpPiece1);
+                break;
+            case 2:
+                iv.setImageBitmap(bmpPiece2);
+                break;
+            case 3:
+                iv.setImageBitmap(bmpPiece3);
+                break;
+            case 4:
+                iv.setImageBitmap(bmpPiece4);
+                break;
+            case 5:
+                iv.setImageBitmap(bmpPiece5);
+                break;
+            default:
+                iv.setImageBitmap(bmpPiece6);
         }
 
-        public void printNextPiece(int p){
-            switch(p) {
-                case 0:
-                    iv.setImageBitmap(bmpPiece);
-                    break;
-                case 1:
-                    iv.setImageBitmap(bmpPiece1);
-                    break;
-                case 2:
-                    iv.setImageBitmap(bmpPiece2);
-                    break;
-                case 3:
-                    iv.setImageBitmap(bmpPiece3);
-                    break;
-                case 4:
-                    iv.setImageBitmap(bmpPiece4);
-                    break;
-                case 5:
-                    iv.setImageBitmap(bmpPiece5);
-                    break;
-                default:
-                    iv.setImageBitmap(bmpPiece6);
-            }
+    }
 
+    public void selectPalette(int palette){
+        switch (palette){   //change palette
+            case 0: {//yellow
+                bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubey);
+                bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.liney);
+                bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sy);
+                bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.ty);
+                bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zy);
+                bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jy);
+                bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.ly);
+                break;}
+            case 1:{ //blue
+                bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubeb);
+                bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.lineb);
+                bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sb);
+                bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tb);
+                bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zb);
+                bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jb);
+                bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lb);
+                break;}
+            case 2:{ //pink
+                bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubep);
+                bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.linep);
+                bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sp);
+                bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tp);
+                bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zp);
+                bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jp);
+                bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lp);
+                break;}
         }
-
-        public void selectPalette(int palette){
-            switch (palette){   //change palette
-                case 0: {//yellow
-                    bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubey);
-                    bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.liney);
-                    bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sy);
-                    bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.ty);
-                    bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zy);
-                    bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jy);
-                    bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.ly);
-                    break;}
-                case 1:{ //blue
-                    bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubeb);
-                    bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.lineb);
-                    bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sb);
-                    bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tb);
-                    bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zb);
-                    bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jb);
-                    bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lb);
-                    break;}
-                case 2:{ //pink
-                    bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubep);
-                    bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.linep);
-                    bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sp);
-                    bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tp);
-                    bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zp);
-                    bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jp);
-                    bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lp);
-                    break;}
-            }
-        }
+    }
 }

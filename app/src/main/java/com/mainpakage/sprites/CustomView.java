@@ -385,6 +385,15 @@ public class CustomView extends View {
             }
         }
     }
+    public void fastFall(){
+        st.setGameSpeed(1);
+        st.setTrueGameSpeed(1);
+    }
+
+    public void resetFall(){
+        st.setGameSpeed(7);
+        st.setTrueGameSpeed(7);
+    }
 
     private void setCubeSprite(int palette){
         ma.selectPalette(palette);

@@ -11,7 +11,7 @@ public class SecondThreat extends Thread {
     private int contSecondPiece;
     private int bottom;
     private int gameSpeed;
-    private final int trueGameSpeed=7;
+    private int trueGameSpeed;
     private final int downLineSpeed=500;
     private int secondPieceSpeed;
     private final int secondPieceCreation=300;
@@ -26,6 +26,10 @@ public class SecondThreat extends Thread {
 
     public void setGameSpeed(int gameSpeed) {
         this.gameSpeed = gameSpeed;
+    }
+
+    public void setTrueGameSpeed(int trueGameSpeed) {
+        this.trueGameSpeed = trueGameSpeed;
     }
 
     public int getSecondPieceSpeed() {
@@ -44,6 +48,7 @@ public class SecondThreat extends Thread {
         contDownLine=0;
         contSecondPiece=0;
         bottom=1600;
+        trueGameSpeed=7;
         gameSpeed=trueGameSpeed;
         secondPieceSpeed=3;
     }
