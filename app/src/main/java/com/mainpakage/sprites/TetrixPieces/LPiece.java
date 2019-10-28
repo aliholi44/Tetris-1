@@ -14,7 +14,8 @@ public class LPiece implements TetrixPiece{
     private final int interpieceSpace;
 
     public LPiece(Bitmap bmp,View view){
-        xIni=200;
+        CubeSprite aux = new CubeSprite(bmp, view);
+        xIni=aux.getLength()*3;
         yIni=0;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;

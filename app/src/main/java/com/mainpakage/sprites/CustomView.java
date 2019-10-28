@@ -1,11 +1,14 @@
 package com.mainpakage.sprites;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -33,12 +36,16 @@ public class CustomView extends View {
     int cheight;
     int top; //Línea superior
     Paint paint1;
+    Paint paint2;
     private final int cubelength;
+
 
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
         piezas = new ArrayList<>();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.spritetest2);
+
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
+
         score=0;
         LinesInfo=new int[50];  //20 is the number of available lines (matrix height)
         st= new SecondThreat(this);
@@ -50,7 +57,10 @@ public class CustomView extends View {
         top=cubelength;
         paint1 = new Paint();
         paint1.setARGB(255, 255, 0, 0);
-        paint1.setStrokeWidth(4);
+        paint1.setStrokeWidth(10);
+        paint2 = new Paint();
+        paint2.setARGB(255, 255, 255, 0);
+        paint2.setStrokeWidth(8);
         secondPiece=null;
     }
 
@@ -70,6 +80,8 @@ public class CustomView extends View {
 
     public void setMa(MainActivity mainActivity){
         ma=mainActivity;
+        int palette=ma.palette;
+        setCubeSprite(palette);
     }
 
     public void updateScore(){
@@ -85,25 +97,25 @@ public class CustomView extends View {
     public void randomPiece(Bitmap bmp,int piece){
         switch(piece){
             case 0:
-                activePiece= new CubePiece(bmp,this,200,top-cubelength);
+                activePiece= new CubePiece(bmp,this,cubelength*3,top-cubelength);
                 break;
             case 1:
-                activePiece= new LinePiece(bmp,this,200,top-cubelength);
+                activePiece= new LinePiece(bmp,this,cubelength*3,top-cubelength);
                 break;
             case 2:
-                activePiece = new SPiece(bmp,this,200, top-cubelength);
+                activePiece = new SPiece(bmp,this,cubelength*3, top-cubelength);
                 break;
             case 3:
-                activePiece = new TPiece(bmp,this,200,top-cubelength);
+                activePiece = new TPiece(bmp,this,cubelength*3,top-cubelength);
                 break;
             case 4:
-                activePiece = new ZPiece(bmp,this,200,top-cubelength);
+                activePiece = new ZPiece(bmp,this,cubelength*3,top-cubelength);
                 break;
             case 5:
-                activePiece = new JPiece(bmp,this,200,top-cubelength);
+                activePiece = new JPiece(bmp,this,cubelength*3,top-cubelength);
                 break;
             case 6:
-                activePiece = new LPiece(bmp,this,200,top-cubelength);
+                activePiece = new LPiece(bmp,this,cubelength*3,top-cubelength);
                 break;
         }
         activePiece.changeYSpeed(bmp.getWidth());
@@ -117,25 +129,25 @@ public class CustomView extends View {
     public void randomSecondPiece(Bitmap bmp,int piece){
         switch(piece){
             case 0:
-                secondPiece= new CubePiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece= new CubePiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 1:
-                secondPiece= new LinePiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece= new LinePiece(bmp,this,cubelength*3+4*cubelength,top-cubelength);
                 break;
             case 2:
-                secondPiece = new SPiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece = new SPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 3:
-                secondPiece = new TPiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece = new TPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 4:
-                secondPiece = new ZPiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece = new ZPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 5:
-                secondPiece = new JPiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece = new JPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
             case 6:
-                secondPiece = new LPiece(bmp,this,200+3*cubelength,top-cubelength);
+                secondPiece = new LPiece(bmp,this,cubelength*3+6*cubelength,top-cubelength);
                 break;
         }
         secondPiece.changeYSpeed(bmp.getWidth());
@@ -152,10 +164,28 @@ public class CustomView extends View {
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
         ma.printNextPiece(nextPiece);
-        canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
+        int xmax=0;
+        while(xmax<cwidth){
+            xmax=xmax+cubelength;
+        }
+        int ymax=0;
+        while(ymax<cheight){
+            ymax=ymax+cubelength;
+        }
+        int xpos=0;
+        do{
+            canvas.drawLine(xpos,0,xpos,ymax-cubelength,paint2);
+            xpos=xpos+cubelength;
+        }while(xpos<=xmax);
+        int ypos=0;
+        do{
+            canvas.drawLine(0,ypos,xmax-cubelength,ypos,paint2);
+            ypos=ypos+cubelength;
+        }while(ypos<ymax);
         for(TetrixPiece tp:piezas){
             tp.onDraw(canvas);
         }
+        canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
         activePiece.onDraw(canvas);
         if(secondPiece!=null){
             secondPiece.onDraw(canvas);
@@ -294,8 +324,8 @@ public class CustomView extends View {
             LinesInfo[cy]++;    //Esta línea tiene un nuevo sprite.
         }
         CubeSprite[] cube = activePiece.getSprites();
-        int aux=(cheight/cube[0].getLength());
-        int aux2=(cwidth/cube[0].getLength())-1;
+        int aux=(cheight/cube[0].getLength()+1);
+        int aux2=(cwidth/cube[0].getLength());
         for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
             if(LinesInfo[j]==aux2){
                deleteLine(j,cubos[0].getLength(),piece.getInterSpace());
@@ -352,6 +382,24 @@ public class CustomView extends View {
                         break;
                     }
                 }
+            }
+        }
+    }
+
+    private void setCubeSprite(int palette){
+        ma.selectPalette(palette);
+        switch(palette){
+            case 0:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
+                break;
+            }
+            case 1:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteb);
+                break;
+            }
+            case 2:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritep);
+                break;
             }
         }
     }

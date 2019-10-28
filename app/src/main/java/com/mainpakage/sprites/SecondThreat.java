@@ -91,7 +91,9 @@ public class SecondThreat extends Thread {
                     if(stopaux) {
                         cv.getSecondPiece().changeYSpeed(0);
                         cv.linesUpdate(cv.getSecondPiece());
-                        cv.gameOver();
+                        if(running){
+                            cv.gameOver();
+                        }
                         cv.resetSecondPiece();
                     }
                 }
@@ -114,14 +116,19 @@ public class SecondThreat extends Thread {
                     stop=false;
                     cv.getActivePiece().changeYSpeed(0);
                     cv.linesUpdate(cv.getActivePiece());
-                    cv.gameOver();
+                    if(running) {
+                        cv.gameOver();
+                    }
                     cv.switchPiece();
                     cv.resetSecondPiece();
                 }
             }
-            cv.getActivePiece().changeYSpeed(0);
-            cv.linesUpdate(cv.getActivePiece());
-            cv.gameOver();
+            if(running) {
+                cv.invalidate();
+                cv.getActivePiece().changeYSpeed(0);
+                cv.linesUpdate(cv.getActivePiece());
+                cv.gameOver();
+            }
         }
     }
 }
