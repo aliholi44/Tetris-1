@@ -643,6 +643,7 @@ drawable jy
 drawable ks
 drawable launcher
 drawable lb
+drawable leftbutton
 drawable lineb
 drawable linep
 drawable liney
@@ -663,6 +664,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pressed
 drawable right
+drawable rightbutton
 drawable samplebutton
 drawable sb
 drawable score
@@ -678,6 +680,7 @@ drawable ty
 drawable zb
 drawable zp
 drawable zy
+font goldenhills
 id ALT
 id CTRL
 id CustomView
@@ -759,7 +762,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView2
 id info
 id invisible
 id italic
@@ -773,12 +775,13 @@ id message
 id middle
 id multiply
 id never
-id nextpiecebackground
+id nextpiecefig
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id npbackground
 id packed
 id parent
 id parentPanel

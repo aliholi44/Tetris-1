@@ -15,6 +15,7 @@ public class SecondThreat extends Thread {
     private final int downLineSpeed=500;
     private int secondPieceSpeed;
     private final int secondPieceCreation=300;
+    public boolean secondBool;
 
     public int getTrueGameSpeed() {
         return trueGameSpeed;
@@ -51,6 +52,7 @@ public class SecondThreat extends Thread {
         trueGameSpeed=7;
         gameSpeed=trueGameSpeed;
         secondPieceSpeed=3;
+        secondBool=false;
     }
 
     @Override
@@ -118,14 +120,17 @@ public class SecondThreat extends Thread {
                     i++;
                 }
                 if(stop&&(gameSpeed!=trueGameSpeed)){
-                    stop=false;
-                    cv.getActivePiece().changeYSpeed(0);
-                    cv.linesUpdate(cv.getActivePiece());
-                    if(running) {
-                        cv.gameOver();
+                    if(secondBool){
+                        gameSpeed=3;
+                        stop=false;
+                        cv.getActivePiece().changeYSpeed(0);
+                        cv.linesUpdate(cv.getActivePiece());
+                        if(running) {
+                            cv.gameOver();
+                        }
+                        cv.switchPiece();
+                        cv.resetSecondPiece();
                     }
-                    cv.switchPiece();
-                    cv.resetSecondPiece();
                 }
             }
             if(running) {

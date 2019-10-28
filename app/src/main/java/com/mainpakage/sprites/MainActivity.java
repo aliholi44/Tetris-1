@@ -7,6 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -46,6 +47,16 @@ public class MainActivity extends AppCompatActivity {
             ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
             back.setBackgroundResource(R.drawable.backgroundclassic);
 
+            /*ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
+            scoreBack.setImageResource(R.drawable.pressed);
+
+            ImageView nP=(ImageView)findViewById(R.id.npbackground);
+            nP.setImageResource(R.drawable.samplebutton);*/
+
+            TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
+            Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
+            numScore.setTypeface(golden);
+
             final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
             turn.setBackgroundResource(R.drawable.star);    //change on XML
             turn.setOnTouchListener(new View.OnTouchListener() {
@@ -66,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button right=(Button)findViewById(R.id.flechader);          //Set button right
-            right.setBackgroundResource(R.drawable.right);
+            right.setBackgroundResource(R.drawable.rightbutton);
             right.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
@@ -77,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverDerechaActiva(customView.getActivePiece());
-                        right.setBackgroundResource(R.drawable.right);
+                        right.setBackgroundResource(R.drawable.rightbutton);
                         return true;
                     }
                     return false;
@@ -85,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
-            left.setBackgroundResource(R.drawable.right);
+            left.setBackgroundResource(R.drawable.leftbutton);
             left.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
@@ -96,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverIzquierdaActiva(customView.getActivePiece());
-                        left.setBackgroundResource(R.drawable.right);
+                        left.setBackgroundResource(R.drawable.leftbutton);
                         return true;
                     }
                     return false;
@@ -153,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
         customView=(CustomView) findViewById(R.id.CustomView);
         customView.setMa(this);
         sc = (TextView) findViewById(R.id.valorPuntuacion);
-        iv= (ImageView) findViewById(R.id.nextpiecebackground);
+        iv= (ImageView) findViewById(R.id.nextpiecefig);
         Intent intent = new Intent (customView.getContext(), MainActivity.class);
         intent.putExtra("theme", thm);
         customView.st.start();
