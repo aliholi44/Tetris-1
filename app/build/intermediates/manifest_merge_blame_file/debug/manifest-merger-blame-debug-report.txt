@@ -25,29 +25,28 @@
 17-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-20-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:11:9-65
-21        <activity android:name="com.mainpakage.sprites.StartMenu" >
-21-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:12:19-44
-22            <intent-filter>
-22-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:14:17-69
-23-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:16:17-77
-25-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.mainpakage.sprites.MainActivity" />
-28-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:19:9-50
-28-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:19:19-47
-29        <activity android:name="com.mainpakage.sprites.GameOver" />
-29-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:20:9-46
-29-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:20:19-43
-30    </application>
-31
-32</manifest>
+19        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+19-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:11:9-65
+20        <activity android:name="com.mainpakage.sprites.StartMenu" >
+20-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:12:19-44
+21            <intent-filter>
+21-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:14:17-69
+22-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:16:17-77
+24-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="com.mainpakage.sprites.MainActivity" />
+27-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:19:9-50
+27-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:19:19-47
+28        <activity android:name="com.mainpakage.sprites.GameOver" />
+28-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:20:9-46
+28-->D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\AndroidManifest.xml:20:19-43
+29    </application>
+30
+31</manifest>

@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                     return false;
                 }
             });
-
+            //disableSwitch();
 
         }
         else if(thm==1){    //Spooky theme
@@ -239,5 +239,13 @@ public class MainActivity extends AppCompatActivity {
                 bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lp);
                 break;}
         }
+    }
+    protected void enableSwitch(){
+        Button sw=(Button)findViewById(R.id.Switch);
+        sw.setVisibility(View.VISIBLE);
+    }
+    protected void disableSwitch(){
+        Button sw=(Button)findViewById(R.id.Switch);
+        sw.setVisibility(View.INVISIBLE);
     }
 }

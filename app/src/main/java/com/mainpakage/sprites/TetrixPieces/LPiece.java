@@ -105,16 +105,6 @@ public class LPiece implements TetrixPiece{
         changeStatus();
     }
 
-
-
-    @Override
-    public void changeXSpeed(int speed) {
-        for(int i=0;i<4;i++){
-            if(cubes[i]!=null)
-                cubes[i].setxSpeed(speed);
-        }
-    }
-
     @Override
     public void changeYSpeed(int speed) {
         for(int i=0;i<4;i++){
@@ -235,5 +225,12 @@ public class LPiece implements TetrixPiece{
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public void setBitmap(Bitmap bitmap){
+        for(int i=0;i<4;i++){
+            if(cubes[i]!=null)
+                cubes[i].setBmp(bitmap);
+        }
     }
 }

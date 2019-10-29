@@ -81,7 +81,7 @@ public class CustomView extends View {
     public void setMa(MainActivity mainActivity){
         ma=mainActivity;
         int palette=ma.palette;
-        setCubeSprite(palette);
+        setCubeSpriteColor(palette);
     }
 
     public void updateScore(){
@@ -91,6 +91,8 @@ public class CustomView extends View {
 
     public void randomPiece(Bitmap bmp){
         randomPiece(bmp,nextPiece);
+        int palette=(int)(Math.random()*3);
+        setCubeSpriteColor(palette);
         nextPiece = (int)(Math.random()*7);
     }
 
@@ -123,6 +125,7 @@ public class CustomView extends View {
 
     public void randomSecondPiece(Bitmap bmp){
         int aux = (int)(Math.random()*7);
+        //ma.enableSwitch();
         randomSecondPiece(bmp,aux);
     }
 
@@ -327,11 +330,30 @@ public class CustomView extends View {
         CubeSprite[] cube = activePiece.getSprites();
         int aux=(cheight/cube[0].getLength()+1);
         int aux2=(cwidth/cube[0].getLength());
+        int numLines = 0;
         for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
             if(LinesInfo[j]==aux2){
-               deleteLine(j,cubos[0].getLength(),piece.getInterSpace());
+                numLines++;
+               deleteLine(j,cubelength,piece.getInterSpace());
                 j--;
             }
+        }
+        if(numLines==1){
+            Bitmap oldBmp = bmp;
+            int random = (int)(Math.random()*3);
+            auxSetCubeSprite(random);
+            for(TetrixPiece p:piezas){
+                p.setBitmap(bmp);
+            }
+            bmp=oldBmp;
+        }else if(numLines>1){
+            Bitmap oldBmp = bmp;
+            for(TetrixPiece p:piezas){
+                int random = (int)(Math.random()*3);
+                auxSetCubeSprite(random);
+                p.setBitmap(bmp);
+            }
+            bmp=oldBmp;
         }
     }
 
@@ -394,8 +416,19 @@ public class CustomView extends View {
         st.setGameSpeed(7);
     }
 
-    private void setCubeSprite(int palette){
+    private void setCubeSpriteColor(int palette){
         ma.selectPalette(palette);
+        int t=ma.thm;
+        if(ma.thm==0){  //classic
+           auxSetCubeSprite(palette);
+        }
+        else{
+            auxSetCubeSprite(palette);
+        }
+
+    }
+
+    public void auxSetCubeSprite(int palette){
         switch(palette){
             case 0:{
                 bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);

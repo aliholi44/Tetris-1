@@ -6,7 +6,6 @@ import android.view.View;
 public class CubeSprite {
     private int x;
     private int y;
-    private int xSpeed;
     private int ySpeed;
     private Bitmap bmp;
     private View view;
@@ -15,10 +14,13 @@ public class CubeSprite {
     public CubeSprite(Bitmap bmp, View view) {
         this.x = 0;
         this.y = 0;
-        this.xSpeed = 0;
         this.ySpeed = 0;
         this.bmp = bmp;
         this.view = view;
+    }
+
+    public void setBmp(Bitmap bmp) {
+        this.bmp = bmp;
     }
 
     public void setX(int x) {
@@ -29,9 +31,6 @@ public class CubeSprite {
         this.y = y;
     }
 
-    public void setxSpeed(int xSpeed) {
-        this.xSpeed = xSpeed;
-    }
 
     public void setySpeed(int ySpeed) {
         this.ySpeed = ySpeed;
@@ -48,17 +47,11 @@ public class CubeSprite {
     public int getLength(){ return bmp.getWidth();}
 
 
-
-    public int getxSpeed() {
-        return xSpeed;
-    }
-
     public int getySpeed() {
         return ySpeed;
     }
 
     public void update(){
-        x=x+xSpeed;
         y=y+ySpeed;
     }
 

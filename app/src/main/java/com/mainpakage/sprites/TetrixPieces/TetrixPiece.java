@@ -6,7 +6,6 @@ import android.view.View;
 
 public interface TetrixPiece {
     public void rotate90Right();
-    public void changeXSpeed(int speed);
     public void changeYSpeed(int speed);
     public void removeCube(int y);
     public void onDraw(Canvas canvas);
@@ -19,5 +18,6 @@ public interface TetrixPiece {
     public void moveRight();
     public void moveLeft();
     public TetrixPiece copyDown(Bitmap bmp, View view);
+    public void setBitmap(Bitmap bitmap);
 
 }
