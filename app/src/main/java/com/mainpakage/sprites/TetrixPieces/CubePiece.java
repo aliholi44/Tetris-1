@@ -4,6 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.view.View;
 
+import java.util.ArrayList;
+
 public class CubePiece implements TetrixPiece{
 
     private CubeSprite[] cubes;
@@ -11,9 +13,12 @@ public class CubePiece implements TetrixPiece{
     private final int yIni;
     private final int spriteLength;
     private final int interpieceSpace;
+    private final ArrayList<Bitmap> view_colors= new ArrayList<Bitmap>();
+
 
     public CubePiece(Bitmap bmp,View view){
-        xIni=200;
+        CubeSprite aux = new CubeSprite(bmp, view);
+        xIni=aux.getLength()*3;
         yIni=0;
         spriteLength=bmp.getWidth();
         interpieceSpace=0;
@@ -73,6 +78,15 @@ public class CubePiece implements TetrixPiece{
         for(int i=0;i<4;i++){
             if(cubes[i]!=null)
             cubes[i].setySpeed(speed);
+        }
+    }
+    @Override
+    public void changeColor(int random_color){
+        //random_color = (int) (Math.random() * view_colors.size());
+        //hacer esto pero en la parte de fuera para que no tenga un color diferente cada cubo de la pieza
+        //no se si pasais el arraylist con los colores en CustomView o en cada tipo de pieza asi que no lo paso por la funcion
+        for (int i=0;i<4;i++){
+            cubes[i].setBmp(view_colors.get(random_color));
         }
     }
 

@@ -8,6 +8,7 @@ public interface TetrixPiece {
     public void rotate90Right();
     public void changeXSpeed(int speed);
     public void changeYSpeed(int speed);
+    public void changeColor(int random_color);
     public void removeCube(int y);
     public void onDraw(Canvas canvas);
     public CubeSprite[] getSprites();
