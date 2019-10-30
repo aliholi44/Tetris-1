@@ -45,31 +45,31 @@ public class MainActivity extends AppCompatActivity {
             selectPalette(palette);
 
             ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
-            back.setBackgroundResource(R.drawable.backgroundclassic);
+            back.setBackgroundResource(R.drawable.bgcl6);
 
-            /*ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
-            scoreBack.setImageResource(R.drawable.pressed);
+            ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
+            scoreBack.setImageResource(R.drawable.score);
 
             ImageView nP=(ImageView)findViewById(R.id.npbackground);
-            nP.setImageResource(R.drawable.samplebutton);*/
+            nP.setImageResource(R.drawable.next);
 
             TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
             Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
             numScore.setTypeface(golden);
 
             final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
-            turn.setBackgroundResource(R.drawable.star);    //change on XML
+            turn.setBackgroundResource(R.drawable.rotate);    //change on XML
             turn.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        turn.setBackgroundResource(R.drawable.pressed);
+                        turn.setBackgroundResource(R.drawable.rotatepres);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.girar(customView.getActivePiece());
-                        turn.setBackgroundResource(R.drawable.star);
+                        turn.setBackgroundResource(R.drawable.rotate);
                         return true;
                     }
                     return false;
@@ -77,18 +77,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button right=(Button)findViewById(R.id.flechader);          //Set button right
-            right.setBackgroundResource(R.drawable.rightbutton);
+            right.setBackgroundResource(R.drawable.rightbut);
             right.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        right.setBackgroundResource(R.drawable.sel);
+                        right.setBackgroundResource(R.drawable.rightpress);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverDerechaActiva(customView.getActivePiece());
-                        right.setBackgroundResource(R.drawable.rightbutton);
+                        right.setBackgroundResource(R.drawable.rightbut);
                         return true;
                     }
                     return false;
@@ -96,18 +96,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
-            left.setBackgroundResource(R.drawable.leftbutton);
+            left.setBackgroundResource(R.drawable.leftbut);
             left.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        left.setBackgroundResource(R.drawable.sel);
+                        left.setBackgroundResource(R.drawable.leftpress);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverIzquierdaActiva(customView.getActivePiece());
-                        left.setBackgroundResource(R.drawable.leftbutton);
+                        left.setBackgroundResource(R.drawable.leftbut);
                         return true;
                     }
                     return false;
@@ -115,18 +115,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
-            down.setBackgroundResource(R.drawable.right);
+            down.setBackgroundResource(R.drawable.downbut);
             down.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
                         customView.fastFall();
-                        down.setBackgroundResource(R.drawable.sel);
+                        down.setBackgroundResource(R.drawable.downpres);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.resetFall();
-                        down.setBackgroundResource(R.drawable.right);
+                        down.setBackgroundResource(R.drawable.downbut);
                         return true;
                     }
                     return false;
@@ -134,18 +134,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
-            swi.setBackgroundResource(R.drawable.right);
+            swi.setBackgroundResource(R.drawable.switchbut);
             swi.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        swi.setBackgroundResource(R.drawable.sel);
+                        swi.setBackgroundResource(R.drawable.switchpressed);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.switchPiece();
-                        swi.setBackgroundResource(R.drawable.right);
+                        swi.setBackgroundResource(R.drawable.switchbut);
                         return true;
                     }
                     return false;
