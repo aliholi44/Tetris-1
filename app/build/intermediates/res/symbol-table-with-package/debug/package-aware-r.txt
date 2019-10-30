@@ -737,6 +737,7 @@ id left
 id line1
 id line3
 id listMode
+id listRanking
 id list_item
 id message
 id middle
@@ -756,6 +757,7 @@ id progress_circular
 id progress_horizontal
 id puntuacion
 id radio
+id rankingText
 id rankingView
 id result
 id right
