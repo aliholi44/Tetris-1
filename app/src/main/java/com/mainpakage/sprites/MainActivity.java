@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if(thm==1){    //Spooky theme
             ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
-            back.setBackgroundResource(R.drawable.ks);
+            //back.setBackgroundResource(R.drawable.ks);
         }
 
 
