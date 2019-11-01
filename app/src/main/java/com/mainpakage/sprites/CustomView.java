@@ -68,8 +68,7 @@ public class CustomView extends View {
         return activePiece;
     }
 
-    public TetrixPiece getSecondPiece() {
-        return secondPiece; }
+    public TetrixPiece getSecondPiece() { return secondPiece; }
 
     public void resetSecondPiece(){
         secondPiece=null;
@@ -192,12 +191,8 @@ public class CustomView extends View {
         canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
         activePiece.onDraw(canvas);
         if(secondPiece!=null){
-            ma.enableSwitch();
             secondPiece.onDraw(canvas);
-        }else{
-            ma.disableSwitch();
         }
-
     }
 
 
