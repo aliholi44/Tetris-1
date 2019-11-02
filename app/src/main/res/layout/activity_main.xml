@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.965"
         app:layout_constraintStart_toEndOf="@+id/CustomView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/score" />
+        app:srcCompat="@drawable/scorecl" />
 
     <TextView
         android:id="@+id/valorPuntuacion"
@@ -50,6 +50,7 @@
         android:layout_height="42dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+        android:gravity="center"
         android:text="0"
         android:textSize="36sp"
         app:fontFamily="sans-serif"
@@ -69,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scorebackground"
         app:layout_constraintVertical_bias="0.111"
-        app:srcCompat="@drawable/next" />
+        app:srcCompat="@drawable/nextcl" />
 
     <ImageView
         android:id="@+id/nextpiecefig"

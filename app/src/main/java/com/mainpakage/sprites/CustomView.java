@@ -92,6 +92,7 @@ public class CustomView extends View {
     public void randomPiece(Bitmap bmp){
         randomPiece(bmp,nextPiece);
         int palette=(int)(Math.random()*3);
+        if(ma.thm==1){palette+=3;}
         setCubeSpriteColor(palette);
         nextPiece = (int)(Math.random()*7);
     }
@@ -430,7 +431,7 @@ public class CustomView extends View {
 
     public void auxSetCubeSprite(int palette){
         switch(palette){
-            case 0:{
+            case 0: case 3:{
                 bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
                 break;
             }
@@ -440,6 +441,14 @@ public class CustomView extends View {
             }
             case 2:{
                 bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritep);
+                break;
+            }
+            case 4:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteo);
+                break;
+            }
+            case 5:{
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteg);
                 break;
             }
         }

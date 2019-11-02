@@ -2,6 +2,7 @@ package com.mainpakage.sprites;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -12,24 +13,51 @@ public class StartMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_menu);
-        Button btn = (Button) findViewById(R.id.button);
-        Button btn2 = (Button) findViewById(R.id.button2);
-        btn.setOnClickListener(new View.OnClickListener() {
+        final Button butCl = (Button) findViewById(R.id.butClassic);
+        final Button butSp = (Button) findViewById(R.id.butSpooky);
+        butCl.setOnTouchListener(new View.OnTouchListener() {
             @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                    butCl.setBackgroundResource(R.drawable.classicpressed);
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    butCl.setBackgroundResource(R.drawable.classic);
+                    Intent intent = new Intent(v.getContext(), MainActivity.class);
+                    thm = 0;
+                    intent.putExtra("theme", thm);
+                    startActivityForResult(intent, 0);
+                    return true;
+                }
+                return false;
+            }
+
+            /*@Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
                 thm=0;
                 intent.putExtra("theme", thm);
                 startActivityForResult(intent, 0);
-            }
+            }*/
         });
-        btn2.setOnClickListener(new View.OnClickListener() {
+
+        butSp.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), MainActivity.class);
-                thm=1;
-                intent.putExtra("theme", thm);
-                startActivityForResult(intent, 0);
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                    butSp.setBackgroundResource(R.drawable.choosespookypressed);
+                    return true;
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    butSp.setBackgroundResource(R.drawable.choosespooky);
+                    Intent intent = new Intent(v.getContext(), MainActivity.class);
+                    thm = 1;
+                    intent.putExtra("theme", thm);
+                    startActivityForResult(intent, 0);
+                    return true;
+                }
+                return false;
             }
         });
     }

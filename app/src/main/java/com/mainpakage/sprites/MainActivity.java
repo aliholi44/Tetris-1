@@ -48,28 +48,28 @@ public class MainActivity extends AppCompatActivity {
             back.setBackgroundResource(R.drawable.bgcl6);
 
             ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
-            scoreBack.setImageResource(R.drawable.score);
+            scoreBack.setImageResource(R.drawable.scorecl);
 
             ImageView nP=(ImageView)findViewById(R.id.npbackground);
-            nP.setImageResource(R.drawable.next);
+            nP.setImageResource(R.drawable.nextcl);
 
             TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
             Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
             numScore.setTypeface(golden);
 
             final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
-            turn.setBackgroundResource(R.drawable.rotate);    //change on XML
+            turn.setBackgroundResource(R.drawable.rotateclassic);    //change on XML
             turn.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        turn.setBackgroundResource(R.drawable.rotatepres);
+                        turn.setBackgroundResource(R.drawable.rotatepresclassic);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.girar(customView.getActivePiece());
-                        turn.setBackgroundResource(R.drawable.rotate);
+                        turn.setBackgroundResource(R.drawable.rotateclassic);
                         return true;
                     }
                     return false;
@@ -77,18 +77,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button right=(Button)findViewById(R.id.flechader);          //Set button right
-            right.setBackgroundResource(R.drawable.rightbut);
+            right.setBackgroundResource(R.drawable.rightbutclassic);
             right.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        right.setBackgroundResource(R.drawable.rightpress);
+                        right.setBackgroundResource(R.drawable.rightpressclassic);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverDerechaActiva(customView.getActivePiece());
-                        right.setBackgroundResource(R.drawable.rightbut);
+                        right.setBackgroundResource(R.drawable.rightbutclassic);
                         return true;
                     }
                     return false;
@@ -96,18 +96,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
-            left.setBackgroundResource(R.drawable.leftbut);
+            left.setBackgroundResource(R.drawable.leftbutclassic);
             left.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        left.setBackgroundResource(R.drawable.leftpress);
+                        left.setBackgroundResource(R.drawable.leftpressclassic);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.moverIzquierdaActiva(customView.getActivePiece());
-                        left.setBackgroundResource(R.drawable.leftbut);
+                        left.setBackgroundResource(R.drawable.leftbutclassic);
                         return true;
                     }
                     return false;
@@ -115,18 +115,18 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
-            down.setBackgroundResource(R.drawable.downbut);
+            down.setBackgroundResource(R.drawable.downbutclassic);
             down.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
                         customView.fastFall();
-                        down.setBackgroundResource(R.drawable.downpres);
+                        down.setBackgroundResource(R.drawable.downpresclassic);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.resetFall();
-                        down.setBackgroundResource(R.drawable.downbut);
+                        down.setBackgroundResource(R.drawable.downbutclassic);
                         return true;
                     }
                     return false;
@@ -134,29 +134,138 @@ public class MainActivity extends AppCompatActivity {
             });
 
             final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
-            swi.setBackgroundResource(R.drawable.switchbut);
+            swi.setBackgroundResource(R.drawable.switchbutclassic);
             swi.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (event.getAction() == MotionEvent.ACTION_DOWN) {
 
-                        swi.setBackgroundResource(R.drawable.switchpressed);
+                        swi.setBackgroundResource(R.drawable.switchpressedclassic);
                         return true;
                     }
                     else if (event.getAction() == MotionEvent.ACTION_UP) {
                         customView.switchPiece();
-                        swi.setBackgroundResource(R.drawable.switchbut);
+                        swi.setBackgroundResource(R.drawable.switchbutclassic);
                         return true;
                     }
                     return false;
                 }
             });
-            //disableSwitch();
-
         }
+
+        //-----------------------THEME SPOOKY---------------------------------
+
         else if(thm==1){    //Spooky theme
-            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);
-            //back.setBackgroundResource(R.drawable.ks);
+            palette+=3;
+            selectPalette(palette);   //[0-2 (classic), 3-5 (spooky)]
+
+            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
+            back.setBackgroundResource(R.drawable.bgsp0);
+
+            ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
+            scoreBack.setImageResource(R.drawable.scoresp);
+
+            ImageView nP=(ImageView)findViewById(R.id.npbackground);
+            nP.setImageResource(R.drawable.nextsp);
+
+            TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
+            Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
+            numScore.setTypeface(golden);
+
+            final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
+            turn.setBackgroundResource(R.drawable.rotatespoky);    //change on XML
+            turn.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        turn.setBackgroundResource(R.drawable.rotatepresspooky);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.girar(customView.getActivePiece());
+                        turn.setBackgroundResource(R.drawable.rotatespoky);
+                        return true;
+                    }
+                    return false;
+                }
+            });
+
+            final Button right=(Button)findViewById(R.id.flechader);          //Set button right
+            right.setBackgroundResource(R.drawable.rightbutspooky);
+            right.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        right.setBackgroundResource(R.drawable.rightpressspoky);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.moverDerechaActiva(customView.getActivePiece());
+                        right.setBackgroundResource(R.drawable.rightbutspooky);
+                        return true;
+                    }
+                    return false;
+                }
+            });
+
+            final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
+            left.setBackgroundResource(R.drawable.leftbutspooky);
+            left.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        left.setBackgroundResource(R.drawable.leftpresspoky);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.moverIzquierdaActiva(customView.getActivePiece());
+                        left.setBackgroundResource(R.drawable.leftbutspooky);
+                        return true;
+                    }
+                    return false;
+                }
+            });
+
+            final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
+            down.setBackgroundResource(R.drawable.downbutspooky);
+            down.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                        customView.fastFall();
+                        down.setBackgroundResource(R.drawable.downpressspoky);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.resetFall();
+                        down.setBackgroundResource(R.drawable.downbutspooky);
+                        return true;
+                    }
+                    return false;
+                }
+            });
+
+            final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
+            swi.setBackgroundResource(R.drawable.switchbutspooky);
+            swi.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                        swi.setBackgroundResource(R.drawable.switchpressedspooky);
+                        return true;
+                    }
+                    else if (event.getAction() == MotionEvent.ACTION_UP) {
+                        customView.switchPiece();
+                        swi.setBackgroundResource(R.drawable.switchbutspooky);
+                        return true;
+                    }
+                    return false;
+                }
+            });
         }
 
 
@@ -211,7 +320,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void selectPalette(int palette){
         switch (palette){   //change palette
-            case 0: {//yellow
+            case 0: case 3: {//yellow
                 bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubey);
                 bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.liney);
                 bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sy);
@@ -237,6 +346,24 @@ public class MainActivity extends AppCompatActivity {
                 bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zp);
                 bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jp);
                 bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lp);
+                break;}
+            case 4: {//orange
+                bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubeo);
+                bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.lineo);
+                bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.so);
+                bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.to);
+                bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zo);
+                bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jo);
+                bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lo);
+                break;}
+            case 5: {//green
+                bmpPiece = BitmapFactory.decodeResource(getResources(), R.drawable.cubeg);
+                bmpPiece1 = BitmapFactory.decodeResource(getResources(), R.drawable.lineg);
+                bmpPiece2 = BitmapFactory.decodeResource(getResources(), R.drawable.sg);
+                bmpPiece3 = BitmapFactory.decodeResource(getResources(), R.drawable.tg);
+                bmpPiece4 = BitmapFactory.decodeResource(getResources(), R.drawable.zg);
+                bmpPiece5 = BitmapFactory.decodeResource(getResources(), R.drawable.jg);
+                bmpPiece6 = BitmapFactory.decodeResource(getResources(), R.drawable.lg);
                 break;}
         }
     }

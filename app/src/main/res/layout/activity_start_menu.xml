@@ -4,51 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgstartlight"
     tools:context=".StartMenu">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="114dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:text="Spooky"
+        android:id="@+id/butSpooky"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/choosespooky"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/butClassic" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="201dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="80dp"
-        android:text="Poner LOGO"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="227dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="188dp"
-        android:text="Elige un tema:"
-        android:textSize="36sp"
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="272dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/butClassic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="114dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="96dp"
-        android:text="Clásico"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+        android:id="@+id/butClassic"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/classic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
