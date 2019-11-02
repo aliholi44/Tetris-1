@@ -342,6 +342,7 @@ public class CustomView extends View {
         if(numLines==1){
             Bitmap oldBmp = bmp;
             int random = (int)(Math.random()*3);
+            if(ma.thm==1){random+=3;}
             auxSetCubeSprite(random);
             for(TetrixPiece p:piezas){
                 p.setBitmap(bmp);
@@ -350,8 +351,9 @@ public class CustomView extends View {
         }else if(numLines>1){
             Bitmap oldBmp = bmp;
             for(TetrixPiece p:piezas){
-                int random = (int)(Math.random()*3);
-                auxSetCubeSprite(random);
+                int palette = (int)(Math.random()*3);
+                //if(ma.thm==1){palette+=3;}
+                auxSetCubeSprite(palette);
                 p.setBitmap(bmp);
             }
             bmp=oldBmp;
@@ -394,7 +396,7 @@ public class CustomView extends View {
     public void gameOver(){
         for (TetrixPiece p : piezas) {
             CubeSprite []cubos=p.getSprites();
-            if(p!=activePiece) {
+            if((p!=activePiece)&&(p!=secondPiece)) {
                 for (int i = 0; i < 4; i++) {
                     if (cubos[i] != null && cubos[i].getY() <= top) {
                         st.running = false;
@@ -419,14 +421,7 @@ public class CustomView extends View {
 
     private void setCubeSpriteColor(int palette){
         ma.selectPalette(palette);
-        int t=ma.thm;
-        if(ma.thm==0){  //classic
-           auxSetCubeSprite(palette);
-        }
-        else{
-            auxSetCubeSprite(palette);
-        }
-
+        auxSetCubeSprite(palette);
     }
 
     public void auxSetCubeSprite(int palette){

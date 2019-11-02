@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidProjects\\Tetrix\\Tetrixv2\\Tetris\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\AndroidProjects\\Tetrix\\Tetris\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\04087833f388d5ffa97a080d757646c2\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
@@ -23,22 +23,20 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\Tetrix\\Tetrixv2\\Tetris\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\AndroidProjects\\Tetrix\\Tetris\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,10",
+                        "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "54,374",
-                        "endLines": "8,15",
-                        "endColumns": "12,12",
-                        "endOffsets": "368,686"
+                        "startOffsets": "17,63",
+                        "endColumns": "44,47",
+                        "endOffsets": "57,106"
                     },
                     "to": {
-                        "startLines": "386,1645",
+                        "startLines": "377,378",
                         "startColumns": "4,4",
-                        "startOffsets": "23192,104921",
-                        "endLines": "391,1650",
-                        "endColumns": "12,12",
-                        "endOffsets": "23506,105233"
+                        "startOffsets": "22533,22578",
+                        "endColumns": "44,47",
+                        "endOffsets": "22573,22621"
                     }
                 },
                 {
@@ -61,20 +59,22 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\Tetrix\\Tetrixv2\\Tetris\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidProjects\\Tetrix\\Tetris\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "1,2",
+                        "startLines": "3,10",
                         "startColumns": "4,4",
-                        "startOffsets": "16,61",
-                        "endColumns": "44,47",
-                        "endOffsets": "56,104"
+                        "startOffsets": "57,384",
+                        "endLines": "8,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "376,701"
                     },
                     "to": {
-                        "startLines": "377,378",
+                        "startLines": "386,1645",
                         "startColumns": "4,4",
-                        "startOffsets": "22533,22578",
-                        "endColumns": "44,47",
-                        "endOffsets": "22573,22621"
+                        "startOffsets": "23192,104921",
+                        "endLines": "391,1650",
+                        "endColumns": "12,12",
+                        "endOffsets": "23506,105233"
                     }
                 },
                 {
@@ -97,13 +97,13 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\Tetrix\\Tetrixv2\\Tetris\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\AndroidProjects\\Tetrix\\Tetris\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
+                        "startOffsets": "157,57,105",
                         "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
+                        "endOffsets": "198,99,151"
                     },
                     "to": {
                         "startLines": "153,154,155",

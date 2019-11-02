@@ -896,6 +896,7 @@ id uniform
 id up
 id useLogo
 id valorPuntuacion
+id view
 id withText
 id wrap
 id wrap_content

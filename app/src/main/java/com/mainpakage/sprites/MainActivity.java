@@ -40,235 +40,155 @@ public class MainActivity extends AppCompatActivity {
 
         palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
         thm=bAux.getInt("theme");
+
+        ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
+        ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
+        ImageView nP=(ImageView)findViewById(R.id.npbackground);
+        TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
+
+        Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
+        numScore.setTypeface(golden);
+
+        final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
+        final Button right=(Button)findViewById(R.id.flechader);          //Set button right
+        final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
+        final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
+        final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
+
         if(thm==0){ //Classic Theme
 
-            selectPalette(palette);
-
-            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
+            selectPalette(palette); //[0-2 (classic), 3-5 (spooky)]
             back.setBackgroundResource(R.drawable.bgcl6);
-
-            ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
             scoreBack.setImageResource(R.drawable.scorecl);
-
-            ImageView nP=(ImageView)findViewById(R.id.npbackground);
             nP.setImageResource(R.drawable.nextcl);
-
-            TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
-            Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
-            numScore.setTypeface(golden);
-
-            final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
-            turn.setBackgroundResource(R.drawable.rotateclassic);    //change on XML
-            turn.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        turn.setBackgroundResource(R.drawable.rotatepresclassic);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.girar(customView.getActivePiece());
-                        turn.setBackgroundResource(R.drawable.rotateclassic);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button right=(Button)findViewById(R.id.flechader);          //Set button right
-            right.setBackgroundResource(R.drawable.rightbutclassic);
-            right.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        right.setBackgroundResource(R.drawable.rightpressclassic);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.moverDerechaActiva(customView.getActivePiece());
-                        right.setBackgroundResource(R.drawable.rightbutclassic);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
-            left.setBackgroundResource(R.drawable.leftbutclassic);
-            left.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        left.setBackgroundResource(R.drawable.leftpressclassic);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.moverIzquierdaActiva(customView.getActivePiece());
-                        left.setBackgroundResource(R.drawable.leftbutclassic);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
-            down.setBackgroundResource(R.drawable.downbutclassic);
-            down.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        customView.fastFall();
-                        down.setBackgroundResource(R.drawable.downpresclassic);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.resetFall();
-                        down.setBackgroundResource(R.drawable.downbutclassic);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
-            swi.setBackgroundResource(R.drawable.switchbutclassic);
-            swi.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        swi.setBackgroundResource(R.drawable.switchpressedclassic);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.switchPiece();
-                        swi.setBackgroundResource(R.drawable.switchbutclassic);
-                        return true;
-                    }
-                    return false;
-                }
-            });
         }
-
-        //-----------------------THEME SPOOKY---------------------------------
 
         else if(thm==1){    //Spooky theme
             palette+=3;
             selectPalette(palette);   //[0-2 (classic), 3-5 (spooky)]
-
-            ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
             back.setBackgroundResource(R.drawable.bgsp0);
-
-            ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
             scoreBack.setImageResource(R.drawable.scoresp);
-
-            ImageView nP=(ImageView)findViewById(R.id.npbackground);
             nP.setImageResource(R.drawable.nextsp);
-
-            TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
-            Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
-            numScore.setTypeface(golden);
-
-            final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
-            turn.setBackgroundResource(R.drawable.rotatespoky);    //change on XML
-            turn.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        turn.setBackgroundResource(R.drawable.rotatepresspooky);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.girar(customView.getActivePiece());
-                        turn.setBackgroundResource(R.drawable.rotatespoky);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button right=(Button)findViewById(R.id.flechader);          //Set button right
-            right.setBackgroundResource(R.drawable.rightbutspooky);
-            right.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        right.setBackgroundResource(R.drawable.rightpressspoky);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.moverDerechaActiva(customView.getActivePiece());
-                        right.setBackgroundResource(R.drawable.rightbutspooky);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button left=(Button)findViewById(R.id.flechaizq);          //Set button left
-            left.setBackgroundResource(R.drawable.leftbutspooky);
-            left.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        left.setBackgroundResource(R.drawable.leftpresspoky);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.moverIzquierdaActiva(customView.getActivePiece());
-                        left.setBackgroundResource(R.drawable.leftbutspooky);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button down=(Button)findViewById(R.id.flechabajo);          //Set button down
-            down.setBackgroundResource(R.drawable.downbutspooky);
-            down.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                        customView.fastFall();
-                        down.setBackgroundResource(R.drawable.downpressspoky);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.resetFall();
-                        down.setBackgroundResource(R.drawable.downbutspooky);
-                        return true;
-                    }
-                    return false;
-                }
-            });
-
-            final Button swi=(Button)findViewById(R.id.Switch);          //Set button switch
-            swi.setBackgroundResource(R.drawable.switchbutspooky);
-            swi.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getAction() == MotionEvent.ACTION_DOWN) {
-
-                        swi.setBackgroundResource(R.drawable.switchpressedspooky);
-                        return true;
-                    }
-                    else if (event.getAction() == MotionEvent.ACTION_UP) {
-                        customView.switchPiece();
-                        swi.setBackgroundResource(R.drawable.switchbutspooky);
-                        return true;
-                    }
-                    return false;
-                }
-            });
         }
 
+        final int rotate;
+        if(thm==0){rotate=R.drawable.rotateclassic;}
+        else{rotate=R.drawable.rotatespoky;}
+        final int rotatePres;
+        if(thm==0){rotatePres=R.drawable.rotatepresclassic;}
+        else{rotatePres=R.drawable.rotatepresspooky;}
+        turn.setBackgroundResource(rotate);    //change on XML
+        turn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    turn.setBackgroundResource(rotatePres);
 
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    customView.girar(customView.getActivePiece());
+                    turn.setBackgroundResource(rotate);
+
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        final int r;
+        if(thm==0){r=R.drawable.rightbutclassic;}
+        else{r=R.drawable.rightbutspooky;}
+        final int rPres;
+        if(thm==0){rPres=R.drawable.rightpressclassic;}
+        else{rPres=R.drawable.rightpressspoky;}
+        right.setBackgroundResource(r);
+        right.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    right.setBackgroundResource(rPres);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    customView.moverDerechaActiva(customView.getActivePiece());
+                    right.setBackgroundResource(r);
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        final int l;
+        if(thm==0){l=R.drawable.leftbutclassic;}
+        else{l=R.drawable.leftbutspooky;}
+        final int lPres;
+        if(thm==0){lPres=R.drawable.leftpressclassic;}
+        else{lPres=R.drawable.leftpresspoky;}
+        left.setBackgroundResource(l);
+        left.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    left.setBackgroundResource(lPres);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    customView.moverIzquierdaActiva(customView.getActivePiece());
+                    left.setBackgroundResource(l);
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        final int d;
+        if(thm==0){d=R.drawable.downbutclassic;}
+        else{d=R.drawable.downbutspooky;}
+        final int dPres;
+        if(thm==0){dPres=R.drawable.downpresclassic;}
+        else{dPres=R.drawable.downpressspoky;}
+        down.setBackgroundResource(d);
+        down.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    customView.fastFall();
+                    down.setBackgroundResource(dPres);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    customView.resetFall();
+                    down.setBackgroundResource(d);
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        final int sw;
+        if(thm==0){sw=R.drawable.switchbutclassic;}
+        else{sw=R.drawable.switchbutspooky;}
+        final int swPres;
+        if(thm==0){swPres=R.drawable.switchpressedclassic;}
+        else{swPres=R.drawable.switchpressedspooky;}
+        swi.setBackgroundResource(sw);
+        swi.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
+                    swi.setBackgroundResource(swPres);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    customView.switchPiece();
+                    swi.setBackgroundResource(sw);
+                    return true;
+                }
+                return false;
+            }
+        });
 
         customView=(CustomView) findViewById(R.id.CustomView);
         customView.setMa(this);
