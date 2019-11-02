@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#443080"
     tools:context=".GameOver">
 
     <TextView
@@ -11,6 +12,7 @@
         android:layout_width="278dp"
         android:layout_height="86dp"
         android:text=" GAME OVER :("
+        android:textColor="#F8FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,6 +52,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/setName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +67,8 @@
         android:layout_marginTop="33dp"
         android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
+        android:background="#CA7D7D"
+        android:cacheColorHint="#00D16E6E"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,8 +90,10 @@
         android:layout_marginBottom="120dp"
         android:text="RANKING"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:visibility="invisible"
+        app:fontFamily="cursive"
         app:layout_constraintBottom_toTopOf="@+id/listRanking"
         app:layout_constraintEnd_toStartOf="@+id/listRanking"
         app:layout_constraintHorizontal_bias="0.072"
