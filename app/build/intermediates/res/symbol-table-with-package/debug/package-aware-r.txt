@@ -640,6 +640,7 @@ drawable bgcl3
 drawable bgcl4
 drawable bgcl5
 drawable bgcl6
+drawable bgcl6c
 drawable bgcl7
 drawable bgcl8
 drawable bgcl9
@@ -896,7 +897,6 @@ id uniform
 id up
 id useLogo
 id valorPuntuacion
-id view
 id withText
 id wrap
 id wrap_content

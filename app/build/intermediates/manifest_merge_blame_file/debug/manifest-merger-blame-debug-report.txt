@@ -10,44 +10,48 @@
 9        android:targetSdkVersion="29" />
 9-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:5:5-21:19
-12        android:allowBackup="true"
-12-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\alvar\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-20-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:11:9-65
-21        <activity android:name="com.mainpakage.sprites.StartMenu" >
-21-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:12:19-44
-22            <intent-filter>
-22-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:14:17-69
-23-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:16:17-77
-25-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.mainpakage.sprites.MainActivity" />
-28-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:19:9-50
-28-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:19:19-47
-29        <activity android:name="com.mainpakage.sprites.GameOver" />
-29-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:20:9-46
-29-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:20:19-43
-30    </application>
-31
-32</manifest>
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:6:5-72
+11-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:6:22-69
+12
+13    <application
+13-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:7:5-25:19
+14        android:allowBackup="true"
+14-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\alvar\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="Tetrix"
+18-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:10:9-31
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+21-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:13:9-65
+22        <activity android:name="com.mainpakage.Tetrix.StartMenu" >
+22-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:14:9-20:20
+22-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:14:19-65
+23            <intent-filter>
+23-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:16:17-69
+24-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:18:17-77
+26-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.mainpakage.Tetrix.MainActivity" >
+29-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:21:9-23:20
+29-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:21:19-68
+30        </activity>
+31        <activity android:name="com.mainpakage.Tetrix.GameOver" />
+31-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:24:9-67
+31-->D:\AndroidProjects\Tetrix\Tetris\app\src\main\AndroidManifest.xml:24:19-64
+32    </application>
+33
+34</manifest>
