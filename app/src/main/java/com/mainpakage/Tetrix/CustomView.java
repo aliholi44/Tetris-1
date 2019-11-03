@@ -363,7 +363,7 @@ public class CustomView extends View {
             Bitmap oldBmp = bmp;
             for(TetrixPiece p:piezas){
                 int palette = (int)(Math.random()*3);
-                //if(ma.thm==1){palette+=3;}
+                if(ma.thm==1){palette+=3;}
                 auxSetCubeSprite(palette);
                 p.setBitmap(bmp);
             }
