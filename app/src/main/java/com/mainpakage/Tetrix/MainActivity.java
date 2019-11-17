@@ -33,12 +33,16 @@ public class MainActivity extends AppCompatActivity {
     Bitmap  bmpPiece6;
     int thm;
     int palette;
+    int gameMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //-----------------------------------------------------------------------------------------------
+        gameMode = 1;
+        //-----------------------------------------------------------------------------------------------
         Bundle bAux = getIntent().getExtras();
 
         palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
@@ -194,12 +198,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
         customView=(CustomView) findViewById(R.id.CustomView);
-        customView.setMa(this);
+        customView.setMa(this,gameMode);
         sc = (TextView) findViewById(R.id.valorPuntuacion);
         iv= (ImageView) findViewById(R.id.nextpiecefig);
         Intent intent = new Intent (customView.getContext(), MainActivity.class);
         intent.putExtra("theme", thm);
-        customView.st.start();
+        if(gameMode==0)
+            customView.st.start();
+        else{
+            disableSwitch();
+            customView.sta.start();}
     }
 
 
@@ -213,8 +221,12 @@ public class MainActivity extends AppCompatActivity {
         if(!customView.isSecondThreadRunnig()){
         Intent intent = new Intent (customView.getContext(), GameOver.class);
         intent.putExtra("Score", sc.getText().toString());
+        intent.putExtra("GameMode",gameMode);
         startActivityForResult(intent, 0);
-        customView.st.interrupt();
+        if(gameMode==0)
+            customView.st.interrupt();
+        else
+            customView.sta.interrupt();
         }
     }
 

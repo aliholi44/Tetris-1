@@ -21,6 +21,7 @@ public class CustomView extends View {
     Bitmap bmp;
     int score;
     public SecondThreat st;
+    public SecondThreadAlter sta;
     private final int lineScore=30;
     List<TetrixPiece> piezas;
     private int nextPiece;
@@ -36,6 +37,7 @@ public class CustomView extends View {
     private final int cubelength;
     int random;
     boolean enableRandom;
+    int gameMode;
 
 
     public CustomView(Context context, AttributeSet attrs){
@@ -46,7 +48,6 @@ public class CustomView extends View {
 
         score=0;
         LinesInfo=new int[50];  //20 is the number of available lines (matrix height)
-        st= new SecondThreat(this);
         nextPiece=0;
         cwidth=0;
         cheight=0;
@@ -77,8 +78,16 @@ public class CustomView extends View {
     }
 
 
-    public void setMa(MainActivity mainActivity){
+    public void setMa(MainActivity mainActivity,int gameMode){
         ma=mainActivity;
+        this.gameMode=gameMode;
+        if(gameMode==0){
+            st= new SecondThreat(this);
+            sta = null;
+        }else{
+            st = null;
+            sta = new SecondThreadAlter(this);
+        }
         int palette=ma.palette;
         setCubeSpriteColor(palette);
     }
@@ -410,7 +419,10 @@ public class CustomView extends View {
             if((p!=activePiece)&&(p!=secondPiece)) {
                 for (int i = 0; i < 4; i++) {
                     if (cubos[i] != null && cubos[i].getY() <= top) {
-                        st.running = false;
+                        if(gameMode==0)
+                            st.running=false;
+                        else
+                            sta.running=false;
                         this.invalidate();
                         try {
                             sleep(1000);
@@ -423,11 +435,17 @@ public class CustomView extends View {
         }
     }
     public void fastFall(){
-        st.setGameSpeed(1);
+        if(gameMode==0)
+            st.setGameSpeed(1);
+        else
+            sta.setGameSpeed(1);
     }
 
     public void resetFall(){
-        st.setGameSpeed(7);
+        if(gameMode==0)
+            st.setGameSpeed(7);
+        else
+            sta.setGameSpeed(7);
     }
 
     private void setCubeSpriteColor(int palette){
@@ -461,6 +479,9 @@ public class CustomView extends View {
     }
 
     public boolean isSecondThreadRunnig(){
-        return st.running;
+        if(gameMode==0)
+            return st.running;
+        else
+            return sta.running;
     }
 }

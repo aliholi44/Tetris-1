@@ -45,7 +45,11 @@ public class GameOver extends AppCompatActivity {
         rankingText = (TextView) findViewById(R.id.rankingText);
 
         pn = (EditText) findViewById(R.id.playerName);
-        preferences = getSharedPreferences("RankingDefinitive", Context.MODE_PRIVATE);
+        int gameMode = bAux.getInt("GameMode");
+        if(gameMode==0)
+            preferences = getSharedPreferences("RankingDefinitive", Context.MODE_PRIVATE);
+        else
+            preferences = getSharedPreferences("RankingClasicDefinitive", Context.MODE_PRIVATE);
         editor = preferences.edit();
         Set<String> scores = preferences.getStringSet("Scores", null);
         ranking = new ArrayList<>();
