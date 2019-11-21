@@ -9,6 +9,11 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="29" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+  //Only devices with camera
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 
     <application

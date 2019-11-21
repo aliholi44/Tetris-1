@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mainpakage.Tetrix">
 
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />  //Only devices with camera
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <uses-permission android:name="android.permission.REORDER_TASKS" />
     <application
         android:allowBackup="true"
