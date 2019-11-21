@@ -838,6 +838,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id picCam
 id playerName
 id progress_circular
 id progress_horizontal

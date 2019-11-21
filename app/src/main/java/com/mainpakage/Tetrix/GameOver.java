@@ -1,17 +1,21 @@
 package com.mainpakage.Tetrix;
 
+import androidx.annotation.IdRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,6 +36,7 @@ public class GameOver extends AppCompatActivity {
     private SharedPreferences preferences;
     private SharedPreferences.Editor editor;
     private List<String> adaptedArray;
+    static final int REQUEST_IMAGE_CAPTURE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +48,20 @@ public class GameOver extends AppCompatActivity {
         listRanking = (ListView) findViewById(R.id.listRanking);
         gameOverText = (TextView) findViewById(R.id.gameOver);
         rankingText = (TextView) findViewById(R.id.rankingText);
+
+        /*              TAKE PICTURE                 */
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+
+        if (REQUEST_IMAGE_CAPTURE ==1 && RESULT_OK==1) {
+            Bundle extras = takePictureIntent.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            ImageView picCam=(ImageView)findViewById(R.id.picCam);
+            picCam.setImageBitmap(imageBitmap);
+        }
+
 
         pn = (EditText) findViewById(R.id.playerName);
         int gameMode = bAux.getInt("GameMode");
@@ -66,33 +85,33 @@ public class GameOver extends AppCompatActivity {
     }
 
     public void onClickOk(View v) {
-            if(pn.getText().toString().contains("/")){
-                Toast toast1 = Toast.makeText(getApplicationContext(), "No se puede introducir / en el nombre", Toast.LENGTH_SHORT);
-                toast1.setGravity(Gravity.CENTER,0,0);
-                toast1.show();
-            }else {
-                PlayerData pd = new PlayerData(pn.getText().toString(), Integer.parseInt(bAux.getString("Score")));
-                ranking.add(pd);
-                Collections.sort(ranking);
-                Set<String> scores = new HashSet<>();
-                for (PlayerData p : ranking) {
-                    scores.add(p.toString());
-                }
-                editor.putStringSet("Scores", scores);
-                editor.commit();
-                adaptedArray.clear();
-                for (int r = 0; (r < ranking.size()) && (r < 10); r++)
-                    adaptedArray.add(ranking.get(r).toFormatString());
-
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, adaptedArray);
-                listRanking.setAdapter(arrayAdapter);
-
-                gameOverText.setVisibility(View.INVISIBLE);
-                playerName.setVisibility(View.INVISIBLE);
-                v.setVisibility(View.INVISIBLE);
-                rankingText.setVisibility(View.VISIBLE);
-                listRanking.setVisibility(View.VISIBLE);
+        if(pn.getText().toString().contains("/")){
+            Toast toast1 = Toast.makeText(getApplicationContext(), "No se puede introducir / en el nombre", Toast.LENGTH_SHORT);
+            toast1.setGravity(Gravity.CENTER,0,0);
+            toast1.show();
+        }else {
+            PlayerData pd = new PlayerData(pn.getText().toString(), Integer.parseInt(bAux.getString("Score")));
+            ranking.add(pd);
+            Collections.sort(ranking);
+            Set<String> scores = new HashSet<>();
+            for (PlayerData p : ranking) {
+                scores.add(p.toString());
             }
+            editor.putStringSet("Scores", scores);
+            editor.commit();
+            adaptedArray.clear();
+            for (int r = 0; (r < ranking.size()) && (r < 10); r++)
+                adaptedArray.add(ranking.get(r).toFormatString());
+
+            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, adaptedArray);
+            listRanking.setAdapter(arrayAdapter);
+
+            gameOverText.setVisibility(View.INVISIBLE);
+            playerName.setVisibility(View.INVISIBLE);
+            v.setVisibility(View.INVISIBLE);
+            rankingText.setVisibility(View.VISIBLE);
+            listRanking.setVisibility(View.VISIBLE);
+        }
     }
 
     public void onClickOkReturn(View v){
@@ -104,4 +123,23 @@ public class GameOver extends AppCompatActivity {
     public void onBackPressed(){
 
     }
+
+
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            ImageView picCam=(ImageView)findViewById(R.id.picCam);
+            picCam.setImageBitmap(imageBitmap);
+        }
+    }
+
 }
