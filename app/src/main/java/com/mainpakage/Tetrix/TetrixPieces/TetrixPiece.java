@@ -7,7 +7,7 @@ import android.view.View;
 public interface TetrixPiece {
     public void rotate90Right();
     public void changeYSpeed(int speed);
-    public void removeCube(int y);
+    public boolean removeCube(int y);
     public void onDraw(Canvas canvas);
     public CubeSprite[] getSprites();
     public int getInterSpace();
@@ -19,5 +19,6 @@ public interface TetrixPiece {
     public void moveLeft();
     public TetrixPiece copyDown(Bitmap bmp, View view);
     public void setBitmap(Bitmap bitmap);
+    public int isPowerUp();
 
 }

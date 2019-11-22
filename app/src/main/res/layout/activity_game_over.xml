@@ -9,25 +9,43 @@
 
     <ImageView
         android:id="@+id/picCam"
-        android:layout_width="227dp"
-        android:layout_height="257dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="189dp"
+        android:layout_height="196dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameOver"
+        app:layout_constraintVertical_bias="0.049"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/gameOver"
         android:layout_width="278dp"
         android:layout_height="86dp"
+        android:layout_marginTop="44dp"
         android:text=" GAME OVER :("
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="328dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="218dp"
+        android:textColor="#F8FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/returnOk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameOver"
+        app:layout_constraintVertical_bias="0.029" />
 
     <Button
         android:id="@+id/setName"
@@ -38,41 +56,56 @@
         android:layout_marginTop="212dp"
         android:layout_marginEnd="161dp"
         android:layout_marginRight="161dp"
-        android:layout_marginBottom="273dp"
         android:onClick="onClickOk"
         android:text="@android:string/ok"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameOver"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.572" />
+
+    <TextView
+        android:id="@+id/rankingText"
+        android:layout_width="278dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="380dp"
+        android:text="RANKING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toTopOf="@+id/setName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="@+id/listRanking"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959"
+        tools:visibility="invisible" />
 
     <EditText
         android:id="@+id/playerName"
         android:layout_width="290dp"
         android:layout_height="68dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="107dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginRight="61dp"
-        android:layout_marginBottom="37dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/setName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gameOver" />
+        app:layout_constraintTop_toBottomOf="@+id/picCam"
+        app:layout_constraintVertical_bias="0.796" />
 
     <ListView
         android:id="@+id/listRanking"
-        android:layout_width="279dp"
-        android:layout_height="390dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="33dp"
+        android:layout_width="280dp"
+        android:layout_height="405dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
         android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
         android:background="#CA7D7D"
@@ -80,37 +113,14 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/playerName"
+        app:layout_constraintStart_toStartOf="@+id/playerName"
         app:layout_constraintTop_toBottomOf="@+id/gameOver"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.75"
         tools:visibility="invisible">
 
     </ListView>
-
-    <TextView
-        android:id="@+id/rankingText"
-        android:layout_width="278dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="90dp"
-        android:layout_marginLeft="90dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        android:layout_marginBottom="120dp"
-        android:text="RANKING"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:visibility="invisible"
-        app:fontFamily="cursive"
-        app:layout_constraintBottom_toTopOf="@+id/listRanking"
-        app:layout_constraintEnd_toStartOf="@+id/listRanking"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gameOver"
-        app:layout_constraintVertical_bias="0.181"
-        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/returnOk"
@@ -122,6 +132,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/setName"
-        app:layout_constraintVertical_bias="0.926" />
+        app:layout_constraintVertical_bias="0.659" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,8 +30,9 @@ public class GameOver extends AppCompatActivity {
     private EditText pn;
     private Button ok;
     private List<PlayerData> ranking;
-    private TextView playerName, gameOverText, rankingText;
+    private TextView playerName, gameOverText, rankingText,scoreText;
     private ListView listRanking;
+    private ImageView picCam;
     private Bundle bAux;
     private SharedPreferences preferences;
     private SharedPreferences.Editor editor;
@@ -44,7 +45,10 @@ public class GameOver extends AppCompatActivity {
         setContentView(R.layout.activity_game_over);
         bAux = getIntent().getExtras();
         adaptedArray = new ArrayList<>();
+        scoreText = (TextView) findViewById(R.id.Score);
+        scoreText.setText("Tu puntuación es: "+ bAux.getString("Score"));
         playerName = (TextView) findViewById(R.id.playerName);
+        picCam = (ImageView) findViewById(R.id.picCam);
         listRanking = (ListView) findViewById(R.id.listRanking);
         gameOverText = (TextView) findViewById(R.id.gameOver);
         rankingText = (TextView) findViewById(R.id.rankingText);
@@ -68,7 +72,7 @@ public class GameOver extends AppCompatActivity {
         if(gameMode==0)
             preferences = getSharedPreferences("RankingDefinitive", Context.MODE_PRIVATE);
         else
-            preferences = getSharedPreferences("RankingClasicDefinitive", Context.MODE_PRIVATE);
+            preferences = getSharedPreferences("RankingPowerDefinitive", Context.MODE_PRIVATE);
         editor = preferences.edit();
         Set<String> scores = preferences.getStringSet("Scores", null);
         ranking = new ArrayList<>();
@@ -108,7 +112,9 @@ public class GameOver extends AppCompatActivity {
 
             gameOverText.setVisibility(View.INVISIBLE);
             playerName.setVisibility(View.INVISIBLE);
+            picCam.setVisibility(View.INVISIBLE);
             v.setVisibility(View.INVISIBLE);
+            scoreText.setVisibility(View.INVISIBLE);
             rankingText.setVisibility(View.VISIBLE);
             listRanking.setVisibility(View.VISIBLE);
         }

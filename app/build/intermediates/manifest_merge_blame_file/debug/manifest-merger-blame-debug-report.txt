@@ -6,63 +6,63 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml
+8-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml
+9-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:6:5-7:35
+11-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:6:5-7:35
 12        android:name="android.hardware.camera"
-12-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:6:19-57
+12-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:6:19-57
 13        android:required="true" />
-13-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:7:9-32
-14  //Only devices with camera
+13-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:7:9-32
+14
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:8:5-81
-15-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:8:22-78
+15-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:8:22-78
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
-16-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:10:5-72
-16-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:10:22-69
+16-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:10:5-72
+16-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:10:22-69
 17
 18    <application
-18-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:11:5-29:19
+18-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:11:5-30:19
 19        android:allowBackup="true"
-19-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:12:9-35
+19-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:12:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.0.1] C:\Users\alvar\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+20-->[androidx.core:core:1.0.1] C:\Users\diego\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:13:9-43
+22-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:13:9-43
 23        android:label="Tetrix"
-23-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:14:9-31
+23-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:14:9-31
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:15:9-54
+24-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:15:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:16:9-35
+25-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:16:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-27-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:17:9-65
+27-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:17:9-65
 28        <activity android:name="com.mainpakage.Tetrix.StartMenu" >
-28-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:18:9-24:20
-28-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:18:19-65
+28-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:19:9-25:20
+28-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:19:19-65
 29            <intent-filter>
-29-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:19:13-23:29
+29-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:20:13-24:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:20:17-69
-30-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:20:25-66
+30-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:21:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:22:17-77
-32-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:22:27-74
+32-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:23:27-74
 33            </intent-filter>
 34        </activity>
 35        <activity android:name="com.mainpakage.Tetrix.MainActivity" >
-35-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:25:9-27:20
-35-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:25:19-68
+35-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:26:9-28:20
+35-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:26:19-68
 36        </activity>
 37        <activity android:name="com.mainpakage.Tetrix.GameOver" />
-37-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:28:9-67
-37-->C:\Users\alvar\Desktop\muerome\Tetris\app\src\main\AndroidManifest.xml:28:19-64
+37-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:29:9-67
+37-->C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\AndroidManifest.xml:29:19-64
 38    </application>
 39
 40</manifest>

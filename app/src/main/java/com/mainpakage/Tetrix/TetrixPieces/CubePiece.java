@@ -70,11 +70,15 @@ public class CubePiece implements TetrixPiece{
     }
 
     @Override
-    public void removeCube(int y) {
+    public boolean removeCube(int y) {
+        boolean aux=false;
         for(int i=0;i<4;i++){
-            if(cubes[i]!=null&&cubes[i].getY()==y)
+            if(cubes[i]!=null&&cubes[i].getY()==y){
                 cubes[i]=null;
+                aux=true;
+            }
         }
+        return aux;
     }
 
     @Override
@@ -180,5 +184,10 @@ public class CubePiece implements TetrixPiece{
             if(cubes[i]!=null)
                 cubes[i].setBmp(bitmap);
         }
+    }
+
+    @Override
+    public int isPowerUp() {
+        return 0;
     }
 }

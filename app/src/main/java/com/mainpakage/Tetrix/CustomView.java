@@ -19,6 +19,9 @@ import static java.lang.Thread.sleep;
 public class CustomView extends View {
 
     Bitmap bmp;
+    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteg); ;
+    Bitmap powerBmp2;
+    Bitmap powerBmp3;
     int score;
     public SecondThreat st;
     public SecondThreadAlter sta;
@@ -27,6 +30,8 @@ public class CustomView extends View {
     private int nextPiece;
     private TetrixPiece activePiece;
     private TetrixPiece secondPiece;
+    private PowerUp activePowerUp;
+    List<PowerUp> powerUps;
     private int [] LinesInfo;
     MainActivity ma;
     int cwidth;
@@ -43,6 +48,7 @@ public class CustomView extends View {
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
         piezas = new ArrayList<>();
+        powerUps = new ArrayList<>();
 
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
 
@@ -93,7 +99,15 @@ public class CustomView extends View {
     }
 
     public void updateScore(){
-        score+=lineScore;
+        int aux=1;
+        for(PowerUp p:powerUps){
+            if(p.isPowerUp()==1){
+                    x2PowerUp paux = (x2PowerUp) p;
+                    if(paux.isAlive())
+                        aux=aux*2;
+            }
+        }
+        score+=(lineScore*aux);
         ma.updateScore(""+score);
     }
 
@@ -173,6 +187,27 @@ public class CustomView extends View {
         secondPiece.changeYSpeed(bmp.getWidth());
     }
 
+    public void randomActivePowerUp(){
+        int aux = (int)(Math.random()*3);
+        randomActivePowerUp(0);
+    }
+
+    public void randomActivePowerUp(int piece){
+        switch(piece){
+            case 0:
+                activePowerUp= new x2PowerUp(powerBmp1,this,cubelength*2,top-cubelength);
+                break;
+            case 1:
+                activePowerUp= new x2PowerUp(powerBmp2,this,cubelength*2,top-cubelength);
+                break;
+            case 2:
+                activePowerUp= new x2PowerUp(powerBmp3,this,cubelength*2,top-cubelength);
+                break;
+        }
+        activePowerUp.changeYSpeed(bmp.getWidth());
+        powerUps.add(activePowerUp);
+    }
+
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         this.cwidth = w;
@@ -205,6 +240,10 @@ public class CustomView extends View {
         for(TetrixPiece tp:piezas){
             tp.onDraw(canvas);
         }
+
+        for(PowerUp pu:powerUps){
+            pu.onDraw(canvas);
+        }
         canvas.drawLine(0,top-cubelength,cwidth,top-cubelength,paint1);
         activePiece.onDraw(canvas);
         if(secondPiece!=null){
@@ -221,7 +260,7 @@ public class CustomView extends View {
         while (i<=3 && !aux) {
             int j=0;
             while (j<=3 && !aux) {
-                if(cubosb[j]!=null){
+                if(cubosa[i]!=null && cubosb[j]!=null){
                     aux = isCollisionCube(cubosa[i], cubosb[j]);
                 }
                 j++;
@@ -321,6 +360,26 @@ public class CustomView extends View {
         return nochocan;
     }
 
+    public boolean colisionPowerActive () {
+        TetrixPiece nueva = activePowerUp.copyDown(bmp,this);
+        boolean nochocan = true;
+        if(activePiece!=null)
+            nochocan = (!isCollisionPiece(nueva, activePiece));
+        return nochocan;
+    }
+
+    public boolean colisionActivePower () {
+        TetrixPiece nueva = activePiece.copyDown(bmp,this);
+        boolean nochocan = true;
+        if(activePiece!=null)
+            nochocan = (!isCollisionPiece(nueva, activePowerUp));
+        return nochocan;
+    }
+
+    public void resetPower(){
+        activePowerUp=null;
+    }
+
     public void switchPiece(){
         if(secondPiece!=null){
         st.secondBool = !st.secondBool;
@@ -331,6 +390,9 @@ public class CustomView extends View {
         }
     }
 
+    public PowerUp getActivePowerUp(){
+        return activePowerUp;
+    }
     public void switchSpeed(){
         int aux2 = st.getGameSpeed();
         st.setGameSpeed(st.getSecondPieceSpeed());
@@ -341,8 +403,10 @@ public class CustomView extends View {
         CubeSprite []cubos=piece.getSprites();
 
         for(int i=0;i<4;i++) {   //Recorre los sprites de la figura última posicionada
-            int cy = cubos[i].getY()/cubos[i].getLength();
-            LinesInfo[cy]++;    //Esta línea tiene un nuevo sprite.
+            if(cubos[i]!=null){
+                int cy = cubos[i].getY()/cubos[i].getLength();
+                LinesInfo[cy]++;  //Esta línea tiene un nuevo sprite.
+            }
         }
         CubeSprite[] cube = activePiece.getSprites();
         int aux=(cheight/cube[0].getLength()+1);
@@ -386,7 +450,12 @@ public class CustomView extends View {
         int y=spriteSpace*linea;
 
         for(TetrixPiece p:piezas){
-            p.removeCube(y);
+           if(p.removeCube(y)){
+               if(p.isPowerUp()!=0){
+                   x2PowerUp paux = (x2PowerUp) p;
+                   paux.start();
+               }
+           }
         }
 
         drop(y,spriteSpace);
@@ -416,7 +485,7 @@ public class CustomView extends View {
     public void gameOver(){
         for (TetrixPiece p : piezas) {
             CubeSprite []cubos=p.getSprites();
-            if((p!=activePiece)&&(p!=secondPiece)) {
+            if((p!=activePiece)&&(p!=secondPiece)&&(p!=activePowerUp)) {
                 for (int i = 0; i < 4; i++) {
                     if (cubos[i] != null && cubos[i].getY() <= top) {
                         if(gameMode==0)

@@ -219,14 +219,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeGameOver(){
         if(!customView.isSecondThreadRunnig()){
-        Intent intent = new Intent (customView.getContext(), GameOver.class);
-        intent.putExtra("Score", sc.getText().toString());
-        intent.putExtra("GameMode",gameMode);
-        startActivityForResult(intent, 0);
-        if(gameMode==0)
-            customView.st.interrupt();
-        else
-            customView.sta.interrupt();
+            Intent intent = new Intent (customView.getContext(), GameOver.class);
+            intent.putExtra("Score", sc.getText().toString());
+            intent.putExtra("GameMode",gameMode);
+            startActivityForResult(intent, 0);
+            if(gameMode==0)
+                customView.st.interrupt();
+            else
+                customView.sta.interrupt();
         }
     }
 

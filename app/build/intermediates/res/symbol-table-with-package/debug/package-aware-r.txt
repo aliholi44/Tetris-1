@@ -740,6 +740,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Score
 id Switch
 id action_bar
 id action_bar_activity_content
