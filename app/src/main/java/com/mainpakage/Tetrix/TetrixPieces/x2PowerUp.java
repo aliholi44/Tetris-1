@@ -138,7 +138,7 @@ public class x2PowerUp extends Thread implements PowerUp{
     }
 
     public void run(){
-        for(int i=0;i<5;i++){
+        for(int i=0;i<10;i++){
             try{
                 sleep(1000);
                 System.out.println("working");

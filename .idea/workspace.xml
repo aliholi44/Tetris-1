@@ -14,128 +14,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1+VIIwZjwG1ZmpiYEYX509twJlw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/21hPFahuC3TnvMjEi99mstZMYZE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/51nyuv3F5TO++eGdYhb4zBAU2WI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5lToDjrUI6w1esPWzt3t_kfR8qQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5voflyaDFub06yvZpFffxcjcqIM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/958fuUouwE7yKuO4CpuaNgNPGMs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ElQUVhmrb71ohkSbnxtRAKDwwHI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/EtUi3f7G2hHOLIKNNrsREhGEGXk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IYIfy4bL4AqRYb+7DTvSaQiIcoU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ib44emTIi5GR7OlcpeqDcJb1Cds=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MKIGcMkyr7hqa2sN7NtgUTZZHUQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RJBwsEWlx+o35gaKv2yoFs+g1zI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Vd+Akp0wlJCPrZ6mLkv90gaVFNg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y2SVswPXlxg9jgIV8Ro3+zsFD7k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZzkhWypJ50eS66JcPGVsYgQ1t9c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/a2UvaYUg3TdVDmenXwnqtGnmYJk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eiD6vCPbJ6JmgHQaMXUWx4BKXO8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jUc0utT5meI4WhmZnDLie3HxLcE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kWg2ors0W8VngTUfUIY0dL_4El8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kwfDyqJBrwu8CJ4RHxssDma9kXE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lMYKvq7mMh0B9ZQyeqqhSY5gEns=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/myxDrkdbJqob_JCneJoyZHvnyeQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nhQJRFDvyGRc523a109bp5E7XN0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/r9_q552uTFYAIPAEij8K_8TgUls=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rmVhhMwEpeRu2E8_h4HMQhMeEcA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tc73OQqVg290V0we5suu8YtJsaY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xsyUffGVotTeZSN1PSc4lz+xihw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/1+VIIwZjwG1ZmpiYEYX509twJlw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/21hPFahuC3TnvMjEi99mstZMYZE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/51nyuv3F5TO++eGdYhb4zBAU2WI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/5lToDjrUI6w1esPWzt3t_kfR8qQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/5voflyaDFub06yvZpFffxcjcqIM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/958fuUouwE7yKuO4CpuaNgNPGMs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ElQUVhmrb71ohkSbnxtRAKDwwHI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/EtUi3f7G2hHOLIKNNrsREhGEGXk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/IYIfy4bL4AqRYb+7DTvSaQiIcoU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ib44emTIi5GR7OlcpeqDcJb1Cds=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/MKIGcMkyr7hqa2sN7NtgUTZZHUQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RJBwsEWlx+o35gaKv2yoFs+g1zI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Vd+Akp0wlJCPrZ6mLkv90gaVFNg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Y2SVswPXlxg9jgIV8Ro3+zsFD7k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ZzkhWypJ50eS66JcPGVsYgQ1t9c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/a2UvaYUg3TdVDmenXwnqtGnmYJk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/eiD6vCPbJ6JmgHQaMXUWx4BKXO8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/jUc0utT5meI4WhmZnDLie3HxLcE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kWg2ors0W8VngTUfUIY0dL_4El8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kwfDyqJBrwu8CJ4RHxssDma9kXE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/lMYKvq7mMh0B9ZQyeqqhSY5gEns=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/myxDrkdbJqob_JCneJoyZHvnyeQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/nhQJRFDvyGRc523a109bp5E7XN0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/r9_q552uTFYAIPAEij8K_8TgUls=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/rmVhhMwEpeRu2E8_h4HMQhMeEcA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tc73OQqVg290V0we5suu8YtJsaY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/xsyUffGVotTeZSN1PSc4lz+xihw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/CubePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/CubePiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/JPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/JPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LinePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LinePiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/SPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/SPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TetrixPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TetrixPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/ZPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/ZPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="2712">
               <caret line="220" column="47" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -169,63 +53,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="116" column="52" lean-forward="true" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+            <state relative-caret-position="2457">
+              <caret line="474" column="28" lean-forward="true" selection-start-line="474" selection-start-column="28" selection-end-line="474" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#15661#15662#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2210">
-              <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreat.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="482">
+              <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/PlayerData.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="380">
+              <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -233,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-793">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="425">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -324,25 +176,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/SPiece.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TPiece.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/ZPiece.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/tNTPowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/PowerUp.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreat.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverPicture.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverAux.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="101" />
-    <option name="width" value="1362" />
+    <option name="x" value="-7" />
+    <option name="width" value="1048" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -353,9 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,6 +253,16 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tetrix" type="462c0819:PsiDirectoryNode" />
+              <item name="TetrixPieces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sprites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tetris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -419,6 +278,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,11 +291,12 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Tetrimueromes/Tetris" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\java\com\mainpakage\Tetrix\TetrixPieces" />
+      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\res\layout" />
+      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\java\com\mainpakage\Tetrix" />
+      <recent name="D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\res\font" />
       <recent name="D:\AndroidProjects\Tetrix\Tetris\app\src\main\res\drawable" />
-      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable" />
-      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable-hdpi" />
-      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable-v24" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mainpakage.Tetrix" />
@@ -445,12 +307,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mainpakage.Tetrix" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\res\layout" />
-      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\java\com\mainpakage\Tetrix" />
-      <recent name="C:\Users\diego\AndroidStudioProjects\Tetris\app\src\main\java\com\mainpakage\Tetrix\TetrixPieces" />
-      <recent name="D:\AndroidProjects\Tetrix\Tetrixv2\Tetris\app\src\main\res\font" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AndroidProjects\Tetrix\Tetris\app\src\main\res\drawable" />
+      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable" />
+      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\NOELIA\Desktop\Tetrix\Tetris-master\app\src\main\res\drawable-v24" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,11 +411,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="101" width="1362" height="1044" extended-state="0" />
+    <frame x="-7" y="0" width="1048" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.27522936" side_tool="true" weight="0.061204344" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.72477067" visible="true" weight="0.2281106" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.72477067" visible="true" weight="0.3006073" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.26865673" side_tool="true" weight="0.12526652" />
@@ -567,9 +428,9 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32930845" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49200428" weight="0.4270033" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32930845" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5099846" side_tool="true" visible="true" weight="0.17233808" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5111336" side_tool="true" visible="true" weight="0.17233808" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32930845" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49001536" visible="true" weight="0.17233808" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4888664" visible="true" weight="0.17233808" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.32995737" />
@@ -702,12 +563,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -730,7 +591,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LinePiece.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/LPiece.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/tNTPowerUp.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/SPiece.java" />
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -744,12 +604,21 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TPiece.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/ZPiece.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/PowerUp.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-793">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="242">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverPicture.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverAux.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over_pic.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -779,33 +648,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverPicture.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="411">
+          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverAux.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state relative-caret-position="425">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="2712">
           <caret line="220" column="47" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -813,35 +697,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over_pic.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="116" column="52" lean-forward="true" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        <state relative-caret-position="2457">
+          <caret line="474" column="28" lean-forward="true" selection-start-line="474" selection-start-column="28" selection-end-line="474" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#15661#15662#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
   </component>
 </project>

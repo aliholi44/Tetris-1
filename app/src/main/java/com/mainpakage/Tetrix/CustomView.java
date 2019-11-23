@@ -19,8 +19,8 @@ import static java.lang.Thread.sleep;
 public class CustomView extends View {
 
     Bitmap bmp;
-    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteg); ;
-    Bitmap powerBmp2;
+    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteg);
+    Bitmap powerBmp2 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteo);
     Bitmap powerBmp3;
     int score;
     public SecondThreat st;
@@ -111,6 +111,17 @@ public class CustomView extends View {
         ma.updateScore(""+score);
     }
 
+    public boolean isSlowSpeed(){
+        for(PowerUp p:powerUps){
+            if(p.isPowerUp()==3){
+                slowPowerUp paux = (slowPowerUp) p;
+                if(paux.isAlive())
+                    return true;
+            }
+        }
+        return false;
+    }
+
     public void randomPiece(Bitmap bmp){
         randomPiece(bmp,nextPiece);
         int palette;
@@ -189,7 +200,7 @@ public class CustomView extends View {
 
     public void randomActivePowerUp(){
         int aux = (int)(Math.random()*3);
-        randomActivePowerUp(0);
+        randomActivePowerUp(1);
     }
 
     public void randomActivePowerUp(int piece){
@@ -198,7 +209,7 @@ public class CustomView extends View {
                 activePowerUp= new x2PowerUp(powerBmp1,this,cubelength*2,top-cubelength);
                 break;
             case 1:
-                activePowerUp= new x2PowerUp(powerBmp2,this,cubelength*2,top-cubelength);
+                activePowerUp= new slowPowerUp(powerBmp2,this,cubelength*2,top-cubelength);
                 break;
             case 2:
                 activePowerUp= new x2PowerUp(powerBmp3,this,cubelength*2,top-cubelength);
@@ -451,8 +462,11 @@ public class CustomView extends View {
 
         for(TetrixPiece p:piezas){
            if(p.removeCube(y)){
-               if(p.isPowerUp()!=0){
+               if(p.isPowerUp()==1){
                    x2PowerUp paux = (x2PowerUp) p;
+                   paux.start();
+               }else if(p.isPowerUp()==3){
+                   slowPowerUp paux = (slowPowerUp) p;
                    paux.start();
                }
            }

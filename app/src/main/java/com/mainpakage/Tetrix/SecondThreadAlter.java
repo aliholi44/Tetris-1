@@ -11,7 +11,7 @@ public class SecondThreadAlter extends Thread{
     private int gameSpeed;
     private int contPowerUp;
     public int powerUpSpeed;
-    private int powerUpcreation = 500;
+    private int powerUpcreation = 200;
 
     public int getGameSpeed() {
         return gameSpeed;
@@ -38,6 +38,11 @@ public class SecondThreadAlter extends Thread{
             cv.randomPiece(cv.bmp);
             boolean stop=false;
             while(!stop){
+                if(cv.isSlowSpeed()){
+                    this.setGameSpeed(14);
+                }else if(this.getGameSpeed()==14){
+                    this.setGameSpeed(7);
+                }
                 boolean stopauxP = false;
                 cv.invalidate();
                 try {
