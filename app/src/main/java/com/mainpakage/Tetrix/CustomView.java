@@ -19,9 +19,9 @@ import static java.lang.Thread.sleep;
 public class CustomView extends View {
 
     Bitmap bmp;
-    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteg);
-    Bitmap powerBmp2 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteo);
-    Bitmap powerBmp3;
+    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteb);
+    Bitmap powerBmp2 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritep);
+    Bitmap powerBmp3 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
     int score;
     public SecondThreat st;
     public SecondThreadAlter sta;
@@ -43,7 +43,7 @@ public class CustomView extends View {
     int random;
     boolean enableRandom;
     int gameMode;
-
+    int numLines;
 
     public CustomView(Context context, AttributeSet attrs){
         super(context,attrs);
@@ -200,7 +200,7 @@ public class CustomView extends View {
 
     public void randomActivePowerUp(){
         int aux = (int)(Math.random()*3);
-        randomActivePowerUp(1);
+        randomActivePowerUp(aux);
     }
 
     public void randomActivePowerUp(int piece){
@@ -212,7 +212,7 @@ public class CustomView extends View {
                 activePowerUp= new slowPowerUp(powerBmp2,this,cubelength*2,top-cubelength);
                 break;
             case 2:
-                activePowerUp= new x2PowerUp(powerBmp3,this,cubelength*2,top-cubelength);
+                activePowerUp= new tNTPowerUp(powerBmp3,this,cubelength*2,top-cubelength);
                 break;
         }
         activePowerUp.changeYSpeed(bmp.getWidth());
@@ -409,6 +409,7 @@ public class CustomView extends View {
         st.setGameSpeed(st.getSecondPieceSpeed());
         st.setSecondPieceSpeed(aux2);
     }
+
     public void linesUpdate(TetrixPiece piece) {//coordinates of the last piece set
         piezas.add(piece);
         CubeSprite []cubos=piece.getSprites();
@@ -422,10 +423,9 @@ public class CustomView extends View {
         CubeSprite[] cube = activePiece.getSprites();
         int aux=(cheight/cube[0].getLength()+1);
         int aux2=(cwidth/cube[0].getLength());
-        int numLines = 0;
+        numLines = 0;
         for(int j=0;j<aux;j++){      //Recorre todas las líneas de la matriz
             if(LinesInfo[j]==aux2){
-                numLines++;
                deleteLine(j,cubelength,piece.getInterSpace());
                 j--;
             }
@@ -437,6 +437,7 @@ public class CustomView extends View {
             if(ma.thm==1){random+=3;}
             auxSetCubeSprite(random);
             for(TetrixPiece p:piezas){
+                if(p.isPowerUp()==0)
                 p.setBitmap(bmp);
             }
             bmp=oldBmp;
@@ -449,6 +450,7 @@ public class CustomView extends View {
                 int palette = (int)(Math.random()*3);
                 if(ma.thm==1){palette+=3;}
                 auxSetCubeSprite(palette);
+                if(p.isPowerUp()==0)
                 p.setBitmap(bmp);
             }
             bmp=oldBmp;
@@ -456,6 +458,7 @@ public class CustomView extends View {
     }
 
     private void deleteLine(int linea, int spriteLength, int interSpace){   //eliminar la línea completa y bajar las piezas
+        numLines++;
         LinesInfo[linea]=0;             //refinar si es necesario
         int spriteSpace=(spriteLength+interSpace);  //te situas en la altura deseada para borrar horizontalmente
         int y=spriteSpace*linea;
@@ -465,7 +468,13 @@ public class CustomView extends View {
                if(p.isPowerUp()==1){
                    x2PowerUp paux = (x2PowerUp) p;
                    paux.start();
-               }else if(p.isPowerUp()==3){
+               }else if(p.isPowerUp()==2){
+                   tNTPowerUp paux = (tNTPowerUp) p;
+                   if(!paux.isUsed()) {
+                       paux.setUsed();
+                       deleteLine(linea - 1, spriteLength, interSpace);
+                   }
+               } else if(p.isPowerUp()==3){
                    slowPowerUp paux = (slowPowerUp) p;
                    paux.start();
                }
