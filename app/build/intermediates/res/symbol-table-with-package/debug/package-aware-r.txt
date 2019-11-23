@@ -829,6 +829,7 @@ id middle
 id multiply
 id never
 id nextpiecefig
+id noBut
 id none
 id normal
 id notification_background
@@ -849,6 +850,7 @@ id returnOk
 id right
 id right_icon
 id right_side
+id scndatttxt
 id scorebackground
 id screen
 id scrollIndicatorDown
@@ -902,6 +904,7 @@ id valorPuntuacion
 id withText
 id wrap
 id wrap_content
+id yesBut
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -937,6 +940,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_game_over
 layout activity_main
+layout activity_quick_reboot
 layout activity_start_menu
 layout notification_action
 layout notification_action_tombstone

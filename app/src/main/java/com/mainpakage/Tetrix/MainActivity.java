@@ -219,7 +219,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeGameOver(){
         if(!customView.isSecondThreadRunnig()){
-            Intent intent = new Intent (customView.getContext(), GameOver.class);
+            int scr=1000;
+            Intent intent;
+            if(scr<250){
+                intent = new Intent (customView.getContext(), GameOver.class);
+            }
+            else{
+                intent = new Intent (customView.getContext(), QuickReboot.class);
+                intent.putExtra("theme", thm);
+            }
             intent.putExtra("Score", sc.getText().toString());
             intent.putExtra("GameMode",gameMode);
             startActivityForResult(intent, 0);
