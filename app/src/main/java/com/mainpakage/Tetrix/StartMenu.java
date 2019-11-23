@@ -15,6 +15,7 @@ public class StartMenu extends AppCompatActivity {
         setContentView(R.layout.activity_start_menu);
         final Button butCl = (Button) findViewById(R.id.butClassic);
         final Button butSp = (Button) findViewById(R.id.butSpooky);
+        final Button butTut = (Button) findViewById(R.id.butTutorial);
         butCl.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -58,6 +59,13 @@ public class StartMenu extends AppCompatActivity {
                     return true;
                 }
                 return false;
+            }
+        });
+        butTut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Tutorial.class);
+                startActivityForResult(intent, 0);
             }
         });
     }

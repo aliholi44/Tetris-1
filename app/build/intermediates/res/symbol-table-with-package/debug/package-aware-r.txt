@@ -772,6 +772,7 @@ id blocking
 id bottom
 id butClassic
 id butSpooky
+id butTutorial
 id buttonPanel
 id center
 id center_horizontal
@@ -782,8 +783,12 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id constraint
 id content
 id contentPanel
+id cubo1
+id cubo2
+id cubo3
 id custom
 id customPanel
 id decor_content_parent
@@ -793,6 +798,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id estrella
 id expand_activities_button
 id expanded_menu
 id fill
@@ -813,6 +819,12 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
+id imageView3
+id imageView4
+id imageView5
+id imageView7
 id info
 id invisible
 id italic
@@ -891,6 +903,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textoBienvenida
 id time
 id title
 id titleDividerNoCustom
@@ -904,6 +917,14 @@ id valorPuntuacion
 id withText
 id wrap
 id wrap_content
+id xDown
+id xLeft
+id xNext
+id xPowers
+id xRight
+id xRotate
+id xScore
+id xSwitch
 id yesBut
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -942,6 +963,7 @@ layout activity_game_over
 layout activity_main
 layout activity_quick_reboot
 layout activity_start_menu
+layout activity_tutorial
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

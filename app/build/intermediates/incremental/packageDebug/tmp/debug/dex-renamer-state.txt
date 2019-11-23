@@ -1,4 +1,4 @@
-#Sat Nov 23 19:51:26 CET 2019
-base.0=C\:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sat Nov 23 22:25:36 CET 2019
+base.0=C\:\\Users\\kikem\\Desktop\\github\\Tetris\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
