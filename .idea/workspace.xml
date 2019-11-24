@@ -10,17 +10,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b84698-5468-4f3d-80e3-9072c7a27ca4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_bomb.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_slowtime.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_x2.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_gm0.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_gm1.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_gmp0.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_gmp1.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/slowtime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gm0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gm1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gmp0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gmp1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mainpakage/Tetrix/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mainpakage/Tetrix/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreutils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/slidingpanelayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/swiperefreshlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/com/mainpakage/Tetrix/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/com/mainpakage/Tetrix/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
@@ -130,181 +160,227 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2ljQL_ZXoJ6v+VaB+l2DM9Wx1pE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/46O68frzTGt3F4hToV5QqEg0hRg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4NdjkeMOkQtS+wH1f1Su5iDjeiA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4c46THJNdJH+tknKgUQOeDk0SuI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6prS4tFUW5aDSTRUXAAMff9MCVw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/75sMLFSS2OvL47zdKPESNvCX5TA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Diy6a_I9y9K6PO9w7DYvvzQpNiw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GTW+o7UP4qPrMW_WW_FMDJxoNOU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ITD_GFAjUhGNHCq0P2i9cvDqRIE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JSGMUnrlbvYMLZjF_CJCiATT3oU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/K1PVb+lfPbN0ZyZP95u72Ochcdc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OSrEjMu8gouwvR5qvMSvtPkt1IA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P5guo5oFkV3XdQ+I0ZSAZPn62MU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RADLvaZihBq5ty1mIk27NRpUxa0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RbbOXrH2P0qYL98EL+zGpPuGAlk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Yezecj2Q2Dpiyhb4cSLrv3qyo2w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Zkc7HvdrjhYZBb70Ve3SplHECyU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b+OvUI45Pc2_ACYmyST7xBlll1M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b3JcPh0DodZBv2Ljhcv2XKCSVJ0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b3xkigugt7lxIfEs_cRcr526UMk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bgdZ76VDVEaRsY2zpzdwEes4IJs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cLsAdOw58fE17kqcUkI8Er9hMms=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fmOhsECsqHKStvU_pMpFe8YD4OM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iHN4IjoT2H1k5taUwzSzP7CvnQg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/k28dR4KCHV7trbLXudffvMY2Pm8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m1bZlDpjZoRKiTrZmmFVl+heLhk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mLS_eHrjqj3I2C2WGwmNHug+e2o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2ljQL_ZXoJ6v+VaB+l2DM9Wx1pE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/46O68frzTGt3F4hToV5QqEg0hRg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4NdjkeMOkQtS+wH1f1Su5iDjeiA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4c46THJNdJH+tknKgUQOeDk0SuI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6prS4tFUW5aDSTRUXAAMff9MCVw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/75sMLFSS2OvL47zdKPESNvCX5TA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Diy6a_I9y9K6PO9w7DYvvzQpNiw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/GTW+o7UP4qPrMW_WW_FMDJxoNOU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ITD_GFAjUhGNHCq0P2i9cvDqRIE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/JSGMUnrlbvYMLZjF_CJCiATT3oU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/K1PVb+lfPbN0ZyZP95u72Ochcdc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OSrEjMu8gouwvR5qvMSvtPkt1IA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/P5guo5oFkV3XdQ+I0ZSAZPn62MU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RADLvaZihBq5ty1mIk27NRpUxa0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RbbOXrH2P0qYL98EL+zGpPuGAlk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Yezecj2Q2Dpiyhb4cSLrv3qyo2w=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Zkc7HvdrjhYZBb70Ve3SplHECyU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b+OvUI45Pc2_ACYmyST7xBlll1M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b3JcPh0DodZBv2Ljhcv2XKCSVJ0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b3xkigugt7lxIfEs_cRcr526UMk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bgdZ76VDVEaRsY2zpzdwEes4IJs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/cLsAdOw58fE17kqcUkI8Er9hMms=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fmOhsECsqHKStvU_pMpFe8YD4OM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iHN4IjoT2H1k5taUwzSzP7CvnQg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/k28dR4KCHV7trbLXudffvMY2Pm8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/m1bZlDpjZoRKiTrZmmFVl+heLhk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mLS_eHrjqj3I2C2WGwmNHug+e2o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/28ZXfq4Hj2Dtgxc5HsC_2xP26eE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b+OvUI45Pc2_ACYmyST7xBlll1M=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6W93gfmbBWrSw7fHhKTZSA6xjJk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ITD_GFAjUhGNHCq0P2i9cvDqRIE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9Bq+zdgfWtL_rU5IHfPP9VCFXyI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4c46THJNdJH+tknKgUQOeDk0SuI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9pdTNDWAItdiiE+Op6EaXWhDhXE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mLS_eHrjqj3I2C2WGwmNHug+e2o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/AlAVrWZs1fuvreph7ddhB41TbMw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iHN4IjoT2H1k5taUwzSzP7CvnQg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Cw+VaBoZT0XNLYGHIqHEeImLjHY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OSrEjMu8gouwvR5qvMSvtPkt1IA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Dh41zYoz4lYsH43WYMYspCoiDYU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Eaffq_hx5T_arb9dJZhE_2XuPZQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cLsAdOw58fE17kqcUkI8Er9hMms=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ka_wj2s6_JjFtTetpEkET1x+Qfk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JSGMUnrlbvYMLZjF_CJCiATT3oU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LHGkDa8xfh2zkISdv0Gmpc1dSG4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GTW+o7UP4qPrMW_WW_FMDJxoNOU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LStmK6ACXkA+oxEw0X7ExuVrEZ8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QgqTpvVQFPRbpUWADlBzqV+4ayY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/K1PVb+lfPbN0ZyZP95u72Ochcdc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TKX1zvC2H7TOn5tWzQRuHyPFkEk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fmOhsECsqHKStvU_pMpFe8YD4OM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TwP+FRL_ywA6V6cC6JBsRR07hno=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RbbOXrH2P0qYL98EL+zGpPuGAlk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UXdkVqsdgwoGtlol2tJ5QkR76GU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P5guo5oFkV3XdQ+I0ZSAZPn62MU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZiXaP4gVeXqL+2fLmE7YrN6RPOc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Zkc7HvdrjhYZBb70Ve3SplHECyU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h81KpcSA3MjEd14W0ye7xvQhUwY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b3xkigugt7lxIfEs_cRcr526UMk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iY2pkrXIKm7kjvvbkeLprpwTM3k=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kXSkCMECIqKT+VeeK66qyQ7V4fA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Diy6a_I9y9K6PO9w7DYvvzQpNiw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kaTNq3sPYrnDczBY8jAw37lRWeM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mWuUH0q2M_jLXKBPwFwLls3+CjM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6prS4tFUW5aDSTRUXAAMff9MCVw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mgscd5hPfzf8f2b2QPs3Yhf0ifo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b3JcPh0DodZBv2Ljhcv2XKCSVJ0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oIyQmdIBYUH50FoFTm2KR6meNCM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4NdjkeMOkQtS+wH1f1Su5iDjeiA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/obwY+CAvbHWZFF+VC1UDeDFLGfc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m1bZlDpjZoRKiTrZmmFVl+heLhk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pkcPuWkfts9sUE_7QxcXnCsxWio=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/75sMLFSS2OvL47zdKPESNvCX5TA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qE9IY0LlT8u6YVknMvynB5nV6sQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bgdZ76VDVEaRsY2zpzdwEes4IJs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/s9YbSEUK8pGuzERhUaHOHBZ3ie8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/k28dR4KCHV7trbLXudffvMY2Pm8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tMrEw3d6urD6qFmDja0spsp_ORo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vCqwkiTLI5PtL4BNmpPeIVYY8kI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RADLvaZihBq5ty1mIk27NRpUxa0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vxNIB7bMePSXXK+l_0F1CCVmjg8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/46O68frzTGt3F4hToV5QqEg0hRg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yjWzwKagbImXmqXMuWtsLTDIPlo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Yezecj2Q2Dpiyhb4cSLrv3qyo2w=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zxndxcYL_UZPn+k76EkH5Z1YbG4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2ljQL_ZXoJ6v+VaB+l2DM9Wx1pE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/28ZXfq4Hj2Dtgxc5HsC_2xP26eE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b+OvUI45Pc2_ACYmyST7xBlll1M=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6W93gfmbBWrSw7fHhKTZSA6xjJk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ITD_GFAjUhGNHCq0P2i9cvDqRIE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9Bq+zdgfWtL_rU5IHfPP9VCFXyI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4c46THJNdJH+tknKgUQOeDk0SuI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9pdTNDWAItdiiE+Op6EaXWhDhXE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mLS_eHrjqj3I2C2WGwmNHug+e2o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/AlAVrWZs1fuvreph7ddhB41TbMw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iHN4IjoT2H1k5taUwzSzP7CvnQg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Cw+VaBoZT0XNLYGHIqHEeImLjHY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OSrEjMu8gouwvR5qvMSvtPkt1IA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Dh41zYoz4lYsH43WYMYspCoiDYU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NrSnWr0ZH8cEMLzgH8qcdvB5S+I=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Eaffq_hx5T_arb9dJZhE_2XuPZQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/cLsAdOw58fE17kqcUkI8Er9hMms=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ka_wj2s6_JjFtTetpEkET1x+Qfk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/JSGMUnrlbvYMLZjF_CJCiATT3oU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LHGkDa8xfh2zkISdv0Gmpc1dSG4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/GTW+o7UP4qPrMW_WW_FMDJxoNOU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LStmK6ACXkA+oxEw0X7ExuVrEZ8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q0D21NJ4QqXu6EJJsyCp0_9Hn8o=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QgqTpvVQFPRbpUWADlBzqV+4ayY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/K1PVb+lfPbN0ZyZP95u72Ochcdc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TKX1zvC2H7TOn5tWzQRuHyPFkEk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fmOhsECsqHKStvU_pMpFe8YD4OM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TwP+FRL_ywA6V6cC6JBsRR07hno=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RbbOXrH2P0qYL98EL+zGpPuGAlk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/UXdkVqsdgwoGtlol2tJ5QkR76GU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/P5guo5oFkV3XdQ+I0ZSAZPn62MU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ZiXaP4gVeXqL+2fLmE7YrN6RPOc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Zkc7HvdrjhYZBb70Ve3SplHECyU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h81KpcSA3MjEd14W0ye7xvQhUwY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b3xkigugt7lxIfEs_cRcr526UMk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iY2pkrXIKm7kjvvbkeLprpwTM3k=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QKrdeWHJfBd8+7xsTkih6fqJerQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kXSkCMECIqKT+VeeK66qyQ7V4fA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Diy6a_I9y9K6PO9w7DYvvzQpNiw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kaTNq3sPYrnDczBY8jAw37lRWeM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wseOh4kiOQPux3pFm+EFOBOlxjQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mWuUH0q2M_jLXKBPwFwLls3+CjM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6prS4tFUW5aDSTRUXAAMff9MCVw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mgscd5hPfzf8f2b2QPs3Yhf0ifo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b3JcPh0DodZBv2Ljhcv2XKCSVJ0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/oIyQmdIBYUH50FoFTm2KR6meNCM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4NdjkeMOkQtS+wH1f1Su5iDjeiA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/obwY+CAvbHWZFF+VC1UDeDFLGfc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/m1bZlDpjZoRKiTrZmmFVl+heLhk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/pkcPuWkfts9sUE_7QxcXnCsxWio=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/75sMLFSS2OvL47zdKPESNvCX5TA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qE9IY0LlT8u6YVknMvynB5nV6sQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bgdZ76VDVEaRsY2zpzdwEes4IJs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/s9YbSEUK8pGuzERhUaHOHBZ3ie8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/k28dR4KCHV7trbLXudffvMY2Pm8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tMrEw3d6urD6qFmDja0spsp_ORo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/H4OcP5qk6P0FSOz82w9ktyA46tc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vCqwkiTLI5PtL4BNmpPeIVYY8kI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RADLvaZihBq5ty1mIk27NRpUxa0=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vxNIB7bMePSXXK+l_0F1CCVmjg8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/46O68frzTGt3F4hToV5QqEg0hRg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yjWzwKagbImXmqXMuWtsLTDIPlo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Yezecj2Q2Dpiyhb4cSLrv3qyo2w=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/zxndxcYL_UZPn+k76EkH5Z1YbG4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2ljQL_ZXoJ6v+VaB+l2DM9Wx1pE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/SEWjO4S5Gwtmj8w8TwlO1QgYxWc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/SEWjO4S5Gwtmj8w8TwlO1QgYxWc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/lj1MLqEDWs8xAVKZD6sytAJtd_8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/lj1MLqEDWs8xAVKZD6sytAJtd_8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/CustomView.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/CustomView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/GameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/GameOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/SecondThreadAlter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/SecondThreadAlter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/mainpakage/Tetrix/StartMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat" afterDir="false" />
@@ -913,78 +989,52 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/arch/core/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/constraintlayout/widget/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/constraintlayout/widget/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/cursoradapter/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/documentfile/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/lifecycle/livedata/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/print/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/QuickReboot$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/QuickReboot.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/TetrixPieces/CubeSprite.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/Tutorial.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/signing_config/debug/out/signing-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/signing_config/debug/out/signing-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/CustomView.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/CustomView.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/GameOver.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/GameOver.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$mipmap.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/SecondThreadAlter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/SecondThreadAlter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/mainpakage/Tetrix/StartMenu.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -996,7 +1046,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_28" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -1009,8 +1059,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2251">
-              <caret line="220" column="47" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+            <state relative-caret-position="-308">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1018,11 +1068,56 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#740#2031#0" expanded="true" />
+                <element signature="e#2030#2031#0" expanded="true" />
+                <element signature="e#2205#3468#0" expanded="true" />
+                <element signature="e#3467#3468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="178" column="19" lean-forward="true" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="e#12369#12370#0" expanded="true" />
+                <element signature="e#12403#12404#0" expanded="true" />
+                <element signature="e#12686#12687#0" expanded="true" />
+                <element signature="e#12722#12723#0" expanded="true" />
+                <element signature="e#16291#16292#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1053,8 +1148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -1071,8 +1166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -1089,9 +1184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setM</find>
-      <find>down</find>
-      <find>st</find>
       <find>st.</find>
       <find>change</find>
       <find>fas</find>
@@ -1119,6 +1211,9 @@
       <find>gameO</find>
       <find>baux</find>
       <find>updateS</find>
+      <find>updateScore</find>
+      <find>numLines</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1146,13 +1241,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/PlayerData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/StartMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/CustomView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/sprites/GameOver.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mainpakage/sprites/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/mainpakage/Tetrix/BuildConfig.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/TetrixPiece.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/JPiece.java" />
@@ -1166,22 +1259,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverPicture.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOverAux.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/x2PowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/tNTPowerUp.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="9" />
-    <option name="width" value="1048" />
-    <option name="height" value="1044" />
+    <option name="x" value="343" />
+    <option name="y" value="10" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -1191,9 +1286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1242,16 +1336,6 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tetrix" type="462c0819:PsiDirectoryNode" />
-              <item name="TetrixPieces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sprites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tetris" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1267,6 +1351,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1275,7 +1360,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Tetrimueromes/Tetris" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tetrimueromes/Tetris" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1399,10 +1484,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.27522936" side_tool="true" weight="0.061204344" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.72477067" visible="true" weight="0.08315565" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.72477067" visible="true" weight="0.15671642" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.26865673" side_tool="true" weight="0.12526652" />
@@ -1410,14 +1494,14 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.4978678" weight="0.18959913" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49733475" weight="0.18959913" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32930845" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32930845" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49200428" weight="0.4270033" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32930845" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.17226435" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.06716418" side_tool="true" visible="true" weight="0.19501625" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32930845" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.48507464" weight="0.16901408" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.9328358" visible="true" weight="0.19501625" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.32995737" />
@@ -1438,15 +1522,9 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java</url>
-          <line>444</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java</url>
-          <line>73</line>
+          <line>106</line>
           <properties class="com.mainpakage.Tetrix.StartMenu" method="onBackPressed" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -1525,16 +1603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/android/view/ViewGroup.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1554,14 +1622,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1640,16 +1700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_over.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -1676,24 +1726,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_menu.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/TetrixPieces/slowPowerUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        <state relative-caret-position="186">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/SecondThreadAlter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="510">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/StartMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#740#2031#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2205#3468#0" expanded="true" />
+            <element signature="e#3467#3468#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2251">
-          <caret line="220" column="47" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+        <state relative-caret-position="-308">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1702,8 +1784,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mainpakage/Tetrix/CustomView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="178" column="19" lean-forward="true" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#12369#12370#0" expanded="true" />
+            <element signature="e#12403#12404#0" expanded="true" />
+            <element signature="e#12686#12687#0" expanded="true" />
+            <element signature="e#12722#12723#0" expanded="true" />
+            <element signature="e#16291#16292#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

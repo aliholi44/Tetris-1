@@ -52,27 +52,7 @@ public class GameOver extends AppCompatActivity {
         listRanking = (ListView) findViewById(R.id.listRanking);
         gameOverText = (TextView) findViewById(R.id.gameOver);
         rankingText = (TextView) findViewById(R.id.rankingText);
-
-        /*            TAKE PICTURE
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-        }
-
-        if (REQUEST_IMAGE_CAPTURE ==1 && RESULT_OK==1) {
-            Bundle extras = takePictureIntent.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
-            ImageView picCam=(ImageView)findViewById(R.id.picCam);
-            picCam.setImageBitmap(imageBitmap);
-        }
-
-        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
-            Bundle extras = takePictureIntent.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
-            ImageView picCam=(ImageView)findViewById(R.id.picCam);
-            picCam.setImageBitmap(imageBitmap);
-        }*/
-
+        
         dispatchTakePictureIntent();
 
         pn = (EditText) findViewById(R.id.playerName);

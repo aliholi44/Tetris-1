@@ -11,7 +11,7 @@ public class SecondThreadAlter extends Thread{
     private int gameSpeed;
     private int contPowerUp;
     public int powerUpSpeed;
-    private int powerUpcreation = 200;
+    private int powerUpcreation = 500;
 
     public int getGameSpeed() {
         return gameSpeed;

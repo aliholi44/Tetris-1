@@ -19,9 +19,9 @@ import static java.lang.Thread.sleep;
 public class CustomView extends View {
 
     Bitmap bmp;
-    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespriteb);
-    Bitmap powerBmp2 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritep);
-    Bitmap powerBmp3 = BitmapFactory.decodeResource(getResources(), R.drawable.cubespritey);
+    Bitmap powerBmp1 = BitmapFactory.decodeResource(getResources(), R.drawable.x2);
+    Bitmap powerBmp2 = BitmapFactory.decodeResource(getResources(), R.drawable.slowtime);
+    Bitmap powerBmp3 = BitmapFactory.decodeResource(getResources(), R.drawable.bomb);
     int score;
     public SecondThreat st;
     public SecondThreadAlter sta;
@@ -98,8 +98,9 @@ public class CustomView extends View {
         setCubeSpriteColor(palette);
     }
 
-    public void updateScore(){
+    public int updateScore(){
         int aux=1;
+        int score=0;
         for(PowerUp p:powerUps){
             if(p.isPowerUp()==1){
                     x2PowerUp paux = (x2PowerUp) p;
@@ -107,10 +108,17 @@ public class CustomView extends View {
                         aux=aux*2;
             }
         }
-        score+=(lineScore*aux);
-        ma.updateScore(""+score);
+        return (score+lineScore*aux);
     }
 
+    public void updateScore(int lines){
+        int scoreaux=0;
+        for(int i = 0;i<lines;i++){
+            scoreaux=scoreaux+updateScore();
+        }
+        score+=scoreaux*lines;
+        ma.updateScore(""+score);
+    }
     public boolean isSlowSpeed(){
         for(PowerUp p:powerUps){
             if(p.isPowerUp()==3){
@@ -455,6 +463,8 @@ public class CustomView extends View {
             }
             bmp=oldBmp;
         }
+
+        updateScore(numLines);
     }
 
     private void deleteLine(int linea, int spriteLength, int interSpace){   //eliminar la línea completa y bajar las piezas
@@ -487,8 +497,6 @@ public class CustomView extends View {
             LinesInfo[i]=LinesInfo[i-1];
         }
         LinesInfo[0]=0;
-
-        updateScore();
     }
 
     private void drop (int y, int spriteSpace){

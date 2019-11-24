@@ -40,11 +40,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //-----------------------------------------------------------------------------------------------
-        gameMode = 1;
-        //-----------------------------------------------------------------------------------------------
         Bundle bAux = getIntent().getExtras();
-
+        gameMode = bAux.getInt("GameMode");
         palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
         thm=bAux.getInt("theme");
 
