@@ -6,68 +6,68 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml
+8-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml
+9-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:6:5-8:35
+11-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:6:5-8:35
 12        android:name="android.hardware.camera"
-12-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:7:9-47
+12-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:7:9-47
 13        android:required="true" />
-13-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:8:9-32
+13-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:8:9-32
 14
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:10:5-81
-15-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:10:22-78
+15-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:10:5-81
+15-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:10:22-78
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
-16-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:11:5-72
-16-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:11:22-69
+16-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:11:5-72
+16-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:11:22-69
 17
 18    <application
-18-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:13:5-31:19
+18-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:13:5-31:19
 19        android:allowBackup="true"
-19-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:14:9-35
+19-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:14:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.0.1] C:\Users\kikem\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+20-->[androidx.core:core:1.0.1] C:\Users\alvar\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:15:9-43
+22-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:15:9-43
 23        android:label="Tetrix"
-23-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:16:9-31
+23-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:16:9-31
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:17:9-54
+24-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:17:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:18:9-35
+25-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:18:9-35
 26        android:testOnly="true"
 27        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-27-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:19:9-65
+27-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:19:9-65
 28        <activity android:name="com.mainpakage.Tetrix.Tutorial" />
-28-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:20:9-55
-28-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:20:19-43
+28-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:9-55
+28-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:19-43
 29        <activity android:name="com.mainpakage.Tetrix.QuickReboot" />
-29-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:21:9-49
-29-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:21:19-46
+29-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:9-49
+29-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:19-46
 30        <activity android:name="com.mainpakage.Tetrix.StartMenu" >
-30-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:22:9-28:20
-30-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:22:19-44
+30-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:9-28:20
+30-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:19-44
 31            <intent-filter>
-31-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:23:13-27:29
+31-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:23:13-27:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:24:17-69
-32-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:24:25-66
+32-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:17-69
+32-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:26:17-77
-34-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:26:27-74
+34-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:17-77
+34-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:27-74
 35            </intent-filter>
 36        </activity>
 37        <activity android:name="com.mainpakage.Tetrix.MainActivity" />
-37-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:29:9-50
-37-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:29:19-47
+37-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:9-50
+37-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:19-47
 38        <activity android:name="com.mainpakage.Tetrix.GameOver" />
-38-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:30:9-46
-38-->C:\Users\kikem\Desktop\github\Tetris\app\src\main\AndroidManifest.xml:30:19-43
+38-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:9-46
+38-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:19-43
 39    </application>
 40
 41</manifest>

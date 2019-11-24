@@ -53,7 +53,7 @@ public class GameOver extends AppCompatActivity {
         gameOverText = (TextView) findViewById(R.id.gameOver);
         rankingText = (TextView) findViewById(R.id.rankingText);
 
-        /*              TAKE PICTURE                 */
+        /*            TAKE PICTURE
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
@@ -66,6 +66,14 @@ public class GameOver extends AppCompatActivity {
             picCam.setImageBitmap(imageBitmap);
         }
 
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = takePictureIntent.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            ImageView picCam=(ImageView)findViewById(R.id.picCam);
+            picCam.setImageBitmap(imageBitmap);
+        }*/
+
+        dispatchTakePictureIntent();
 
         pn = (EditText) findViewById(R.id.playerName);
         int gameMode = bAux.getInt("GameMode");
@@ -147,5 +155,4 @@ public class GameOver extends AppCompatActivity {
             picCam.setImageBitmap(imageBitmap);
         }
     }
-
 }

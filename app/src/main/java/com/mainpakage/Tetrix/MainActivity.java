@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeGameOver(){
         if(!customView.isSecondThreadRunnig()){
-            int scr=1000;
+            int scr=Integer.parseInt(sc.getText().toString());
             Intent intent;
             if(scr<250){
                 intent = new Intent (customView.getContext(), GameOver.class);
