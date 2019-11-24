@@ -38,7 +38,7 @@ public class SecondThreadAlter extends Thread{
             cv.randomPiece(cv.bmp);
             boolean stop=false;
             while(!stop){
-                if(cv.isSlowSpeed()){
+                if((gameSpeed != 1) && cv.isSlowSpeed()){
                     this.setGameSpeed(14);
                 }else if(this.getGameSpeed()==14){
                     this.setGameSpeed(7);
