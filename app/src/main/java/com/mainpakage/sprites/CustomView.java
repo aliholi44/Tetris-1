@@ -88,8 +88,8 @@ public class CustomView extends View {
         setCubeSprite(palette);
     }
 
-    public void updateScore(){
-        score+=lineScore;
+    public void updateScore(int n_lines){
+        score+=(n_lines*lineScore);
         ma.updateScore(""+score);
     }
 
@@ -340,6 +340,7 @@ public class CustomView extends View {
         if (n_lines==1){
             change_colors(palete_change);
         }
+        updateScore(n_lines);
     }
 
     private void change_colors(int palette){
@@ -364,7 +365,7 @@ public class CustomView extends View {
         }
         LinesInfo[0]=0;
 
-        updateScore();
+
     }
 
     private void drop (int y, int spriteSpace){
