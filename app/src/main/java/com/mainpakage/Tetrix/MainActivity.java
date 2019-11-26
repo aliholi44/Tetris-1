@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     TextView sc;
     CustomView customView;
     ImageView iv;
+    MediaPlayer tetrixMusic;
     Bitmap  bmpPiece;
     Bitmap  bmpPiece1;
     Bitmap  bmpPiece2;
@@ -44,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         gameMode = bAux.getInt("GameMode");
         palette=(int)(Math.random()*3); //  //For each theme there are 3 models of pieces
         thm=bAux.getInt("theme");
+
+        //Music initializing
+        tetrixMusic = MediaPlayer.create(this,R.raw.remix);
+        tetrixMusic.start();
+        tetrixMusic.setLooping(true);
+
 
         ConstraintLayout back=(ConstraintLayout)findViewById(R.id.layout);      //set background
         ImageView scoreBack=(ImageView)findViewById(R.id.scorebackground);
@@ -218,6 +226,11 @@ public class MainActivity extends AppCompatActivity {
         if(!customView.isSecondThreadRunnig()){
             int scr=Integer.parseInt(sc.getText().toString());
             Intent intent;
+
+            //Music stopping
+            tetrixMusic.stop();
+            tetrixMusic.setLooping(false);
+
             if(scr<250){
                 intent = new Intent (customView.getContext(), GameOver.class);
             }
