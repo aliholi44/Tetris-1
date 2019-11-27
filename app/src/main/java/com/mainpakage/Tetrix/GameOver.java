@@ -52,7 +52,6 @@ public class GameOver extends AppCompatActivity {
         listRanking = (ListView) findViewById(R.id.listRanking);
         gameOverText = (TextView) findViewById(R.id.gameOver);
         rankingText = (TextView) findViewById(R.id.rankingText);
-        
         dispatchTakePictureIntent();
 
         pn = (EditText) findViewById(R.id.playerName);

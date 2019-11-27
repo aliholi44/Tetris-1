@@ -21,26 +21,26 @@
 
     <Button
         android:id="@+id/yesBut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="YES"
+        android:layout_width="139dp"
+        android:layout_height="62dp"
+        android:background="@drawable/nobutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/noBut"
-        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scndatttxt"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.342" />
 
-    <Button
+    <ImageButton
         android:id="@+id/noBut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="112dp"
-        android:text="NO"
+        android:layout_width="139dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/nobutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scndatttxt"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.342" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

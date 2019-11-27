@@ -630,6 +630,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable advancebut
 drawable advancepressed
+drawable backgroundranking
 drawable bgcl0
 drawable bgcl1
 drawable bgcl10
@@ -670,10 +671,7 @@ drawable downbutclassic
 drawable downbutspooky
 drawable downpresclassic
 drawable downpressspoky
-drawable gm0
-drawable gm1
-drawable gmp0
-drawable gmp1
+drawable gameover
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable jb
@@ -697,8 +695,10 @@ drawable lo
 drawable logo
 drawable lp
 drawable ly
+drawable menu
 drawable nextcl
 drawable nextsp
+drawable nobutton
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -711,6 +711,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ok
+drawable ranking
 drawable rightbutclassic
 drawable rightbutspooky
 drawable rightpressclassic

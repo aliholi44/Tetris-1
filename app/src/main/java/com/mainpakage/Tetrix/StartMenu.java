@@ -28,14 +28,13 @@ public class StartMenu extends AppCompatActivity {
                         butCl.setBackgroundResource(R.drawable.classicpressed);
                     }
                     else{
-                        butCl.setBackgroundResource(R.drawable.gmp1);
+                        butCl.setBackgroundResource(R.drawable.train);
                     }
 
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
                     Intent intent = new Intent(v.getContext(), MainActivity.class);
                     if(!themeSelected) {
-                        butCl.setBackgroundResource(R.drawable.classic);
                         thm = 0;
                         themeSelected=true;
                         butCl.setBackgroundResource(R.drawable.train);
@@ -69,7 +68,7 @@ public class StartMenu extends AppCompatActivity {
                         butSp.setBackgroundResource(R.drawable.choosespookypressed);
                     }
                     else{
-                        butSp.setBackgroundResource(R.drawable.gmp0);
+                        butSp.setBackgroundResource(R.drawable.challenge);
                     }
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
@@ -78,8 +77,8 @@ public class StartMenu extends AppCompatActivity {
                         butSp.setBackgroundResource(R.drawable.choosespooky);
                         thm = 1;
                         themeSelected=true;
-                        butSp.setBackgroundResource(R.drawable.gm0);
-                        butCl.setBackgroundResource(R.drawable.gm1);
+                        butCl.setBackgroundResource(R.drawable.train);
+                        butSp.setBackgroundResource(R.drawable.challenge);
                     }
                     else{
                         gameMode=0;
@@ -105,6 +104,7 @@ public class StartMenu extends AppCompatActivity {
                 else if (event.getAction() == MotionEvent.ACTION_UP) {
                     Intent intent = new Intent (v.getContext(), Tutorial.class);
                     startActivityForResult(intent, 0);
+                    butTut.setBackgroundResource(R.drawable.tutorial);
                     return true;
                 }
                 return false;

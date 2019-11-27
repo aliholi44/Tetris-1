@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#443080"
+    android:background="@drawable/backgroundranking"
     tools:context=".GameOver">
 
     <ImageView
@@ -23,10 +23,10 @@
 
     <TextView
         android:id="@+id/gameOver"
-        android:layout_width="278dp"
-        android:layout_height="86dp"
+        android:layout_width="1000px"
+        android:layout_height="174px"
         android:layout_marginTop="44dp"
-        android:text=" GAME OVER :("
+        android:background="@drawable/gameover"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,6 +39,7 @@
         android:layout_width="384dp"
         android:layout_height="70dp"
         android:layout_marginTop="218dp"
+        android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
@@ -49,15 +50,15 @@
 
     <Button
         android:id="@+id/setName"
-        android:layout_width="157dp"
-        android:layout_height="92dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_marginStart="161dp"
         android:layout_marginLeft="161dp"
         android:layout_marginTop="212dp"
         android:layout_marginEnd="161dp"
         android:layout_marginRight="161dp"
+        android:background="@drawable/ok"
         android:onClick="onClickOk"
-        android:text="@android:string/ok"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,12 +67,10 @@
 
     <TextView
         android:id="@+id/rankingText"
-        android:layout_width="278dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_width="219dp"
+        android:layout_height="101.4dp"
         android:layout_marginBottom="380dp"
-        android:text="RANKING"
+        android:background="@drawable/ranking"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
@@ -79,16 +78,15 @@
         app:fontFamily="cursive"
         app:layout_constraintBottom_toTopOf="@+id/setName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="@+id/listRanking"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959"
+        app:layout_constraintVertical_bias="0.75"
         tools:visibility="invisible" />
 
     <EditText
         android:id="@+id/playerName"
-        android:layout_width="290dp"
-        android:layout_height="68dp"
+        android:layout_width="219dp"
+        android:layout_height="101dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
@@ -104,8 +102,6 @@
         android:id="@+id/listRanking"
         android:layout_width="280dp"
         android:layout_height="405dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginLeft="38dp"
         android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
         android:background="#CA7D7D"
@@ -114,8 +110,7 @@
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/playerName"
-        app:layout_constraintStart_toStartOf="@+id/playerName"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameOver"
         app:layout_constraintVertical_bias="0.75"
         tools:visibility="invisible">
@@ -124,10 +119,10 @@
 
     <Button
         android:id="@+id/returnOk"
-        android:layout_width="157dp"
-        android:layout_height="92dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/menu"
         android:onClick="onClickOkReturn"
-        android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
