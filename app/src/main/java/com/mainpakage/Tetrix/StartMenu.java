@@ -38,8 +38,8 @@ public class StartMenu extends AppCompatActivity {
                         butCl.setBackgroundResource(R.drawable.classic);
                         thm = 0;
                         themeSelected=true;
-                        butCl.setBackgroundResource(R.drawable.gm1);
-                        butSp.setBackgroundResource(R.drawable.gm0);
+                        butCl.setBackgroundResource(R.drawable.train);
+                        butSp.setBackgroundResource(R.drawable.challenge);
 
                     }else{
                         gameMode=1;
@@ -94,11 +94,20 @@ public class StartMenu extends AppCompatActivity {
                 return false;
             }
         });
-        butTut.setOnClickListener(new View.OnClickListener() {
+
+        butTut.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), Tutorial.class);
-                startActivityForResult(intent, 0);
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    butTut.setBackgroundResource(R.drawable.tutorialpressed);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    Intent intent = new Intent (v.getContext(), Tutorial.class);
+                    startActivityForResult(intent, 0);
+                    return true;
+                }
+                return false;
             }
         });
     }

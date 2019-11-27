@@ -1,4 +1,4 @@
-#Tue Nov 26 14:19:42 CET 2019
-base.0=C\:\\Users\\urjc\\Desktop\\PS HELP\\Tetris\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Nov 27 21:08:29 CET 2019
+base.0=C\:\\Users\\kikem\\Desktop\\Sprint3\\Tetris\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

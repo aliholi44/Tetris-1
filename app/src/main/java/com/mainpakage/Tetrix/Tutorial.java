@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -18,6 +19,7 @@ public class Tutorial extends AppCompatActivity {
         setContentView(R.layout.activity_tutorial);
         final TextView texto = (TextView) findViewById(R.id.textoBienvenida);
         final ImageButton estrella = (ImageButton) findViewById(R.id.estrella);
+        estrella.setBackgroundResource(R.drawable.advancebut);
         final ImageView xScore = (ImageView) findViewById(R.id.xScore);
         final ImageView xNext = (ImageView) findViewById(R.id.xNext);
         final ImageView xSwitch = (ImageView) findViewById(R.id.xSwitch);
@@ -45,79 +47,89 @@ public class Tutorial extends AppCompatActivity {
         cubo3.setVisibility((View.INVISIBLE));
 
 
-        estrella.setOnClickListener(new View.OnClickListener() {
+
+
+        estrella.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
-                switch (mensaje) {
-                    case 1: {
-                        texto.setText("En Score podemos ver la puntuación que tenemos. Esta aumenta 30 puntos cada vez que haces una línea. Consejo: usa los Power-Ups");
-                        xScore.setVisibility(View.VISIBLE);
-                    }
-                    break;
-                    case 2: {
-                        texto.setText("Next muestra la siguiente pieza");
-                        xScore.setVisibility(View.INVISIBLE);
-                        xNext.setVisibility(View.VISIBLE);
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    estrella.setBackgroundResource(R.drawable.advancepressed);
 
-                    }
-                    break;
-                    case 3: {
-                        texto.setText("Pulsando los botones te moverás en la dirección que indican");
-                        xNext.setVisibility(View.INVISIBLE);
-                        xLeft.setVisibility(View.VISIBLE);
-                        xRight.setVisibility(View.VISIBLE);
-                    }
-                    break;
-                    case 4: {
-                        texto.setText("Gira la pieza");
-                        xLeft.setVisibility(View.INVISIBLE);
-                        xRight.setVisibility(View.INVISIBLE);
-                        xRotate.setVisibility(View.VISIBLE);
-                    }
-                    break;
-                    case 5: {
-                        texto.setText("Acelera la caída mientras pulsas");
-                        xRotate.setVisibility(View.INVISIBLE);
-                        xDown.setVisibility(View.VISIBLE);
-                    }
-                    break;
-                    case 6: {
-                        texto.setText("Cada 30 segundos aparecerá una pieza aleatoria además de la que ya hay.\n" +
-                                "Para manejarla pulsa switch.");
-                        xDown.setVisibility(View.INVISIBLE);
-                        xSwitch.setVisibility(View.VISIBLE);
-                    }
-                    break;
-                    case 7:{
-                        xSwitch.setVisibility(View.INVISIBLE);
-                        texto.setText("De vez en cuando aparecerán Power-Ups.\n Usalos haciendo línea.");
-                        xPower.setVisibility(View.VISIBLE);
-                        cubo1.setVisibility((View.VISIBLE));
-                        cubo2.setVisibility((View.VISIBLE));
-                        cubo3.setVisibility((View.VISIBLE));
-
-                    }
-                    break;
-                    case 8: {
-                        xPower.setVisibility(View.INVISIBLE);
-                        cubo1.setVisibility((View.INVISIBLE));
-                        cubo2.setVisibility((View.INVISIBLE));
-                        cubo3.setVisibility((View.INVISIBLE));
-                        texto.setText("Ya lo has aprendido todo, ve a ponerlo en práctica.");
-                    }
-                    break;
-                    default:{
-                        Intent intent = new Intent (v.getContext(), StartMenu.class);
-                        startActivityForResult(intent, 0);
-                    }
-                    break;
+                    return true;
                 }
-                mensaje++;
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    estrella.setBackgroundResource(R.drawable.advancebut);
 
+                    switch (mensaje) {
+                        case 1: {
+                            texto.setText("You can see your current Score. It increases 30 points each time you make a line. Advice: use Power-Ups");
+                            xScore.setVisibility(View.VISIBLE);
+                        }
+                        break;
+                        case 2: {
+                            texto.setText("Here, you can see the next Piece");
+                            xScore.setVisibility(View.INVISIBLE);
+                            xNext.setVisibility(View.VISIBLE);
 
+                        }
+                        break;
+                        case 3: {
+                            texto.setText("Pressing these buttons the pieces will move towards the chosen direction");
+                            xNext.setVisibility(View.INVISIBLE);
+                            xLeft.setVisibility(View.VISIBLE);
+                            xRight.setVisibility(View.VISIBLE);
+                        }
+                        break;
+                        case 4: {
+                            texto.setText("Press to turn the piece");
+                            xLeft.setVisibility(View.INVISIBLE);
+                            xRight.setVisibility(View.INVISIBLE);
+                            xRotate.setVisibility(View.VISIBLE);
+                        }
+                        break;
+                        case 5: {
+                            texto.setText("Fall Faster!");
+                            xRotate.setVisibility(View.INVISIBLE);
+                            xDown.setVisibility(View.VISIBLE);
+                        }
+                        break;
+                        case 6: {
+                            texto.setText("Each 30 seconds a new piece will appear randomly while having the other one still on the air.\n" + "Press to switch between pieces.");
+                            xDown.setVisibility(View.INVISIBLE);
+                            xSwitch.setVisibility(View.VISIBLE);
+                        }
+                        break;
+                        case 7:{
+                            xSwitch.setVisibility(View.INVISIBLE);
+                            texto.setText("In challenge mode, Power-Ups will appear randomly");
+                            xPower.setVisibility(View.VISIBLE);
+                            cubo1.setVisibility((View.VISIBLE));
+                            cubo2.setVisibility((View.VISIBLE));
+                            cubo3.setVisibility((View.VISIBLE));
 
+                        }
+                        break;
+                        case 8: {
+                            xPower.setVisibility(View.INVISIBLE);
+                            cubo1.setVisibility((View.INVISIBLE));
+                            cubo2.setVisibility((View.INVISIBLE));
+                            cubo3.setVisibility((View.INVISIBLE));
+                            texto.setText("All this knowledge...\n" + "Use it wisely");
+                        }
+                        break;
+                        default:{
+                            Intent intent = new Intent (v.getContext(), StartMenu.class);
+                            startActivityForResult(intent, 0);
+                        }
+                        break;
+                    }
+                    mensaje++;
+                    return true;
+                }
+                return false;
             }
         });
+
 
 
 

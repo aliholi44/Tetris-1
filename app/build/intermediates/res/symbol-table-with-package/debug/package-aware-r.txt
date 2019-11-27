@@ -628,6 +628,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable advancebut
+drawable advancepressed
 drawable bgcl0
 drawable bgcl1
 drawable bgcl10
@@ -646,7 +648,9 @@ drawable bgcl8
 drawable bgcl9
 drawable bgsp0
 drawable bgstartlight
+drawable bloquetutorial
 drawable bomb
+drawable challenge
 drawable choosespooky
 drawable choosespookypressed
 drawable classic
@@ -733,6 +737,9 @@ drawable to
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable tp
+drawable train
+drawable tutorial
+drawable tutorialpressed
 drawable ty
 drawable x2
 drawable zb
@@ -831,6 +838,7 @@ id imageView2
 id imageView3
 id imageView4
 id imageView5
+id imageView6
 id imageView7
 id info
 id invisible

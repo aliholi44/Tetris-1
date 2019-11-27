@@ -114,12 +114,22 @@
         app:layout_constraintVertical_bias="0.838"
         app:srcCompat="@drawable/cubeb" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="278dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textoBienvenida"
+        app:layout_constraintEnd_toEndOf="@+id/textoBienvenida"
+        app:layout_constraintTop_toTopOf="@+id/textoBienvenida"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bloquetutorial" />
+
     <TextView
         android:id="@+id/textoBienvenida"
         android:layout_width="271dp"
         android:layout_height="252dp"
         android:layout_marginTop="100dp"
-        android:text="Bienvenido al tutorial de Tetrix. Toca la estrella cuando hayas leido el mensaje :)"
+        android:text="Welcome to Tetrix.\nTouch the double play button to continue."
         android:textColor="#020202"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/estrella"
@@ -131,14 +141,13 @@
 
     <ImageButton
         android:id="@+id/estrella"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="128dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ImageView
         android:id="@+id/xSwitch"
@@ -237,7 +246,7 @@
         app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toEndOf="@+id/cubo2"
         app:layout_constraintTop_toTopOf="@+id/estrella"
-        app:srcCompat="@drawable/cubespritey" />
+        app:srcCompat="@drawable/x2" />
 
     <ImageView
         android:id="@+id/cubo1"
@@ -248,7 +257,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/estrella"
-        app:srcCompat="@drawable/cubespriteb" />
+        app:srcCompat="@drawable/bomb" />
 
     <ImageView
         android:id="@+id/cubo2"
@@ -259,7 +268,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/estrella"
-        app:srcCompat="@drawable/cubespriteg" />
+        app:srcCompat="@drawable/slowtime" />
 
     <ImageView
         android:id="@+id/xPowers"
