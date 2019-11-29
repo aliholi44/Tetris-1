@@ -28,7 +28,7 @@ public class StartMenu extends AppCompatActivity {
                         butCl.setBackgroundResource(R.drawable.classicpressed);
                     }
                     else{
-                        butCl.setBackgroundResource(R.drawable.train);
+                        butCl.setBackgroundResource(R.drawable.challenge);
                     }
 
                     return true;
@@ -38,7 +38,7 @@ public class StartMenu extends AppCompatActivity {
                         thm = 0;
                         themeSelected=true;
                         butCl.setBackgroundResource(R.drawable.train);
-                        butSp.setBackgroundResource(R.drawable.challenge);
+                        butSp.setBackgroundResource(R.drawable.train);
 
                     }else{
                         gameMode=1;
