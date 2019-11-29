@@ -112,6 +112,10 @@
         "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\font_gumbo.otf.flat",
+        "source": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\src\\main\\res\\font\\gumbo.otf"
+    },
+    {
         "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
         "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\anim\\abc_slide_out_bottom.xml"
     },
@@ -192,6 +196,10 @@
         "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bloquetutorialacht.png.flat",
+        "source": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\src\\main\\res\\drawable\\bloquetutorialacht.png"
+    },
+    {
         "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -262,6 +270,10 @@
     {
         "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\alvar\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\font_original_quality.otf.flat",
+        "source": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\src\\main\\res\\font\\original_quality.otf"
     },
     {
         "merged": "C:\\Users\\alvar\\Desktop\\hope\\Tetris\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",

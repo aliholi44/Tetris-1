@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView nP=(ImageView)findViewById(R.id.npbackground);
         TextView numScore=(TextView)findViewById(R.id.valorPuntuacion);
 
-        Typeface golden=Typeface.createFromAsset(getAssets(),"goldenhills.ttf");
-        numScore.setTypeface(golden);
+        /*Typeface golden=Typeface.createFromAsset(getAssets(), "goldenhills.ttf");
+        numScore.setTypeface(golden);*/
 
         final ImageButton turn = (ImageButton)findViewById(R.id.girar);     //Set Button turn
         final Button right=(Button)findViewById(R.id.flechader);          //Set button right

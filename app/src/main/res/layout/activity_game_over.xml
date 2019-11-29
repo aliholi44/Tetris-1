@@ -13,12 +13,13 @@
         android:layout_height="196dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
+        android:foregroundGravity="center"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameOver"
-        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintVertical_bias="0.048"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -27,6 +28,7 @@
         android:layout_height="174px"
         android:layout_marginTop="44dp"
         android:background="@drawable/gameover"
+        android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,12 +38,15 @@
 
     <TextView
         android:id="@+id/Score"
-        android:layout_width="384dp"
-        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
         android:layout_marginTop="218dp"
+        android:background="#CE2D2D"
         android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
+        android:visibility="visible"
+        app:fontFamily="@font/gumbo"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,10 +90,12 @@
 
     <EditText
         android:id="@+id/playerName"
-        android:layout_width="219dp"
-        android:layout_height="101dp"
+        android:layout_width="313dp"
+        android:layout_height="62dp"
+        android:background="#4BAA19"
         android:ems="10"
         android:inputType="textPersonName"
+        android:paddingLeft="20sp"
         android:text="Name"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/setName"
