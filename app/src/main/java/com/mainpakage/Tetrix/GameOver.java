@@ -46,7 +46,7 @@ public class GameOver extends AppCompatActivity {
         bAux = getIntent().getExtras();
         adaptedArray = new ArrayList<>();
         scoreText = (TextView) findViewById(R.id.Score);
-        scoreText.setText("Tu puntuación es: "+ bAux.getString("Score"));
+        scoreText.setText("Score: "+ bAux.getString("Score"));
         playerName = (TextView) findViewById(R.id.playerName);
         picCam = (ImageView) findViewById(R.id.picCam);
         listRanking = (ListView) findViewById(R.id.listRanking);

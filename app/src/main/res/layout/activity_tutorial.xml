@@ -48,6 +48,7 @@
         android:id="@+id/imageView5"
         android:layout_width="107dp"
         android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.759"
@@ -115,29 +116,30 @@
         app:srcCompat="@drawable/cubeb" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/textBox"
         android:layout_width="278dp"
         android:layout_height="284dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textoBienvenida"
-        app:layout_constraintEnd_toEndOf="@+id/textoBienvenida"
-        app:layout_constraintTop_toTopOf="@+id/textoBienvenida"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/valorPuntuacion"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scorebackground"
         app:srcCompat="@drawable/bloquetutorial" />
 
     <TextView
         android:id="@+id/textoBienvenida"
-        android:layout_width="271dp"
-        android:layout_height="252dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="268dp"
+        android:layout_height="244dp"
+        android:gravity="center|center_vertical"
         android:text="Welcome to Tetrix.\nTouch the double play button to continue."
         android:textColor="#020202"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/estrella"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.335"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintBottom_toBottomOf="@+id/textBox"
+        app:layout_constraintEnd_toEndOf="@+id/textBox"
+        app:layout_constraintEnd_toStartOf="@+id/valorPuntuacion"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/textBox"
+        app:layout_constraintTop_toTopOf="@+id/textBox"
+        app:layout_constraintVertical_bias="0.6" />
 
     <ImageButton
         android:id="@+id/estrella"

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class QuickReboot extends AppCompatActivity {
     private Bundle bAux;
@@ -18,7 +19,7 @@ public class QuickReboot extends AppCompatActivity {
         bAux = getIntent().getExtras();
 
         final Button yesBut = (Button) findViewById(R.id.yesBut);
-        final Button noBut = (Button) findViewById(R.id.noBut);
+        final ImageButton noBut = (ImageButton) findViewById(R.id.noBut);
         yesBut.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {

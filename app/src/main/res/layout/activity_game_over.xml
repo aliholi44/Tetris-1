@@ -13,12 +13,13 @@
         android:layout_height="196dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
+        android:foregroundGravity="center"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameOver"
-        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintVertical_bias="0.048"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -27,6 +28,7 @@
         android:layout_height="174px"
         android:layout_marginTop="44dp"
         android:background="@drawable/gameover"
+        android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,6 +44,7 @@
         android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
+        app:fontFamily="@font/gumbo"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
