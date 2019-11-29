@@ -38,12 +38,14 @@
 
     <TextView
         android:id="@+id/Score"
-        android:layout_width="384dp"
-        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
         android:layout_marginTop="218dp"
+        android:background="#CE2D2D"
         android:gravity="center"
         android:textColor="#F8FFFFFF"
         android:textSize="36sp"
+        android:visibility="visible"
         app:fontFamily="@font/gumbo"
         app:layout_constraintBottom_toTopOf="@+id/returnOk"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,11 +90,12 @@
 
     <EditText
         android:id="@+id/playerName"
-        android:layout_width="219dp"
-        android:layout_height="101dp"
-        android:background="@color/"
+        android:layout_width="313dp"
+        android:layout_height="62dp"
+        android:background="#4BAA19"
         android:ems="10"
         android:inputType="textPersonName"
+        android:paddingLeft="20sp"
         android:text="Name"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/setName"
