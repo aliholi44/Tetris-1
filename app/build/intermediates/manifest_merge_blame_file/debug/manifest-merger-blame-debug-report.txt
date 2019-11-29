@@ -39,49 +39,50 @@
 24-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:17:9-54
 25        android:supportsRtl="true"
 25-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:18:9-35
-26        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-26-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:19:9-65
-27        <activity
-27-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:9-92
-28            android:name="com.mainpakage.Tetrix.Tutorial"
-28-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:19-43
-29            android:screenOrientation="portrait" />
-29-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:44-80
-30        <activity
-30-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:9-86
-31            android:name="com.mainpakage.Tetrix.QuickReboot"
-31-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:19-46
-32            android:screenOrientation="portrait" />
-32-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:47-83
-33        <activity
-33-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:9-28:20
-34            android:name="com.mainpakage.Tetrix.StartMenu"
-34-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:19-44
-35            android:screenOrientation="portrait" >
-35-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:45-81
-36            <intent-filter>
-36-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:23:13-27:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:17-69
-37-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:17-77
-39-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:9-87
-43            android:name="com.mainpakage.Tetrix.MainActivity"
-43-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:19-47
-44            android:screenOrientation="portrait" />
-44-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:48-84
-45        <activity
-45-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:9-83
-46            android:name="com.mainpakage.Tetrix.GameOver"
-46-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:19-43
-47            android:screenOrientation="portrait" />
-47-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:44-80
-48    </application>
-49
-50</manifest>
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+27-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:19:9-65
+28        <activity
+28-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:9-92
+29            android:name="com.mainpakage.Tetrix.Tutorial"
+29-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:19-43
+30            android:screenOrientation="portrait" />
+30-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:20:44-80
+31        <activity
+31-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:9-86
+32            android:name="com.mainpakage.Tetrix.QuickReboot"
+32-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:19-46
+33            android:screenOrientation="portrait" />
+33-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:21:47-83
+34        <activity
+34-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:9-28:20
+35            android:name="com.mainpakage.Tetrix.StartMenu"
+35-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:19-44
+36            android:screenOrientation="portrait" >
+36-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:22:45-81
+37            <intent-filter>
+37-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:23:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:17-69
+38-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:9-87
+44            android:name="com.mainpakage.Tetrix.MainActivity"
+44-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:19-47
+45            android:screenOrientation="portrait" />
+45-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:29:48-84
+46        <activity
+46-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:9-83
+47            android:name="com.mainpakage.Tetrix.GameOver"
+47-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:19-43
+48            android:screenOrientation="portrait" />
+48-->C:\Users\alvar\Desktop\hope\Tetris\app\src\main\AndroidManifest.xml:30:44-80
+49    </application>
+50
+51</manifest>
