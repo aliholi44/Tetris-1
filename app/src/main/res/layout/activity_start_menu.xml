@@ -44,7 +44,7 @@
 
             <Button
                 android:id="@+id/butClassic"
-                android:layout_width="130dp"
+                android:layout_width="132dp"
                 android:layout_height="69dp"
                 android:layout_marginStart="60dp"
                 android:layout_marginLeft="60dp"

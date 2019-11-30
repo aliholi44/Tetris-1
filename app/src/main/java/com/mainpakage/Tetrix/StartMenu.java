@@ -23,7 +23,7 @@ public class StartMenu extends AppCompatActivity {
         butCl.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) { //mantengo pulsado
                     if(!themeSelected){
                         butCl.setBackgroundResource(R.drawable.classicpressed);
                     }
@@ -32,12 +32,12 @@ public class StartMenu extends AppCompatActivity {
                     }
 
                     return true;
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {    //suelto
                     Intent intent = new Intent(v.getContext(), MainActivity.class);
                     if(!themeSelected) {
                         thm = 0;
                         themeSelected=true;
-                        butCl.setBackgroundResource(R.drawable.train);
+                        butCl.setBackgroundResource(R.drawable.challenge);
                         butSp.setBackgroundResource(R.drawable.train);
 
                     }else{
@@ -68,7 +68,7 @@ public class StartMenu extends AppCompatActivity {
                         butSp.setBackgroundResource(R.drawable.choosespookypressed);
                     }
                     else{
-                        butSp.setBackgroundResource(R.drawable.challenge);
+                        butSp.setBackgroundResource(R.drawable.train);
                     }
                     return true;
                 } else if (event.getAction() == MotionEvent.ACTION_UP) {
@@ -77,8 +77,8 @@ public class StartMenu extends AppCompatActivity {
                         butSp.setBackgroundResource(R.drawable.choosespooky);
                         thm = 1;
                         themeSelected=true;
-                        butCl.setBackgroundResource(R.drawable.train);
-                        butSp.setBackgroundResource(R.drawable.challenge);
+                        butCl.setBackgroundResource(R.drawable.challenge);
+                        butSp.setBackgroundResource(R.drawable.train);
                     }
                     else{
                         gameMode=0;
