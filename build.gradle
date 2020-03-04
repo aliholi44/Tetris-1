@@ -1,4 +1,16 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+  id "org.sonarqube" version "2.8"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "aliholi44_Tetris-1"
+    property "sonar.organization", "aliholi44"
+    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.login", "00a07d8db5a2130aa70828c26506b042c1d004e4"
+  }
+}
 
 buildscript {
     repositories {
